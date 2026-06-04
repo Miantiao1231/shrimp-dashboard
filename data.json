@@ -22837,7 +22837,7 @@
         "label": "Mianiii",
         "rating": 1578,
         "rank": "specialist",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1242
       },
       {
@@ -23091,6 +23091,10 @@
           "symbolSize": 6,
           "data": [
             [
+              "2025-10-11",
+              0
+            ],
+            [
               "2025-10-29",
               362
             ],
@@ -23179,6 +23183,10 @@
           "symbol": "circle",
           "symbolSize": 6,
           "data": [
+            [
+              "2025-10-11",
+              0
+            ],
             [
               "2025-11-07",
               381
