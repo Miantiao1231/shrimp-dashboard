@@ -10456,7 +10456,6 @@
             {
               "name": "Mianiii",
               "type": "line",
-              "step": "end",
               "symbol": "circle",
               "symbolSize": 6,
               "data": [
@@ -17038,7 +17037,6 @@
             {
               "name": "小宋",
               "type": "line",
-              "step": "end",
               "symbol": "circle",
               "symbolSize": 6,
               "data": [
@@ -22772,7 +22770,6 @@
             {
               "name": "小任",
               "type": "line",
-              "step": "end",
               "symbol": "circle",
               "symbolSize": 6,
               "data": [
@@ -22941,7 +22938,6 @@
         {
           "name": "Mianiii",
           "type": "line",
-          "step": "end",
           "symbol": "circle",
           "symbolSize": 6,
           "data": [
@@ -23091,7 +23087,6 @@
         {
           "name": "小宋",
           "type": "line",
-          "step": "end",
           "symbol": "circle",
           "symbolSize": 6,
           "data": [
@@ -23181,7 +23176,6 @@
         {
           "name": "小任",
           "type": "line",
-          "step": "end",
           "symbol": "circle",
           "symbolSize": 6,
           "data": [
