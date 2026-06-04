@@ -10456,7 +10456,9 @@
             {
               "name": "Mianiii",
               "type": "line",
-              "symbol": "none",
+              "step": "end",
+              "symbol": "circle",
+              "symbolSize": 6,
               "data": [
                 [
                   "2025-10-11",
@@ -10571,10 +10573,15 @@
                   1578
                 ]
               ],
-              "smooth": true,
+              "smooth": false,
               "lineStyle": {
                 "color": "#3B82F6",
-                "width": 2.5
+                "width": 2
+              },
+              "itemStyle": {
+                "color": "#3B82F6",
+                "borderColor": "#fff",
+                "borderWidth": 1
               },
               "areaStyle": {
                 "color": {
@@ -10586,11 +10593,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#3B82F625"
+                      "color": "#3B82F620"
                     },
                     {
                       "offset": 1,
-                      "color": "#3B82F603"
+                      "color": "#3B82F602"
                     }
                   ]
                 }
@@ -17031,7 +17038,9 @@
             {
               "name": "小宋",
               "type": "line",
-              "symbol": "none",
+              "step": "end",
+              "symbol": "circle",
+              "symbolSize": 6,
               "data": [
                 [
                   "2025-10-29",
@@ -17086,10 +17095,15 @@
                   964
                 ]
               ],
-              "smooth": true,
+              "smooth": false,
               "lineStyle": {
                 "color": "#8B5CF6",
-                "width": 2.5
+                "width": 2
+              },
+              "itemStyle": {
+                "color": "#8B5CF6",
+                "borderColor": "#fff",
+                "borderWidth": 1
               },
               "areaStyle": {
                 "color": {
@@ -17101,11 +17115,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#8B5CF625"
+                      "color": "#8B5CF620"
                     },
                     {
                       "offset": 1,
-                      "color": "#8B5CF603"
+                      "color": "#8B5CF602"
                     }
                   ]
                 }
@@ -22758,7 +22772,9 @@
             {
               "name": "小任",
               "type": "line",
-              "symbol": "none",
+              "step": "end",
+              "symbol": "circle",
+              "symbolSize": 6,
               "data": [
                 [
                   "2025-11-07",
@@ -22781,10 +22797,15 @@
                   916
                 ]
               ],
-              "smooth": true,
+              "smooth": false,
               "lineStyle": {
                 "color": "#8B5CF6",
-                "width": 2.5
+                "width": 2
+              },
+              "itemStyle": {
+                "color": "#8B5CF6",
+                "borderColor": "#fff",
+                "borderWidth": 1
               },
               "areaStyle": {
                 "color": {
@@ -22796,11 +22817,11 @@
                   "colorStops": [
                     {
                       "offset": 0,
-                      "color": "#8B5CF625"
+                      "color": "#8B5CF620"
                     },
                     {
                       "offset": 1,
-                      "color": "#8B5CF603"
+                      "color": "#8B5CF602"
                     }
                   ]
                 }
@@ -22920,7 +22941,9 @@
         {
           "name": "Mianiii",
           "type": "line",
-          "symbol": "none",
+          "step": "end",
+          "symbol": "circle",
+          "symbolSize": 6,
           "data": [
             [
               "2025-10-11",
@@ -23035,10 +23058,15 @@
               1578
             ]
           ],
-          "smooth": true,
+          "smooth": false,
           "lineStyle": {
             "color": "#3B82F6",
-            "width": 2.5
+            "width": 2
+          },
+          "itemStyle": {
+            "color": "#3B82F6",
+            "borderColor": "#fff",
+            "borderWidth": 1
           },
           "areaStyle": {
             "color": {
@@ -23050,11 +23078,11 @@
               "colorStops": [
                 {
                   "offset": 0,
-                  "color": "#3B82F625"
+                  "color": "#3B82F620"
                 },
                 {
                   "offset": 1,
-                  "color": "#3B82F603"
+                  "color": "#3B82F602"
                 }
               ]
             }
@@ -23063,7 +23091,9 @@
         {
           "name": "小宋",
           "type": "line",
-          "symbol": "none",
+          "step": "end",
+          "symbol": "circle",
+          "symbolSize": 6,
           "data": [
             [
               "2025-10-29",
@@ -23118,10 +23148,15 @@
               964
             ]
           ],
-          "smooth": true,
+          "smooth": false,
           "lineStyle": {
             "color": "#8B5CF6",
-            "width": 2.5
+            "width": 2
+          },
+          "itemStyle": {
+            "color": "#8B5CF6",
+            "borderColor": "#fff",
+            "borderWidth": 1
           },
           "areaStyle": {
             "color": {
@@ -23133,11 +23168,11 @@
               "colorStops": [
                 {
                   "offset": 0,
-                  "color": "#8B5CF625"
+                  "color": "#8B5CF620"
                 },
                 {
                   "offset": 1,
-                  "color": "#8B5CF603"
+                  "color": "#8B5CF602"
                 }
               ]
             }
@@ -23146,7 +23181,9 @@
         {
           "name": "小任",
           "type": "line",
-          "symbol": "none",
+          "step": "end",
+          "symbol": "circle",
+          "symbolSize": 6,
           "data": [
             [
               "2025-11-07",
@@ -23169,10 +23206,15 @@
               916
             ]
           ],
-          "smooth": true,
+          "smooth": false,
           "lineStyle": {
             "color": "#F97316",
-            "width": 2.5
+            "width": 2
+          },
+          "itemStyle": {
+            "color": "#F97316",
+            "borderColor": "#fff",
+            "borderWidth": 1
           },
           "areaStyle": {
             "color": {
@@ -23184,11 +23226,11 @@
               "colorStops": [
                 {
                   "offset": 0,
-                  "color": "#F9731625"
+                  "color": "#F9731620"
                 },
                 {
                   "offset": 1,
-                  "color": "#F9731603"
+                  "color": "#F9731602"
                 }
               ]
             }
