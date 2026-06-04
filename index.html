@@ -325,7 +325,7 @@ let charts = {}; // echarts instances
 // ===== INIT =====
 async function init() {
   try {
-    const resp = await fetch('data.json');
+    const resp = await fetch('data.json', {cache: 'no-cache'});
     DATA = await resp.json();
   } catch(e) {
     document.getElementById('skeleton').innerHTML =
