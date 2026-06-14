@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 13,
+        "week_ac": 12,
         "total_ac": 657,
         "total_subs": 1963,
         "ac_rate": 38.3,
@@ -22,7 +22,7 @@
         "current": 5,
         "longest": 13,
         "last_active": "2026-06-12",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -1843,8 +1843,8 @@
           },
           "calendar": {
             "range": [
-              "2026-03-22",
-              "2026-06-13"
+              "2026-03-23",
+              "2026-06-14"
             ],
             "cellSize": [
               18,
@@ -10815,7 +10815,7 @@
         "current": 2,
         "longest": 10,
         "last_active": "2026-06-12",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -12636,8 +12636,8 @@
           },
           "calendar": {
             "range": [
-              "2026-03-22",
-              "2026-06-13"
+              "2026-03-23",
+              "2026-06-14"
             ],
             "cellSize": [
               18,
@@ -17412,7 +17412,7 @@
         "current": 6,
         "longest": 14,
         "last_active": "2026-06-12",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -19233,8 +19233,8 @@
           },
           "calendar": {
             "range": [
-              "2026-03-22",
-              "2026-06-13"
+              "2026-03-23",
+              "2026-06-14"
             ],
             "cellSize": [
               18,
@@ -20695,11 +20695,11 @@
                 ],
                 [
                   "2026-06-09",
-                  800
+                  800.0
                 ],
                 [
                   "2026-06-09",
-                  800
+                  900.0
                 ],
                 [
                   "2026-06-11",
@@ -22758,15 +22758,15 @@
                 ],
                 [
                   "2026-06-09",
-                  800
+                  900.0
                 ],
                 [
                   "2026-06-10",
-                  800
+                  1400.0
                 ],
                 [
                   "2026-06-10",
-                  800
+                  1400.0
                 ],
                 [
                   "2026-06-10",
@@ -23273,7 +23273,7 @@
         "label": "Mianiii",
         "rating": 1571,
         "rank": "1836",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1242
       },
       {
@@ -23281,7 +23281,7 @@
         "label": "小宋",
         "rating": 945,
         "rank": "14131",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 324
       },
       {
@@ -23289,7 +23289,7 @@
         "label": "小任",
         "rating": 1059,
         "rank": "11269",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": null
       }
     ],
