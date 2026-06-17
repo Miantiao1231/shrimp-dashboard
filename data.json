@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 18,
-        "total_ac": 663,
-        "total_subs": 1983,
-        "ac_rate": 38.2,
+        "week_ac": 22,
+        "total_ac": 667,
+        "total_subs": 1997,
+        "ac_rate": 38.3,
         "topic_count": 17
       },
       "streak": {
-        "current": 2,
+        "current": 3,
         "longest": 13,
-        "last_active": "2026-06-16",
-        "days_since_last": 1,
+        "last_active": "2026-06-17",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 6,
-          "subs": 20
+          "ac": 10,
+          "subs": 34
         },
         "last_week": {
           "ac": 12,
           "subs": 42
         },
-        "ac_delta": -50,
-        "subs_delta": -52
+        "ac_delta": -17,
+        "subs_delta": -19
       },
       "achievements": {
         "achievements": [
@@ -47,8 +47,8 @@
             "target": 2000,
             "color": "orange",
             "earned": false,
-            "progress": 99,
-            "current": 1983,
+            "progress": 100,
+            "current": 1997,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -151,8 +151,8 @@
             "target": 750,
             "color": "purple",
             "earned": false,
-            "progress": 88,
-            "current": 663,
+            "progress": 89,
+            "current": 667,
             "earned_date": null,
             "unlock_hint": "累计 AC 750 题"
           },
@@ -281,8 +281,8 @@
             "target": 1000,
             "color": "orange",
             "earned": false,
-            "progress": 66,
-            "current": 663,
+            "progress": 67,
+            "current": 667,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 50,
-            "current": 248,
+            "current": 250,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -360,7 +360,7 @@
             "color": "orange",
             "earned": false,
             "progress": 44,
-            "current": 663,
+            "current": 667,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -386,7 +386,7 @@
             "color": "red",
             "earned": false,
             "progress": 42,
-            "current": 210,
+            "current": 212,
             "earned_date": null,
             "unlock_hint": "洛谷 AC 500 题"
           },
@@ -399,7 +399,7 @@
             "color": "red",
             "earned": false,
             "progress": 40,
-            "current": 1983,
+            "current": 1997,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -412,7 +412,7 @@
             "color": "red",
             "earned": false,
             "progress": 33,
-            "current": 663,
+            "current": 667,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -438,7 +438,7 @@
             "color": "red",
             "earned": false,
             "progress": 22,
-            "current": 663,
+            "current": 667,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -451,7 +451,7 @@
             "color": "red",
             "earned": false,
             "progress": 13,
-            "current": 663,
+            "current": 667,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1610,13 +1610,111 @@
           "target": 2000,
           "color": "orange",
           "earned": false,
-          "progress": 99,
-          "current": 1983,
+          "progress": 100,
+          "current": 1997,
           "earned_date": null,
           "unlock_hint": "累计提交 2000 次"
         }
       },
       "recentSubmissions": [
+        {
+          "time": "14+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "2233C",
+          "verdict": "WA"
+        },
+        {
+          "time": "51+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "2233B",
+          "verdict": "AC"
+        },
+        {
+          "time": "10+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "2233A",
+          "verdict": "AC"
+        },
+        {
+          "time": "18+08",
+          "date": "2026-06-17",
+          "platform": "luogu",
+          "problem": "P1868",
+          "verdict": "AC"
+        },
+        {
+          "time": "25+08",
+          "date": "2026-06-17",
+          "platform": "luogu",
+          "problem": "P1868",
+          "verdict": "Othe"
+        },
+        {
+          "time": "24+08",
+          "date": "2026-06-17",
+          "platform": "luogu",
+          "problem": "P1541",
+          "verdict": "AC"
+        },
+        {
+          "time": "13+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554A",
+          "verdict": "CE"
+        },
+        {
+          "time": "39+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554A",
+          "verdict": "WA"
+        },
+        {
+          "time": "55+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554M",
+          "verdict": "AC"
+        },
+        {
+          "time": "15+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554M",
+          "verdict": "AC"
+        },
+        {
+          "time": "42+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554M",
+          "verdict": "AC"
+        },
+        {
+          "time": "38+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554A",
+          "verdict": "WA"
+        },
+        {
+          "time": "41+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554A",
+          "verdict": "WA"
+        },
+        {
+          "time": "47+08",
+          "date": "2026-06-17",
+          "platform": "codeforces",
+          "problem": "106554A",
+          "verdict": "WA"
+        },
         {
           "time": "44+08",
           "date": "2026-06-16",
@@ -1727,104 +1825,6 @@
           "date": "2026-06-16",
           "platform": "codeforces",
           "problem": "106554G",
-          "verdict": "AC"
-        },
-        {
-          "time": "54+08",
-          "date": "2026-06-16",
-          "platform": "codeforces",
-          "problem": "106554L",
-          "verdict": "AC"
-        },
-        {
-          "time": "33+08",
-          "date": "2026-06-16",
-          "platform": "codeforces",
-          "problem": "106554L",
-          "verdict": "WA"
-        },
-        {
-          "time": "14+08",
-          "date": "2026-06-15",
-          "platform": "luogu",
-          "problem": "P1020",
-          "verdict": "AC"
-        },
-        {
-          "time": "55+08",
-          "date": "2026-06-15",
-          "platform": "luogu",
-          "problem": "P1020",
-          "verdict": "Othe"
-        },
-        {
-          "time": "54+08",
-          "date": "2026-06-13",
-          "platform": "codeforces",
-          "problem": "2236E",
-          "verdict": "AC"
-        },
-        {
-          "time": "09+08",
-          "date": "2026-06-13",
-          "platform": "codeforces",
-          "problem": "2236E",
-          "verdict": "TLE"
-        },
-        {
-          "time": "00+08",
-          "date": "2026-06-13",
-          "platform": "codeforces",
-          "problem": "2236E",
-          "verdict": "TLE"
-        },
-        {
-          "time": "31+08",
-          "date": "2026-06-13",
-          "platform": "codeforces",
-          "problem": "2236E",
-          "verdict": "TLE"
-        },
-        {
-          "time": "09+08",
-          "date": "2026-06-13",
-          "platform": "codeforces",
-          "problem": "2236E",
-          "verdict": "WA"
-        },
-        {
-          "time": "20+08",
-          "date": "2026-06-13",
-          "platform": "codeforces",
-          "problem": "2236E",
-          "verdict": "WA"
-        },
-        {
-          "time": "28+08",
-          "date": "2026-06-12",
-          "platform": "codeforces",
-          "problem": "2236D",
-          "verdict": "AC"
-        },
-        {
-          "time": "16+08",
-          "date": "2026-06-12",
-          "platform": "codeforces",
-          "problem": "2236C",
-          "verdict": "AC"
-        },
-        {
-          "time": "25+08",
-          "date": "2026-06-12",
-          "platform": "codeforces",
-          "problem": "2236B",
-          "verdict": "AC"
-        },
-        {
-          "time": "36+08",
-          "date": "2026-06-12",
-          "platform": "codeforces",
-          "problem": "2236A",
           "verdict": "AC"
         }
       ],
@@ -2115,6 +2115,10 @@
                 [
                   "2026-06-16",
                   5
+                ],
+                [
+                  "2026-06-17",
+                  5
                 ]
               ]
             }
@@ -2195,7 +2199,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 758,
+                  "value": 765,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -2207,7 +2211,7 @@
                   }
                 },
                 {
-                  "value": 682,
+                  "value": 687,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -2219,7 +2223,7 @@
                   }
                 },
                 {
-                  "value": 396,
+                  "value": 397,
                   "itemStyle": {
                     "color": "#4B5563",
                     "borderRadius": [
@@ -2243,7 +2247,7 @@
                   }
                 },
                 {
-                  "value": 27,
+                  "value": 28,
                   "itemStyle": {
                     "color": "#94A3B8",
                     "borderRadius": [
@@ -5410,6 +5414,34 @@
                 [
                   "2026-06-16",
                   800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  4.0
+                ],
+                [
+                  "2026-06-17",
+                  4.0
+                ],
+                [
+                  "2026-06-17",
+                  800.0
+                ],
+                [
+                  "2026-06-17",
+                  900.0
                 ]
               ],
               "symbolSize": 7,
@@ -10321,6 +10353,34 @@
                 [
                   "2026-06-16",
                   800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  800
+                ],
+                [
+                  "2026-06-17",
+                  4.0
+                ],
+                [
+                  "2026-06-17",
+                  1400.0
                 ]
               ],
               "symbolSize": 5,
@@ -10372,14 +10432,14 @@
               "fontSize": 11
             },
             "data": [
-              "06/04",
               "06/05",
               "06/06",
               "06/10",
               "06/11",
               "06/12",
               "06/15",
-              "06/16"
+              "06/16",
+              "06/17"
             ]
           },
           "yAxis": {
@@ -10414,10 +10474,10 @@
                 1,
                 1,
                 1,
-                1,
                 3,
                 9,
                 1,
+                5,
                 5
               ],
               "barWidth": "55%",
@@ -10573,15 +10633,15 @@
               "data": [
                 14,
                 99,
-                84,
+                85,
                 38,
                 42,
-                34,
+                35,
                 14,
                 42,
-                28,
+                29,
                 98,
-                43,
+                45,
                 7,
                 6,
                 2,
@@ -23429,7 +23489,7 @@
         "label": "小任",
         "rating": 1059,
         "rank": "11269",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": null
       }
     ],
