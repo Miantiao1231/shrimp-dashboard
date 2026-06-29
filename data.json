@@ -22,20 +22,20 @@
         "current": 2,
         "longest": 13,
         "last_active": "2026-06-23",
-        "days_since_last": 5,
+        "days_since_last": 6,
         "is_broken": true
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 5,
           "subs": 10
         },
-        "last_week": {
-          "ac": 17,
-          "subs": 48
-        },
-        "ac_delta": -71,
-        "subs_delta": -79
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -1843,8 +1843,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-06",
-              "2026-06-28"
+              "2026-04-07",
+              "2026-06-29"
             ],
             "cellSize": [
               18,
@@ -11047,7 +11047,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-06-18",
-        "days_since_last": 10,
+        "days_since_last": 11,
         "is_broken": true
       },
       "weekly": {
@@ -11056,11 +11056,11 @@
           "subs": 0
         },
         "last_week": {
-          "ac": 1,
-          "subs": 1
+          "ac": 0,
+          "subs": 0
         },
-        "ac_delta": -100,
-        "subs_delta": -100
+        "ac_delta": 0,
+        "subs_delta": 0
       },
       "achievements": {
         "achievements": [
@@ -12868,8 +12868,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-06",
-              "2026-06-28"
+              "2026-04-07",
+              "2026-06-29"
             ],
             "cellSize": [
               18,
@@ -17652,7 +17652,7 @@
         "current": 1,
         "longest": 14,
         "last_active": "2026-06-18",
-        "days_since_last": 10,
+        "days_since_last": 11,
         "is_broken": true
       },
       "weekly": {
@@ -17661,11 +17661,11 @@
           "subs": 0
         },
         "last_week": {
-          "ac": 8,
-          "subs": 18
+          "ac": 0,
+          "subs": 0
         },
-        "ac_delta": -100,
-        "subs_delta": -100
+        "ac_delta": 0,
+        "subs_delta": 0
       },
       "achievements": {
         "achievements": [
@@ -19473,8 +19473,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-06",
-              "2026-06-28"
+              "2026-04-07",
+              "2026-06-29"
             ],
             "cellSize": [
               18,
@@ -23601,7 +23601,7 @@
         "label": "Mianiii",
         "rating": 1683,
         "rank": "expert",
-        "last_submit_days": 4,
+        "last_submit_days": 5,
         "nc_rating": 1242
       },
       {
@@ -23609,7 +23609,7 @@
         "label": "小宋",
         "rating": 906,
         "rank": "newbie",
-        "last_submit_days": 9,
+        "last_submit_days": 10,
         "nc_rating": 324
       },
       {
@@ -23617,7 +23617,7 @@
         "label": "小任",
         "rating": 1080,
         "rank": "newbie",
-        "last_submit_days": 9,
+        "last_submit_days": 10,
         "nc_rating": null
       }
     ],
