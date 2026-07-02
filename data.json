@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 5,
+        "week_ac": 0,
         "total_ac": 677,
         "total_subs": 2021,
         "ac_rate": 38.4,
@@ -22,7 +22,7 @@
         "current": 2,
         "longest": 13,
         "last_active": "2026-06-23",
-        "days_since_last": 7,
+        "days_since_last": 9,
         "is_broken": true
       },
       "weekly": {
@@ -1843,8 +1843,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-08",
-              "2026-06-30"
+              "2026-04-10",
+              "2026-07-02"
             ],
             "cellSize": [
               18,
@@ -1904,14 +1904,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-04-08",
-                  3
-                ],
-                [
-                  "2026-04-09",
-                  2
-                ],
                 [
                   "2026-04-10",
                   3
@@ -11043,7 +11035,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-06-18",
-        "days_since_last": 12,
+        "days_since_last": 14,
         "is_broken": true
       },
       "weekly": {
@@ -12864,8 +12856,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-08",
-              "2026-06-30"
+              "2026-04-10",
+              "2026-07-02"
             ],
             "cellSize": [
               18,
@@ -12925,14 +12917,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-04-08",
-                  2
-                ],
-                [
-                  "2026-04-09",
-                  2
-                ],
                 [
                   "2026-04-10",
                   6
@@ -17644,7 +17628,7 @@
         "current": 1,
         "longest": 14,
         "last_active": "2026-06-18",
-        "days_since_last": 12,
+        "days_since_last": 14,
         "is_broken": true
       },
       "weekly": {
@@ -19465,8 +19449,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-08",
-              "2026-06-30"
+              "2026-04-10",
+              "2026-07-02"
             ],
             "cellSize": [
               18,
@@ -19526,14 +19510,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-04-08",
-                  2
-                ],
-                [
-                  "2026-04-09",
-                  3
-                ],
                 [
                   "2026-04-10",
                   9
@@ -23589,7 +23565,7 @@
         "label": "Mianiii",
         "rating": 1683,
         "rank": "expert",
-        "last_submit_days": 6,
+        "last_submit_days": 8,
         "nc_rating": 1242
       },
       {
@@ -23597,7 +23573,7 @@
         "label": "小宋",
         "rating": 906,
         "rank": "newbie",
-        "last_submit_days": 11,
+        "last_submit_days": 13,
         "nc_rating": 324
       },
       {
@@ -23605,7 +23581,7 @@
         "label": "小任",
         "rating": 1080,
         "rank": "newbie",
-        "last_submit_days": 11,
+        "last_submit_days": 13,
         "nc_rating": null
       }
     ],
