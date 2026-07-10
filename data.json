@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 5,
+        "week_ac": 3,
         "total_ac": 682,
         "total_subs": 2035,
         "ac_rate": 38.4,
@@ -22,8 +22,8 @@
         "current": 1,
         "longest": 13,
         "last_active": "2026-07-07",
-        "days_since_last": 2,
-        "is_broken": false
+        "days_since_last": 3,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
@@ -1843,8 +1843,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-17",
-              "2026-07-09"
+              "2026-04-18",
+              "2026-07-10"
             ],
             "cellSize": [
               18,
@@ -11087,7 +11087,7 @@
         "current": 2,
         "longest": 10,
         "last_active": "2026-07-06",
-        "days_since_last": 3,
+        "days_since_last": 4,
         "is_broken": true
       },
       "weekly": {
@@ -12908,8 +12908,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-17",
-              "2026-07-09"
+              "2026-04-18",
+              "2026-07-10"
             ],
             "cellSize": [
               18,
@@ -17748,7 +17748,7 @@
         "current": 1,
         "longest": 14,
         "last_active": "2026-06-18",
-        "days_since_last": 21,
+        "days_since_last": 22,
         "is_broken": true
       },
       "weekly": {
@@ -19569,8 +19569,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-17",
-              "2026-07-09"
+              "2026-04-18",
+              "2026-07-10"
             ],
             "cellSize": [
               18,
@@ -23673,7 +23673,7 @@
         "label": "Mianiii",
         "rating": 1683,
         "rank": "expert",
-        "last_submit_days": 2,
+        "last_submit_days": 3,
         "nc_rating": 1242
       },
       {
@@ -23681,7 +23681,7 @@
         "label": "小宋",
         "rating": 984,
         "rank": "7075",
-        "last_submit_days": 2,
+        "last_submit_days": 3,
         "nc_rating": 324
       },
       {
@@ -23689,7 +23689,7 @@
         "label": "小任",
         "rating": 1080,
         "rank": "newbie",
-        "last_submit_days": 20,
+        "last_submit_days": 21,
         "nc_rating": null
       }
     ],
