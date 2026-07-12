@@ -22,7 +22,7 @@
         "current": 1,
         "longest": 13,
         "last_active": "2026-07-07",
-        "days_since_last": 3,
+        "days_since_last": 5,
         "is_broken": true
       },
       "weekly": {
@@ -1843,8 +1843,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-18",
-              "2026-07-10"
+              "2026-04-20",
+              "2026-07-12"
             ],
             "cellSize": [
               18,
@@ -11077,7 +11077,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 6,
+        "week_ac": 5,
         "total_ac": 266,
         "total_subs": 963,
         "ac_rate": 34.0,
@@ -11087,7 +11087,7 @@
         "current": 2,
         "longest": 10,
         "last_active": "2026-07-06",
-        "days_since_last": 4,
+        "days_since_last": 6,
         "is_broken": true
       },
       "weekly": {
@@ -12908,8 +12908,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-18",
-              "2026-07-10"
+              "2026-04-20",
+              "2026-07-12"
             ],
             "cellSize": [
               18,
@@ -12969,10 +12969,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-04-19",
-                  1
-                ],
                 [
                   "2026-04-21",
                   11
@@ -17748,7 +17744,7 @@
         "current": 1,
         "longest": 14,
         "last_active": "2026-06-18",
-        "days_since_last": 22,
+        "days_since_last": 24,
         "is_broken": true
       },
       "weekly": {
@@ -19569,8 +19565,8 @@
           },
           "calendar": {
             "range": [
-              "2026-04-18",
-              "2026-07-10"
+              "2026-04-20",
+              "2026-07-12"
             ],
             "cellSize": [
               18,
@@ -23673,7 +23669,7 @@
         "label": "Mianiii",
         "rating": 1683,
         "rank": "expert",
-        "last_submit_days": 3,
+        "last_submit_days": 4,
         "nc_rating": 1242
       },
       {
@@ -23681,7 +23677,7 @@
         "label": "小宋",
         "rating": 984,
         "rank": "7075",
-        "last_submit_days": 3,
+        "last_submit_days": 5,
         "nc_rating": 324
       },
       {
@@ -23689,7 +23685,7 @@
         "label": "小任",
         "rating": 1080,
         "rank": "newbie",
-        "last_submit_days": 21,
+        "last_submit_days": 23,
         "nc_rating": null
       }
     ],
