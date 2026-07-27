@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 12,
+        "week_ac": 7,
         "total_ac": 703,
         "total_subs": 2086,
         "ac_rate": 38.6,
@@ -22,20 +22,20 @@
         "current": 2,
         "longest": 13,
         "last_active": "2026-07-25",
-        "days_since_last": 0,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 7,
           "subs": 15
         },
-        "last_week": {
-          "ac": 12,
-          "subs": 33
-        },
-        "ac_delta": -42,
-        "subs_delta": -55
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -1843,8 +1843,8 @@
           },
           "calendar": {
             "range": [
-              "2026-05-03",
-              "2026-07-25"
+              "2026-05-05",
+              "2026-07-27"
             ],
             "cellSize": [
               18,
@@ -1904,14 +1904,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-05-03",
-                  7
-                ],
-                [
-                  "2026-05-04",
-                  3
-                ],
                 [
                   "2026-05-06",
                   5
@@ -11285,7 +11277,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 10,
+        "week_ac": 3,
         "total_ac": 284,
         "total_subs": 1014,
         "ac_rate": 34.3,
@@ -11295,20 +11287,20 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-07-23",
-        "days_since_last": 2,
-        "is_broken": false
+        "days_since_last": 4,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 3,
           "subs": 15
         },
-        "last_week": {
-          "ac": 15,
-          "subs": 36
-        },
-        "ac_delta": -80,
-        "subs_delta": -58
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -13116,8 +13108,8 @@
           },
           "calendar": {
             "range": [
-              "2026-05-03",
-              "2026-07-25"
+              "2026-05-05",
+              "2026-07-27"
             ],
             "cellSize": [
               18,
@@ -13177,10 +13169,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-05-03",
-                  3
-                ],
                 [
                   "2026-05-05",
                   3
@@ -18150,7 +18138,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 23,
+        "week_ac": 11,
         "total_ac": 256,
         "total_subs": 865,
         "ac_rate": 34.3,
@@ -18160,20 +18148,20 @@
         "current": 1,
         "longest": 14,
         "last_active": "2026-07-24",
-        "days_since_last": 1,
-        "is_broken": false
+        "days_since_last": 3,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 11,
           "subs": 21
         },
-        "last_week": {
-          "ac": 19,
-          "subs": 51
-        },
-        "ac_delta": -42,
-        "subs_delta": -59
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -19981,8 +19969,8 @@
           },
           "calendar": {
             "range": [
-              "2026-05-03",
-              "2026-07-25"
+              "2026-05-05",
+              "2026-07-27"
             ],
             "cellSize": [
               18,
@@ -24405,7 +24393,7 @@
         "label": "Mianiii",
         "rating": 1649,
         "rank": "2421",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1242
       },
       {
@@ -24413,7 +24401,7 @@
         "label": "小宋",
         "rating": 1163,
         "rank": "4842",
-        "last_submit_days": 2,
+        "last_submit_days": 3,
         "nc_rating": 324
       },
       {
@@ -24421,7 +24409,7 @@
         "label": "小任",
         "rating": 1073,
         "rank": "6583",
-        "last_submit_days": 1,
+        "last_submit_days": 3,
         "nc_rating": 994
       }
     ],
