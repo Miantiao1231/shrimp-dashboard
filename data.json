@@ -11683,8 +11683,8 @@
       "stats": {
         "week_ac": 18,
         "total_ac": 302,
-        "total_subs": 1056,
-        "ac_rate": 35.1,
+        "total_subs": 1058,
+        "ac_rate": 35.3,
         "topic_count": 16
       },
       "streak": {
@@ -11697,14 +11697,14 @@
       "weekly": {
         "this_week": {
           "ac": 2,
-          "subs": 3
+          "subs": 5
         },
         "last_week": {
           "ac": 17,
           "subs": 38
         },
         "ac_delta": -88,
-        "subs_delta": -92
+        "subs_delta": -87
       },
       "achievements": {
         "achievements": [
@@ -12081,7 +12081,7 @@
             "color": "orange",
             "earned": false,
             "progress": 53,
-            "current": 1056,
+            "current": 1058,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -12237,7 +12237,7 @@
             "color": "red",
             "earned": false,
             "progress": 21,
-            "current": 1056,
+            "current": 1058,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -13287,6 +13287,20 @@
       },
       "recentSubmissions": [
         {
+          "time": "13+08",
+          "date": "2026-08-10",
+          "platform": "codeforces",
+          "problem": "2256D",
+          "verdict": "AC"
+        },
+        {
+          "time": "40+08",
+          "date": "2026-08-10",
+          "platform": "codeforces",
+          "problem": "2256B",
+          "verdict": "AC"
+        },
+        {
           "time": "36+08",
           "date": "2026-08-10",
           "platform": "codeforces",
@@ -13481,20 +13495,6 @@
           "platform": "codeforces",
           "problem": "2252C",
           "verdict": "CE"
-        },
-        {
-          "time": "49+08",
-          "date": "2026-08-07",
-          "platform": "codeforces",
-          "problem": "2252C",
-          "verdict": "WA"
-        },
-        {
-          "time": "09+08",
-          "date": "2026-08-07",
-          "platform": "codeforces",
-          "problem": "2252C",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -13772,7 +13772,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 371,
+                  "value": 373,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -15430,6 +15430,14 @@
                 ],
                 [
                   "2026-08-09",
+                  800
+                ],
+                [
+                  "2026-08-10",
+                  800
+                ],
+                [
+                  "2026-08-10",
                   800
                 ],
                 [
@@ -18441,14 +18449,14 @@
               "data": [
                 17,
                 59,
-                72,
+                73,
                 9,
                 27,
                 15,
                 8,
                 12,
                 16,
-                53,
+                54,
                 25,
                 1,
                 7,
