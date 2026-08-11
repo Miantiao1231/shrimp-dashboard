@@ -13,7 +13,8 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{
   font-family:'Fira Sans',-apple-system,BlinkMacSystemFont,sans-serif;
-  background:#0A0A0E; color:#E0E0E0;
+  background:#0A0A0E;
+  color:#E0E0E0;
   min-height:100vh;
   overscroll-behavior:contain;
 }
@@ -60,7 +61,49 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 }
 
 /* ===== LAYOUT ===== */
-#app{max-width:1440px;margin:0 auto;padding:0 2rem 2rem}
+#app{position:relative;z-index:1;max-width:1440px;margin:0 auto;padding:0 2rem 2rem}
+
+/* ===== AURORA 动态极光背景 ===== */
+.aurora{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.aurora-parallax{position:absolute;inset:-20%;will-change:transform;
+  transition:transform 0.5s ease-out}
+.aurora-blob{position:absolute;border-radius:50%;filter:blur(100px);will-change:transform}
+.b1{width:920px;height:920px;top:-18%;right:-12%;
+  background:radial-gradient(circle at 35% 35%, rgba(96,165,250,0.30), rgba(59,130,246,0.07) 55%, transparent 70%);
+  animation:drift-a 26s ease-in-out infinite alternate}
+.b2{width:780px;height:780px;bottom:-22%;left:-14%;
+  background:radial-gradient(circle at 60% 40%, rgba(167,139,250,0.26), rgba(139,92,246,0.06) 55%, transparent 70%);
+  animation:drift-b 34s ease-in-out infinite alternate;animation-delay:-8s}
+.b3{width:560px;height:560px;top:38%;left:40%;
+  background:radial-gradient(circle at 50% 50%, rgba(52,211,153,0.13), transparent 65%);
+  animation:drift-c 44s ease-in-out infinite alternate;animation-delay:-20s}
+@keyframes drift-a{
+  from{transform:translate3d(0,0,0) scale(1)}
+  to{transform:translate3d(140px,90px,0) scale(1.12)}
+}
+@keyframes drift-b{
+  from{transform:translate3d(0,0,0) scale(1.1)}
+  to{transform:translate3d(-120px,-70px,0) scale(1)}
+}
+@keyframes drift-c{
+  from{transform:translate3d(0,0,0) scale(1.05)}
+  to{transform:translate3d(80px,-100px,0) scale(0.95)}
+}
+/* 视差: 鼠标移动时各层以不同系数反方向错位 (--px/--py 由 JS 注入) */
+.p1{transform:translate3d(calc(var(--px,0)*40px),calc(var(--py,0)*30px),0)}
+.p2{transform:translate3d(calc(var(--px,0)*-30px),calc(var(--py,0)*-20px),0)}
+.p3{transform:translate3d(calc(var(--px,0)*20px),calc(var(--py,0)*15px),0)}
+/* 鼠标追踪光晕 */
+.mouse-glow{position:absolute;top:0;left:0;width:620px;height:620px;border-radius:50%;
+  background:radial-gradient(circle, rgba(99,179,237,0.12), transparent 60%);
+  transform:translate3d(calc(var(--mx,50vw) - 310px),calc(var(--my,30vh) - 310px),0);
+  transition:transform 0.6s cubic-bezier(0.22,1,0.36,1)}
+@media (hover:none){.mouse-glow{display:none}}
+@media (prefers-reduced-motion:reduce){
+  .aurora-blob{animation:none!important}
+  .aurora-parallax{transition:none}
+  .mouse-glow{display:none}
+}
 
 /* ===== HEADER ===== */
 .header{
@@ -134,6 +177,39 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 .progress-track{width:100%;height:0.5rem;border-radius:999px;overflow:hidden;background:rgba(255,255,255,0.06);margin-top:0.5rem}
 .progress-fill{height:100%;border-radius:999px;transition:width 800ms ease-out}
 
+/* ===== CHECK-IN BANNER ===== */
+.checkin-banner{
+  margin-top:1rem;padding:0.75rem 1.25rem;border-radius:12px;
+  background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.3);
+  color:#FCA5A5;font-size:0.875rem;font-weight:500;
+  display:flex;align-items:center;gap:0.5rem;
+  animation:fade-in-up 400ms ease-out both;
+}
+.checkin-banner .banner-sub{opacity:0.6;font-size:0.75rem;font-weight:400}
+
+/* ===== COACH TIPS ===== */
+.coach-card{margin-top:1.5rem}
+.coach-header{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.coach-toggle{
+  background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);
+  color:rgba(255,255,255,0.7);font-size:0.75rem;font-weight:600;
+  padding:0.35rem 0.85rem;border-radius:999px;cursor:pointer;white-space:nowrap;
+  transition:all 0.2s ease-out;
+}
+.coach-toggle:hover{background:rgba(255,255,255,0.1);color:#fff}
+.coach-tips{display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:0.875rem}
+.coach-tip{
+  flex:1;min-width:280px;padding:0.75rem 1rem;border-radius:12px;
+  display:flex;align-items:flex-start;gap:0.625rem;
+  background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);
+  transition:all 0.25s ease-out;
+}
+.coach-tip:hover{background:rgba(255,255,255,0.05);transform:translateY(-1px)}
+.coach-tip .tip-icon{font-size:1.125rem;line-height:1.4}
+.coach-tip .tip-text{font-size:0.8125rem;color:rgba(255,255,255,0.75);line-height:1.5}
+.coach-section{margin-top:1.125rem;padding-top:1rem;border-top:1px dashed rgba(255,255,255,0.08)}
+.coach-sec-title{font-size:0.8125rem;font-weight:700;color:rgba(255,255,255,0.55);margin-bottom:0.25rem;letter-spacing:0.02em}
+
 /* ===== ACHIEVEMENT BADGE ===== */
 .ach-grid{display:flex;flex-wrap:wrap;gap:0.75rem}
 .ach-badge{
@@ -145,6 +221,22 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 .ach-icon{font-size:1.5rem}
 .ach-name{font-size:0.7rem;margin-top:0.25rem;font-weight:700}
 .ach-progress{font-size:0.65rem}
+/* 自定义 tooltip（替代原生 title，观感统一且即时） */
+.ach-badge::after{
+  content:attr(data-tip);
+  position:absolute;left:50%;bottom:calc(100% + 8px);
+  transform:translateX(-50%) scale(0.9);
+  background:rgba(17,24,39,0.98);border:1px solid rgba(255,255,255,0.12);
+  padding:0.5rem 0.75rem;border-radius:8px;
+  font-size:0.75rem;line-height:1.5;color:#E0E0E0;
+  white-space:pre-line;text-align:center;
+  width:max-content;max-width:200px;
+  opacity:0;pointer-events:none;transition:opacity 0.2s,transform 0.2s;
+  z-index:20;box-shadow:0 8px 24px rgba(0,0,0,0.5);
+}
+.ach-badge:hover::after{opacity:1;transform:translateX(-50%) scale(1)}
+/* 顶部 badge 的 tooltip 翻到下方显示，避免溢出视口 */
+.ach-badge:first-child::after{bottom:auto;top:calc(100% + 8px)}
 
 /* ===== TOGGLE ===== */
 .toggle-header{
@@ -189,6 +281,14 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 
 <a href="#main-content" class="skip-link">跳到主内容</a>
 
+<!-- AURORA 动态极光背景（纯装饰，不参与交互） -->
+<div class="aurora" aria-hidden="true">
+  <div class="aurora-parallax p1"><div class="aurora-blob b1"></div></div>
+  <div class="aurora-parallax p2"><div class="aurora-blob b2"></div></div>
+  <div class="aurora-parallax p3"><div class="aurora-blob b3"></div></div>
+  <div class="mouse-glow" id="mouseGlow"></div>
+</div>
+
 <div class="header" role="banner">
   <h1>🦞 小虾教练 · 训练仪表盘</h1>
 </div>
@@ -208,6 +308,10 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 
 <div id="app" style="display:none" role="main" aria-label="训练仪表盘">
   <div id="main-content"></div>
+
+  <!-- 今日未打卡提醒（渲染后按需显示） -->
+  <div id="checkinBanner" class="checkin-banner" style="display:none" role="status"></div>
+
   <!-- Tabs -->
   <div class="tab-bar" id="tabBar" role="tablist" aria-label="队员切换"></div>
 
@@ -217,8 +321,11 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   <!-- Week Comparison Row -->
   <div class="flex-row items-stretch mt-4" id="weekRow"></div>
 
+  <!-- Coach Tips -->
+  <div id="coachRow"></div>
+
   <!-- Unearned Achievements -->
-  <div class="section-heading"><h2>🎯 待解锁成就</h2><div class="line"></div></div>
+  <div class="section-heading"><h2 id="achUnearnedTitle">🎯 待解锁成就</h2><div class="line"></div></div>
   <div class="ach-grid" id="achUnearned" role="list" aria-label="待解锁成就列表"></div>
 
   <!-- Earned Achievements (collapsible) -->
@@ -281,7 +388,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
     </div>
   </div>
 
-  <div class="footer">🦞 小虾教练 · 数据: training.db · 图表: ECharts · 托管: GitHub Pages</div>
+  <div class="footer">🦞 小虾教练 · 数据: training.db · 图表: ECharts · 托管: GitHub Pages · <span id="footerTime"></span></div>
 </div>
 
 <script>
@@ -300,6 +407,7 @@ const ACCENTS = {
   orange:  {color:'#F97316',glow:'rgba(249,115,22,0.15)'},
   amber:   {color:'#D97706',glow:'rgba(217,119,6,0.15)'},
   yellow:  {color:'#F59E0B',glow:'rgba(245,158,11,0.15)'},
+  flame:   {color:'#FF8C00',glow:'rgba(255,140,0,0.15)'},
 };
 
 function accentStyle(colorName) {
@@ -338,6 +446,11 @@ async function init() {
   // 必须先显示 app 容器，否则 ECharts 在 display:none 里算不出尺寸
   document.getElementById('skeleton').style.display = 'none';
   document.getElementById('app').style.display = 'block';
+
+  // Footer 数据更新时间
+  if (DATA.exportedAt) {
+    document.getElementById('footerTime').textContent = '数据更新于 ' + DATA.exportedAt;
+  }
 
   buildTabs();
   renderAll();
@@ -391,9 +504,86 @@ function renderAll() {
   updateTabs();
   renderMetrics(m, label);
   renderWeekRow(m);
+  renderCoach(m);
+  renderCheckin(m);
   renderAchievements(m);
   renderCharts(m, label);
   renderTeam(m, label);
+}
+
+// 本地时区的 YYYY-MM-DD（submitted_at 存的就是本地时间）
+function localDateStr(d) {
+  const p = n => String(n).padStart(2, '0');
+  return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate());
+}
+
+// ===== 今日打卡提醒 =====
+function renderCheckin(m) {
+  const el = document.getElementById('checkinBanner');
+  const today = localDateStr(new Date());
+  if (!m.lastSubmitDate || m.lastSubmitDate >= today) {
+    el.style.display = 'none';
+    return;
+  }
+  const days = Math.round((new Date(today) - new Date(m.lastSubmitDate)) / 86400000);
+  el.style.display = 'flex';
+  el.innerHTML = `🔥 <span>今天还没看到你的提交${days > 1 ? `（已 ${days} 天）` : ''}</span>
+    <span class="banner-sub">数据更新于 ${DATA.exportedAt}，之后提交随下次同步刷新</span>`;
+}
+
+// ===== 小虾教练说（折叠版：折叠=快讯，展开=薄弱点/冲刺点/复习）=====
+function coachTipHTML(t) {
+  return `<div class="coach-tip">
+    <span class="tip-icon">${t.icon}</span>
+    <span class="tip-text">${t.text}</span>
+  </div>`;
+}
+
+function toggleCoach() {
+  const btn = document.getElementById('coachToggle');
+  const details = document.getElementById('coachDetails');
+  if (!btn || !details) return;
+  const open = details.style.display !== 'none';
+  details.style.display = open ? 'none' : 'block';
+  btn.innerHTML = open ? '展开全部 ▾' : '收起 ▴';
+  btn.setAttribute('aria-expanded', String(!open));
+}
+
+function renderCoach(m) {
+  const el = document.getElementById('coachRow');
+  let tips = m.coachTips;
+  // 兜底：data.json 未刷新时 coachTips 还是旧数组格式
+  if (Array.isArray(tips)) {
+    if (!tips.length) { el.innerHTML = ''; return; }
+    el.innerHTML = `
+      <div class="card coach-card">
+        <div class="metric-title">🦞 小虾教练说</div>
+        <div class="coach-tips">${tips.map(coachTipHTML).join('')}</div>
+      </div>`;
+    return;
+  }
+  tips = tips || {};
+  const briefs = tips.collapsed || [];
+  const sections = (tips.sections || []).filter(s => s.items && s.items.length);
+  if (!briefs.length && !sections.length) { el.innerHTML = ''; return; }
+
+  el.innerHTML = `
+    <div class="card coach-card">
+      <div class="coach-header">
+        <span class="metric-title">🦞 小虾教练说</span>
+        ${sections.length ? `<button class="coach-toggle" id="coachToggle" aria-expanded="false">展开全部 ▾</button>` : ''}
+      </div>
+      ${briefs.length ? `<div class="coach-tips">${briefs.map(coachTipHTML).join('')}</div>` : ''}
+      <div id="coachDetails" style="display:none">
+        ${sections.map(s => `
+          <div class="coach-section">
+            <div class="coach-sec-title">${s.icon} ${s.title}</div>
+            <div class="coach-tips">${s.items.map(coachTipHTML).join('')}</div>
+          </div>`).join('')}
+      </div>
+    </div>`;
+  const btn = document.getElementById('coachToggle');
+  if (btn) btn.onclick = toggleCoach;
 }
 
 // ===== METRIC CARDS =====
@@ -406,9 +596,9 @@ function renderMetrics(m, label) {
 
   let html = '';
 
-  // Card 1: Rating
+  // Card 1: Rating（rank 是 CF 全球排名，加标签防止裸数字看不懂）
   html += metricCardHTML(label+' · Rating', String(ratingStr),
-    rank ? 'CF '+rank : '', 'green');
+    rank ? 'CF 排名 #'+rank : '', 'green');
 
   // Card 2: Week AC
   html += metricCardHTML('近7天 AC', String(s.week_ac),
@@ -470,7 +660,7 @@ function streakFlameHTML(days) {
        <span style="font-size:2rem;font-weight:800;color:${valColor};line-height:1.2">${days}</span>
        <span style="color:${valColor};font-size:0.875rem;font-weight:600">天</span>
      </div>
-     <div class="metric-sub">连续打卡</div>`
+     <div class="metric-sub">保持节奏，别断火</div>`
   );
 }
 
@@ -547,6 +737,10 @@ function renderAchievements(m) {
   const unearned = all.filter(a => !a.earned).slice(0, 12);
   const earned = all.filter(a => a.earned);
 
+  // Section title with count
+  document.getElementById('achUnearnedTitle').textContent =
+    `🎯 待解锁成就 (${all.filter(a => !a.earned).length})`;
+
   // Unearned
   document.getElementById('achUnearned').innerHTML = unearned.map((a, i) =>
     achBadgeHTML(a, i * 30)
@@ -600,7 +794,7 @@ function achBadgeHTML(a, delay) {
     `}
   `;
 
-  return `<div class="ach-badge" role="listitem" tabindex="0" style="background:${bg};border-color:${border};box-shadow:${shadow};animation:fade-in-up 400ms ease-out ${delay}ms both" title="${tooltip.replace(/\n/g,'&#10;')}">${inner}</div>`;
+  return `<div class="ach-badge" role="listitem" tabindex="0" data-tip="${tooltip.replace(/"/g,'&quot;')}" style="background:${bg};border-color:${border};box-shadow:${shadow};animation:fade-in-up 400ms ease-out ${delay}ms both">${inner}</div>`;
 }
 
 function toggleEarned() {
@@ -608,7 +802,7 @@ function toggleEarned() {
   const label = document.getElementById('toggleLabel');
   const toggle = document.getElementById('toggleEarned');
   const isOpen = body.style.maxHeight !== '0px';
-  body.style.maxHeight = isOpen ? '0' : '900px';
+  body.style.maxHeight = isOpen ? '0' : '2000px';
   const earned = DATA.members[currentHandle].achievements.achievements.filter(a => a.earned);
   const total = DATA.members[currentHandle].achievements.total_count;
   label.textContent = `${isOpen ? '▸' : '▾'} 已获得成就 (${earned.length}/${total})`;
@@ -621,6 +815,26 @@ let chartInstances = {};
 function disposeCharts() {
   Object.values(chartInstances).forEach(c => c.dispose());
   chartInstances = {};
+}
+
+// Rating 图装饰：数据项带 tip 字段（涨跌 delta），浏览器端注入函数 formatter
+// （JSON 序列化传不了函数，模板 {@tip} 又不展开，只能前端拼装）
+function decorateRatingTip(chart) {
+  const opt = chart.getOption();
+  const s0 = (opt.series || [])[0];
+  if (!s0 || !Array.isArray(s0.data) || !s0.data.length) return;
+  if (!s0.data[0] || s0.data[0].tip === undefined) return; // 只有 rating 图的数据带 tip
+  chart.setOption({
+    tooltip: {
+      trigger: 'item',
+      formatter: function (p) {
+        const tip = (p.data && p.data.tip) || '';
+        const date = Array.isArray(p.value) ? p.value[0] : (p.name || '');
+        const val = Array.isArray(p.value) ? p.value[1] : p.value;
+        return (p.seriesName ? p.seriesName + '<br/>' : '') + date + ': ' + val + tip;
+      }
+    }
+  });
 }
 
 function initChart(id) {
@@ -643,8 +857,20 @@ function renderCharts(m, label) {
   const rc = echarts.init(rcDom, null, {renderer:'canvas'});
   chartInstances['ratingComp'] = rc;
   rc.setOption(DATA.team.ratingComparison);
+  decorateRatingTip(rc);
 
-  // Calendar heatmap
+  // Calendar heatmap（cellSize 'auto' 格子随容器自适应铺满：
+  // 高度只需给合理值，行数估算多几行也不裁剪、少几行也铺满）
+  const calEl = document.getElementById('chartCalendar');
+  const calOpt = ch.calendarHeatmap;
+  if (calEl && calOpt && calOpt.calendar && calOpt.calendar.range) {
+    const rng = calOpt.calendar.range;
+    const days = Math.ceil((new Date(rng[1]) - new Date(rng[0])) / 86400000) + 1;
+    const rsM = Number(rng[0].slice(5, 7)), reM = Number(rng[1].slice(5, 7));
+    const months = (reM - rsM + 12) % 12 + 1;
+    const rows = Math.ceil(days / 7) + 1;
+    calEl.style.height = (rows * 20 + months * 28 + 18) + 'px';
+  }
   const cal = initChart('chartCalendar');
   document.getElementById('calTitle').textContent = `训练日历 · ${label}`;
   if (cal) cal.setOption(ch.calendarHeatmap);
@@ -700,6 +926,25 @@ function renderTeam(m, label) {
 window.addEventListener('resize', () => {
   Object.values(chartInstances).forEach(c => c.resize());
 });
+
+// ===== AURORA 鼠标交互 =====
+// 只更新 CSS 变量，渐变渲染交给浏览器合成器，保持流畅
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  let mx = window.innerWidth / 2, my = window.innerHeight / 3, raf = null;
+  window.addEventListener('mousemove', (e) => {
+    mx = e.clientX; my = e.clientY;
+    if (raf) return;
+    raf = requestAnimationFrame(() => {
+      const doc = document.documentElement.style;
+      doc.setProperty('--mx', mx + 'px');
+      doc.setProperty('--my', my + 'px');
+      // 视差系数: 鼠标在视口内的归一化位置 (-0.5 ~ 0.5)
+      doc.setProperty('--px', (mx / window.innerWidth - 0.5).toFixed(3));
+      doc.setProperty('--py', (my / window.innerHeight - 0.5).toFixed(3));
+      raf = null;
+    });
+  });
+}
 
 // ===== BOOT =====
 init();

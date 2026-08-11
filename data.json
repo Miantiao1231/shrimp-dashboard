@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 24,
-        "total_ac": 752,
-        "total_subs": 2186,
-        "ac_rate": 39.1,
+        "week_ac": 26,
+        "total_ac": 754,
+        "total_subs": 2188,
+        "ac_rate": 39.2,
         "topic_count": 18
       },
       "streak": {
-        "current": 5,
+        "current": 6,
         "longest": 13,
-        "last_active": "2026-08-10",
-        "days_since_last": 1,
+        "last_active": "2026-08-11",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 7,
-          "subs": 10
+          "ac": 9,
+          "subs": 12
         },
         "last_week": {
           "ac": 27,
           "subs": 68
         },
-        "ac_delta": -74,
-        "subs_delta": -85
+        "ac_delta": -67,
+        "subs_delta": -82
       },
       "achievements": {
         "achievements": [
@@ -53,8 +53,21 @@
             "unlock_hint": "AC 率达到 40%"
           },
           {
+            "id": "no_30",
+            "name": "夜之帝王",
+            "icon": "🦇",
+            "type": "night_owl",
+            "target": 30,
+            "color": "red",
+            "earned": false,
+            "progress": 97,
+            "current": 29,
+            "earned_date": null,
+            "unlock_hint": "深夜 (0-6 点) AC 30 题"
+          },
+          {
             "id": "r_1800",
-            "name": "半步 CM",
+            "name": "紫名在望",
             "icon": "🌀",
             "type": "rating",
             "target": 1800,
@@ -93,11 +106,11 @@
           },
           {
             "id": "r_1900",
-            "name": "Candidate Master",
+            "name": "Candidate Master 紫名",
             "icon": "💎",
             "type": "rating",
             "target": 1900,
-            "color": "orange",
+            "color": "purple",
             "earned": false,
             "progress": 90,
             "current": 1712,
@@ -123,7 +136,7 @@
             "icon": "🏰",
             "type": "rating",
             "target": 2000,
-            "color": "orange",
+            "color": "purple",
             "earned": false,
             "progress": 86,
             "current": 1712,
@@ -132,11 +145,11 @@
           },
           {
             "id": "r_2100",
-            "name": "Master",
+            "name": "Master 橙名",
             "icon": "👑",
             "type": "rating",
             "target": 2100,
-            "color": "red",
+            "color": "orange",
             "earned": false,
             "progress": 82,
             "current": 1712,
@@ -157,6 +170,19 @@
             "unlock_hint": "AC 率达到 50%"
           },
           {
+            "id": "es_2",
+            "name": "一发入魂",
+            "icon": "💥",
+            "type": "avg_subs",
+            "target": 2,
+            "color": "purple",
+            "earned": false,
+            "progress": 76,
+            "current": 2.62,
+            "earned_date": null,
+            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
+          },
+          {
             "id": "ac_1000",
             "name": "千题大师",
             "icon": "🏆",
@@ -165,7 +191,7 @@
             "color": "orange",
             "earned": false,
             "progress": 75,
-            "current": 752,
+            "current": 754,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -188,7 +214,7 @@
             "icon": "🌍",
             "type": "rating",
             "target": 2300,
-            "color": "red",
+            "color": "flame",
             "earned": false,
             "progress": 74,
             "current": 1712,
@@ -209,17 +235,43 @@
             "unlock_hint": "单日 AC 25 题"
           },
           {
-            "id": "r_2500",
-            "name": "Grandmaster",
-            "icon": "🌟",
+            "id": "r_2400",
+            "name": "Grandmaster 红名",
+            "icon": "🏆",
             "type": "rating",
-            "target": 2500,
+            "target": 2400,
             "color": "red",
             "earned": false,
-            "progress": 68,
+            "progress": 71,
             "current": 1712,
             "earned_date": null,
-            "unlock_hint": "CF Rating 达到 2500"
+            "unlock_hint": "CF Rating 达到 2400"
+          },
+          {
+            "id": "fw_3",
+            "name": "连轴转",
+            "icon": "🗓️",
+            "type": "full_week",
+            "target": 3,
+            "color": "purple",
+            "earned": false,
+            "progress": 67,
+            "current": 2,
+            "earned_date": null,
+            "unlock_hint": "累计 3 个全勤周 (7 天全打卡)"
+          },
+          {
+            "id": "r_2600",
+            "name": "International Grandmaster",
+            "icon": "🌟",
+            "type": "rating",
+            "target": 2600,
+            "color": "red",
+            "earned": false,
+            "progress": 66,
+            "current": 1712,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 2600"
           },
           {
             "id": "fn_ac_rate_60",
@@ -255,8 +307,8 @@
             "target": 500,
             "color": "red",
             "earned": false,
-            "progress": 60,
-            "current": 302,
+            "progress": 61,
+            "current": 304,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -274,6 +326,19 @@
             "unlock_hint": "单周 AC 75 题"
           },
           {
+            "id": "r_3000",
+            "name": "Legendary Grandmaster",
+            "icon": "🌌",
+            "type": "rating",
+            "target": 3000,
+            "color": "red",
+            "earned": false,
+            "progress": 57,
+            "current": 1712,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 3000"
+          },
+          {
             "id": "ac_1500",
             "name": "千五战神",
             "icon": "🗡️",
@@ -282,7 +347,7 @@
             "color": "orange",
             "earned": false,
             "progress": 50,
-            "current": 752,
+            "current": 754,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -308,7 +373,7 @@
             "color": "red",
             "earned": false,
             "progress": 44,
-            "current": 2186,
+            "current": 2188,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -334,9 +399,22 @@
             "color": "red",
             "earned": false,
             "progress": 38,
-            "current": 752,
+            "current": 754,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
+          },
+          {
+            "id": "eb_10",
+            "name": "晨间大师",
+            "icon": "🌅",
+            "type": "early_bird",
+            "target": 10,
+            "color": "orange",
+            "earned": false,
+            "progress": 30,
+            "current": 3,
+            "earned_date": null,
+            "unlock_hint": "清晨 (6-9 点) AC 10 题"
           },
           {
             "id": "st_50",
@@ -360,7 +438,7 @@
             "color": "red",
             "earned": false,
             "progress": 25,
-            "current": 752,
+            "current": 754,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -373,7 +451,7 @@
             "color": "red",
             "earned": false,
             "progress": 15,
-            "current": 752,
+            "current": 754,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -405,7 +483,7 @@
           },
           {
             "id": "r_1200",
-            "name": "Pupil",
+            "name": "Pupil 绿名",
             "icon": "🐣",
             "type": "rating",
             "target": 1200,
@@ -418,11 +496,11 @@
           },
           {
             "id": "r_1400",
-            "name": "Specialist",
+            "name": "Specialist 青名",
             "icon": "🌿",
             "type": "rating",
             "target": 1400,
-            "color": "blue",
+            "color": "cyan",
             "earned": true,
             "progress": 100,
             "current": 1400,
@@ -444,11 +522,11 @@
           },
           {
             "id": "r_1600",
-            "name": "Expert",
+            "name": "Expert 蓝名",
             "icon": "⚡",
             "type": "rating",
             "target": 1600,
-            "color": "purple",
+            "color": "blue",
             "earned": true,
             "progress": 100,
             "current": 1600,
@@ -457,11 +535,11 @@
           },
           {
             "id": "r_1700",
-            "name": "紫名可期",
-            "icon": "💜",
+            "name": "蓝名中坚",
+            "icon": "💪",
             "type": "rating",
             "target": 1700,
-            "color": "purple",
+            "color": "blue",
             "earned": true,
             "progress": 100,
             "current": 1700,
@@ -1522,6 +1600,110 @@
             "unlock_hint": "参与 20 场比赛"
           },
           {
+            "id": "es_4",
+            "name": "高效出击",
+            "icon": "🚀",
+            "type": "avg_subs",
+            "target": 4,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 2.62,
+            "earned_date": "2025-09-09",
+            "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
+          },
+          {
+            "id": "es_3",
+            "name": "精打细算",
+            "icon": "🧮",
+            "type": "avg_subs",
+            "target": 3,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 2.62,
+            "earned_date": "2025-09-09",
+            "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
+          },
+          {
+            "id": "no_1",
+            "name": "夜猫子",
+            "icon": "🦉",
+            "type": "night_owl",
+            "target": 1,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-09-27",
+            "unlock_hint": "深夜 (0-6 点) AC 1 题"
+          },
+          {
+            "id": "no_10",
+            "name": "深夜战神",
+            "icon": "🌙",
+            "type": "night_owl",
+            "target": 10,
+            "color": "purple",
+            "earned": true,
+            "progress": 100,
+            "current": 10,
+            "earned_date": "2025-12-12",
+            "unlock_hint": "深夜 (0-6 点) AC 10 题"
+          },
+          {
+            "id": "eb_1",
+            "name": "早起鸟",
+            "icon": "🐦",
+            "type": "early_bird",
+            "target": 1,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-10-21",
+            "unlock_hint": "清晨 (6-9 点) AC 1 题"
+          },
+          {
+            "id": "fw_1",
+            "name": "全周无休",
+            "icon": "📆",
+            "type": "full_week",
+            "target": 1,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-11-16",
+            "unlock_hint": "累计 1 个全勤周 (7 天全打卡)"
+          },
+          {
+            "id": "ma_15",
+            "name": "半月常客",
+            "icon": "🌤️",
+            "type": "month_active",
+            "target": 15,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 15,
+            "earned_date": "2025-10-28",
+            "unlock_hint": "单月活跃 15 天"
+          },
+          {
+            "id": "ma_25",
+            "name": "满月战士",
+            "icon": "🌕",
+            "type": "month_active",
+            "target": 25,
+            "color": "orange",
+            "earned": true,
+            "progress": 100,
+            "current": 25,
+            "earned_date": "2026-05-31",
+            "unlock_hint": "单月活跃 25 天"
+          },
+          {
             "id": "fn_ac_rate_30",
             "name": "及格线",
             "icon": "📊",
@@ -1598,10 +1780,62 @@
             "current": 2000,
             "earned_date": "2026-06-18",
             "unlock_hint": "累计提交 2000 次"
+          },
+          {
+            "id": "py_1",
+            "name": "Python 玩家",
+            "icon": "🐍",
+            "type": "python_ac",
+            "target": 1,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-10-03",
+            "unlock_hint": "用 Python AC 1 题"
+          },
+          {
+            "id": "py_10",
+            "name": "蛇语者",
+            "icon": "🐍",
+            "type": "python_ac",
+            "target": 10,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 10,
+            "earned_date": "2025-10-04",
+            "unlock_hint": "用 Python AC 10 题"
+          },
+          {
+            "id": "db_3",
+            "name": "阶梯攀登",
+            "icon": "🪜",
+            "type": "diff_bands",
+            "target": 3,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 3,
+            "earned_date": "2025-10-19",
+            "unlock_hint": "四个难度段覆盖 3 段"
+          },
+          {
+            "id": "db_4",
+            "name": "全段制霸",
+            "icon": "⛰️",
+            "type": "diff_bands",
+            "target": 4,
+            "color": "red",
+            "earned": true,
+            "progress": 100,
+            "current": 4,
+            "earned_date": "2026-02-07",
+            "unlock_hint": "四个难度段覆盖 4 段"
           }
         ],
-        "earned_count": 93,
-        "total_count": 120,
+        "earned_count": 105,
+        "total_count": 138,
         "next_milestone": {
           "id": "fn_ac_rate_40",
           "name": "稳扎稳打",
@@ -1616,216 +1850,279 @@
           "unlock_hint": "AC 率达到 40%"
         }
       },
+      "coachTips": {
+        "collapsed": [
+          {
+            "icon": "🚀",
+            "accent": "green",
+            "text": "距「稳扎稳打」只差 2% 进度——集中火力冲一下"
+          }
+        ],
+        "sections": [
+          {
+            "key": "weakness",
+            "title": "薄弱点",
+            "icon": "📉",
+            "items": [
+              {
+                "icon": "📉",
+                "accent": "amber",
+                "text": "「交互」只 AC 过 1 题，是当前最弱专题——从 easy 档补 5 道"
+              },
+              {
+                "icon": "📉",
+                "accent": "amber",
+                "text": "「计算几何」只 AC 过 4 题，是当前最弱专题——从 easy 档补 5 道"
+              }
+            ]
+          },
+          {
+            "key": "sprint",
+            "title": "冲刺点",
+            "icon": "🎯",
+            "items": [
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「稳扎稳打」还有 1（进度 98%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「夜之帝王」还有 1（进度 97%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「紫名在望」还有 88（进度 95%）"
+              }
+            ]
+          },
+          {
+            "key": "review",
+            "title": "复习建议",
+            "icon": "📖",
+            "items": [
+              {
+                "icon": "📖",
+                "accent": "blue",
+                "text": "错误里 WA 占 82%——提交前先跑一遍样例边界值"
+              }
+            ]
+          }
+        ]
+      },
+      "lastSubmitDate": "2026-08-11",
       "recentSubmissions": [
         {
-          "time": "26+08",
+          "time": "11:39",
+          "date": "2026-08-11",
+          "platform": "codeforces",
+          "problem": "1741C",
+          "verdict": "AC"
+        },
+        {
+          "time": "11:22",
+          "date": "2026-08-11",
+          "platform": "codeforces",
+          "problem": "1472C",
+          "verdict": "AC"
+        },
+        {
+          "time": "23:40",
           "date": "2026-08-10",
           "platform": "codeforces",
           "problem": "2250B",
           "verdict": "AC"
         },
         {
-          "time": "45+08",
+          "time": "13:57",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321184",
           "verdict": "AC"
         },
         {
-          "time": "23+08",
+          "time": "13:55",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321184",
           "verdict": "TLE"
         },
         {
-          "time": "22+08",
+          "time": "13:30",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320725",
           "verdict": "AC"
         },
         {
-          "time": "47+08",
+          "time": "13:20",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321345",
           "verdict": "AC"
         },
         {
-          "time": "17+08",
+          "time": "13:18",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321345",
           "verdict": "WA"
         },
         {
-          "time": "46+08",
+          "time": "13:16",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321345",
           "verdict": "WA"
         },
         {
-          "time": "41+08",
+          "time": "13:10",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320720",
           "verdict": "AC"
         },
         {
-          "time": "56+08",
+          "time": "13:03",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321234",
           "verdict": "AC"
         },
         {
-          "time": "18+08",
+          "time": "13:02",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320414",
           "verdict": "AC"
         },
         {
-          "time": "11+08",
+          "time": "23:39",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256D",
           "verdict": "AC"
         },
         {
-          "time": "36+08",
+          "time": "23:01",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256C",
           "verdict": "AC"
         },
         {
-          "time": "51+08",
+          "time": "22:48",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256B",
           "verdict": "AC"
         },
         {
-          "time": "15+08",
+          "time": "22:38",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256A",
           "verdict": "AC"
         },
         {
-          "time": "36+08",
+          "time": "19:33",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2247C",
           "verdict": "AC"
         },
         {
-          "time": "12+08",
+          "time": "19:31",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2247C",
           "verdict": "WA"
         },
         {
-          "time": "46+08",
+          "time": "19:18",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2247C",
           "verdict": "WA"
         },
         {
-          "time": "55+08",
+          "time": "19:17",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2247C",
           "verdict": "WA"
         },
         {
-          "time": "47+08",
+          "time": "19:09",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2248D",
           "verdict": "AC"
         },
         {
-          "time": "00+08",
+          "time": "18:32",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2248D",
           "verdict": "WA"
         },
         {
-          "time": "09+08",
+          "time": "18:29",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2248D",
           "verdict": "WA"
         },
         {
-          "time": "39+08",
+          "time": "18:25",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2248D",
           "verdict": "WA"
         },
         {
-          "time": "58+08",
+          "time": "14:08",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2253C",
           "verdict": "WA"
         },
         {
-          "time": "52+08",
+          "time": "13:14",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2253B",
           "verdict": "AC"
         },
         {
-          "time": "05+08",
+          "time": "12:22",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2253A",
           "verdict": "AC"
         },
         {
-          "time": "51+08",
+          "time": "20:45",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2065G",
           "verdict": "AC"
         },
         {
-          "time": "51+08",
+          "time": "20:37",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2065G",
           "verdict": "WA"
         },
         {
-          "time": "16+08",
+          "time": "20:36",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2065G",
           "verdict": "RE"
-        },
-        {
-          "time": "05+08",
-          "date": "2026-08-07",
-          "platform": "codeforces",
-          "problem": "2146D1",
-          "verdict": "AC"
-        },
-        {
-          "time": "17+08",
-          "date": "2026-08-07",
-          "platform": "luogu",
-          "problem": "P1077",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -1843,13 +2140,10 @@
           },
           "calendar": {
             "range": [
-              "2026-05-20",
+              "2026-06-17",
               "2026-08-11"
             ],
-            "cellSize": [
-              18,
-              18
-            ],
+            "cellSize": "auto",
             "splitLine": {
               "lineStyle": {
                 "color": "rgba(255,255,255,0.03)"
@@ -1862,7 +2156,7 @@
             },
             "dayLabel": {
               "color": "#9CA3AF",
-              "fontSize": 9,
+              "fontSize": 10,
               "nameMap": [
                 "日",
                 "一",
@@ -1875,7 +2169,7 @@
             },
             "monthLabel": {
               "color": "#9CA3AF",
-              "fontSize": 9
+              "fontSize": 11
             },
             "yearLabel": {
               "show": false
@@ -1886,7 +2180,7 @@
           },
           "visualMap": {
             "min": 0,
-            "max": 11,
+            "max": 10,
             "calculable": false,
             "show": false,
             "inRange": {
@@ -1905,104 +2199,24 @@
               "coordinateSystem": "calendar",
               "data": [
                 [
-                  "2026-05-20",
-                  2
-                ],
-                [
-                  "2026-05-21",
-                  11
-                ],
-                [
-                  "2026-05-22",
-                  7
-                ],
-                [
-                  "2026-05-25",
-                  7
-                ],
-                [
-                  "2026-05-26",
-                  8
-                ],
-                [
-                  "2026-05-27",
-                  4
-                ],
-                [
-                  "2026-05-28",
-                  8
-                ],
-                [
-                  "2026-05-29",
-                  5
-                ],
-                [
-                  "2026-05-30",
-                  4
-                ],
-                [
-                  "2026-05-31",
-                  1
-                ],
-                [
-                  "2026-06-01",
-                  3
-                ],
-                [
-                  "2026-06-02",
-                  1
-                ],
-                [
-                  "2026-06-03",
-                  2
-                ],
-                [
-                  "2026-06-04",
-                  1
-                ],
-                [
-                  "2026-06-05",
-                  1
-                ],
-                [
-                  "2026-06-06",
-                  1
-                ],
-                [
-                  "2026-06-10",
-                  1
-                ],
-                [
-                  "2026-06-11",
-                  3
-                ],
-                [
-                  "2026-06-12",
-                  9
-                ],
-                [
-                  "2026-06-15",
-                  1
-                ],
-                [
-                  "2026-06-16",
-                  5
-                ],
-                [
                   "2026-06-17",
                   5
                 ],
                 [
                   "2026-06-18",
-                  7
+                  6
                 ],
                 [
-                  "2026-06-22",
+                  "2026-06-19",
                   1
                 ],
                 [
                   "2026-06-23",
                   4
+                ],
+                [
+                  "2026-06-24",
+                  1
                 ],
                 [
                   "2026-07-02",
@@ -2033,12 +2247,8 @@
                   3
                 ],
                 [
-                  "2026-07-24",
-                  1
-                ],
-                [
                   "2026-07-25",
-                  2
+                  3
                 ],
                 [
                   "2026-07-26",
@@ -2066,11 +2276,11 @@
                 ],
                 [
                   "2026-08-06",
-                  5
+                  4
                 ],
                 [
                   "2026-08-07",
-                  3
+                  4
                 ],
                 [
                   "2026-08-08",
@@ -2083,6 +2293,10 @@
                 [
                   "2026-08-10",
                   7
+                ],
+                [
+                  "2026-08-11",
+                  2
                 ]
               ]
             }
@@ -2163,7 +2377,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 855,
+                  "value": 857,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -5766,6 +5980,14 @@
                 [
                   "2026-08-10",
                   1000.0
+                ],
+                [
+                  "2026-08-11",
+                  1100.0
+                ],
+                [
+                  "2026-08-11",
+                  1100.0
                 ]
               ],
               "symbolSize": 7,
@@ -11152,14 +11374,14 @@
               "fontSize": 11
             },
             "data": [
-              "07/31",
               "08/03",
               "08/04",
               "08/06",
               "08/07",
               "08/08",
               "08/09",
-              "08/10"
+              "08/10",
+              "08/11"
             ]
           },
           "yAxis": {
@@ -11191,14 +11413,14 @@
             {
               "type": "bar",
               "data": [
-                7,
                 10,
                 2,
                 5,
                 3,
                 4,
                 4,
-                7
+                7,
+                2
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -11351,17 +11573,17 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                17,
-                135,
-                116,
-                41,
+                18,
+                136,
+                117,
+                42,
                 52,
                 36,
                 21,
                 55,
                 41,
                 128,
-                67,
+                68,
                 10,
                 11,
                 3,
@@ -11438,7 +11660,8 @@
         },
         "ratingChart": {
           "tooltip": {
-            "trigger": "axis",
+            "trigger": "item",
+            "formatter": "{b}<br/>{a}: {c}{@tip}",
             "backgroundColor": "rgba(17,24,39,0.96)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
@@ -11502,147 +11725,345 @@
           },
           "series": [
             {
+              "markLine": {
+                "silent": true,
+                "symbol": "none",
+                "label": {
+                  "show": true,
+                  "position": "insideEndTop",
+                  "fontSize": 10,
+                  "fontWeight": 600,
+                  "formatter": "{b}"
+                },
+                "data": [
+                  {
+                    "yAxis": 1200,
+                    "name": "Pupil 1200",
+                    "lineStyle": {
+                      "color": "#10B981",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#10B981"
+                    }
+                  },
+                  {
+                    "yAxis": 1400,
+                    "name": "Specialist 1400",
+                    "lineStyle": {
+                      "color": "#06B6D4",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#06B6D4"
+                    }
+                  },
+                  {
+                    "yAxis": 1600,
+                    "name": "Expert 1600",
+                    "lineStyle": {
+                      "color": "#3B82F6",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#3B82F6"
+                    }
+                  },
+                  {
+                    "yAxis": 1900,
+                    "name": "Candidate Master 1900",
+                    "lineStyle": {
+                      "color": "#8B5CF6",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#8B5CF6"
+                    }
+                  },
+                  {
+                    "yAxis": 2100,
+                    "name": "Master 2100",
+                    "lineStyle": {
+                      "color": "#F97316",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#F97316"
+                    }
+                  },
+                  {
+                    "yAxis": 2400,
+                    "name": "Grandmaster 2400",
+                    "lineStyle": {
+                      "color": "#EF4444",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#EF4444"
+                    }
+                  }
+                ]
+              },
               "name": "Mianiii",
               "type": "line",
               "symbol": "circle",
               "symbolSize": 6,
               "data": [
-                [
-                  "2025-10-11",
-                  391
-                ],
-                [
-                  "2025-10-29",
-                  692
-                ],
-                [
-                  "2025-11-07",
-                  982
-                ],
-                [
-                  "2025-11-11",
-                  1063
-                ],
-                [
-                  "2025-11-17",
-                  1142
-                ],
-                [
-                  "2025-11-21",
-                  1159
-                ],
-                [
-                  "2025-12-12",
-                  1179
-                ],
-                [
-                  "2025-12-24",
-                  1128
-                ],
-                [
-                  "2025-12-28",
-                  1090
-                ],
-                [
-                  "2025-12-30",
-                  1169
-                ],
-                [
-                  "2026-01-08",
-                  1173
-                ],
-                [
-                  "2026-01-13",
-                  1279
-                ],
-                [
-                  "2026-01-18",
-                  1283
-                ],
-                [
-                  "2026-01-19",
-                  1359
-                ],
-                [
-                  "2026-01-30",
-                  1310
-                ],
-                [
-                  "2026-02-26",
-                  1249
-                ],
-                [
-                  "2026-03-17",
-                  1227
-                ],
-                [
-                  "2026-03-22",
-                  1269
-                ],
-                [
-                  "2026-03-29",
-                  1262
-                ],
-                [
-                  "2026-03-30",
-                  1283
-                ],
-                [
-                  "2026-04-08",
-                  1337
-                ],
-                [
-                  "2026-04-14",
-                  1419
-                ],
-                [
-                  "2026-04-22",
-                  1437
-                ],
-                [
-                  "2026-04-29",
-                  1431
-                ],
-                [
-                  "2026-05-19",
-                  1397
-                ],
-                [
-                  "2026-05-22",
-                  1524
-                ],
-                [
-                  "2026-05-31",
-                  1578
-                ],
-                [
-                  "2026-06-04",
-                  1578
-                ],
-                [
-                  "2026-06-13",
-                  1571
-                ],
-                [
-                  "2026-06-19",
-                  1673
-                ],
-                [
-                  "2026-06-26",
-                  1683
-                ],
-                [
-                  "2026-07-13",
-                  1649
-                ],
-                [
-                  "2026-08-07",
-                  1672
-                ],
-                [
-                  "2026-08-10",
-                  1712
-                ]
+                {
+                  "value": [
+                    "2025-10-11",
+                    391
+                  ],
+                  "tip": ""
+                },
+                {
+                  "value": [
+                    "2025-10-29",
+                    692
+                  ],
+                  "tip": " (+301)"
+                },
+                {
+                  "value": [
+                    "2025-11-07",
+                    982
+                  ],
+                  "tip": " (+290)"
+                },
+                {
+                  "value": [
+                    "2025-11-11",
+                    1063
+                  ],
+                  "tip": " (+81)"
+                },
+                {
+                  "value": [
+                    "2025-11-17",
+                    1142
+                  ],
+                  "tip": " (+79)"
+                },
+                {
+                  "value": [
+                    "2025-11-21",
+                    1159
+                  ],
+                  "tip": " (+17)"
+                },
+                {
+                  "value": [
+                    "2025-12-12",
+                    1179
+                  ],
+                  "tip": " (+20)"
+                },
+                {
+                  "value": [
+                    "2025-12-24",
+                    1128
+                  ],
+                  "tip": " (-51)"
+                },
+                {
+                  "value": [
+                    "2025-12-28",
+                    1090
+                  ],
+                  "tip": " (-38)"
+                },
+                {
+                  "value": [
+                    "2025-12-30",
+                    1169
+                  ],
+                  "tip": " (+79)"
+                },
+                {
+                  "value": [
+                    "2026-01-08",
+                    1173
+                  ],
+                  "tip": " (+4)"
+                },
+                {
+                  "value": [
+                    "2026-01-13",
+                    1279
+                  ],
+                  "tip": " (+106)"
+                },
+                {
+                  "value": [
+                    "2026-01-18",
+                    1283
+                  ],
+                  "tip": " (+4)"
+                },
+                {
+                  "value": [
+                    "2026-01-19",
+                    1359
+                  ],
+                  "tip": " (+76)"
+                },
+                {
+                  "value": [
+                    "2026-01-30",
+                    1310
+                  ],
+                  "tip": " (-49)"
+                },
+                {
+                  "value": [
+                    "2026-02-26",
+                    1249
+                  ],
+                  "tip": " (-61)"
+                },
+                {
+                  "value": [
+                    "2026-03-17",
+                    1227
+                  ],
+                  "tip": " (-22)"
+                },
+                {
+                  "value": [
+                    "2026-03-22",
+                    1269
+                  ],
+                  "tip": " (+42)"
+                },
+                {
+                  "value": [
+                    "2026-03-29",
+                    1262
+                  ],
+                  "tip": " (-7)"
+                },
+                {
+                  "value": [
+                    "2026-03-30",
+                    1283
+                  ],
+                  "tip": " (+21)"
+                },
+                {
+                  "value": [
+                    "2026-04-08",
+                    1337
+                  ],
+                  "tip": " (+54)"
+                },
+                {
+                  "value": [
+                    "2026-04-14",
+                    1419
+                  ],
+                  "tip": " (+82)"
+                },
+                {
+                  "value": [
+                    "2026-04-22",
+                    1437
+                  ],
+                  "tip": " (+18)"
+                },
+                {
+                  "value": [
+                    "2026-04-29",
+                    1431
+                  ],
+                  "tip": " (-6)"
+                },
+                {
+                  "value": [
+                    "2026-05-19",
+                    1397
+                  ],
+                  "tip": " (-34)"
+                },
+                {
+                  "value": [
+                    "2026-05-22",
+                    1524
+                  ],
+                  "tip": " (+127)"
+                },
+                {
+                  "value": [
+                    "2026-05-31",
+                    1578
+                  ],
+                  "tip": " (+54)"
+                },
+                {
+                  "value": [
+                    "2026-06-04",
+                    1578
+                  ],
+                  "tip": " (0)"
+                },
+                {
+                  "value": [
+                    "2026-06-13",
+                    1571
+                  ],
+                  "tip": " (-7)"
+                },
+                {
+                  "value": [
+                    "2026-06-19",
+                    1673
+                  ],
+                  "tip": " (+102)"
+                },
+                {
+                  "value": [
+                    "2026-06-26",
+                    1683
+                  ],
+                  "tip": " (+10)"
+                },
+                {
+                  "value": [
+                    "2026-07-13",
+                    1649
+                  ],
+                  "tip": " (-34)"
+                },
+                {
+                  "value": [
+                    "2026-08-07",
+                    1672
+                  ],
+                  "tip": " (+23)"
+                },
+                {
+                  "value": [
+                    "2026-08-10",
+                    1712
+                  ],
+                  "tip": " (+40)",
+                  "itemStyle": {
+                    "color": "#EF4444",
+                    "borderColor": "#fff",
+                    "borderWidth": 1
+                  }
+                }
               ],
               "smooth": false,
               "lineStyle": {
@@ -11710,7 +12131,7 @@
         "achievements": [
           {
             "id": "r_1200",
-            "name": "Pupil",
+            "name": "Pupil 绿名",
             "icon": "🐣",
             "type": "rating",
             "target": 1200,
@@ -11801,11 +12222,11 @@
           },
           {
             "id": "r_1400",
-            "name": "Specialist",
+            "name": "Specialist 青名",
             "icon": "🌿",
             "type": "rating",
             "target": 1400,
-            "color": "blue",
+            "color": "cyan",
             "earned": false,
             "progress": 83,
             "current": 1162,
@@ -11824,6 +12245,19 @@
             "current": 2000,
             "earned_date": null,
             "unlock_hint": "解决难度 >= 2400 的题目"
+          },
+          {
+            "id": "ma_25",
+            "name": "满月战士",
+            "icon": "🌕",
+            "type": "month_active",
+            "target": 25,
+            "color": "orange",
+            "earned": false,
+            "progress": 80,
+            "current": 20,
+            "earned_date": null,
+            "unlock_hint": "单月活跃 25 天"
           },
           {
             "id": "ft_200",
@@ -11891,12 +12325,25 @@
             "unlock_hint": "覆盖 4 个刷题平台"
           },
           {
+            "id": "db_4",
+            "name": "全段制霸",
+            "icon": "⛰️",
+            "type": "diff_bands",
+            "target": 4,
+            "color": "red",
+            "earned": false,
+            "progress": 75,
+            "current": 3,
+            "earned_date": null,
+            "unlock_hint": "四个难度段覆盖 4 段"
+          },
+          {
             "id": "r_1600",
-            "name": "Expert",
+            "name": "Expert 蓝名",
             "icon": "⚡",
             "type": "rating",
             "target": 1600,
-            "color": "purple",
+            "color": "blue",
             "earned": false,
             "progress": 73,
             "current": 1162,
@@ -11930,6 +12377,19 @@
             "unlock_hint": "连续 14 天打卡"
           },
           {
+            "id": "no_10",
+            "name": "深夜战神",
+            "icon": "🌙",
+            "type": "night_owl",
+            "target": 10,
+            "color": "purple",
+            "earned": false,
+            "progress": 70,
+            "current": 7,
+            "earned_date": null,
+            "unlock_hint": "深夜 (0-6 点) AC 10 题"
+          },
+          {
             "id": "fn_ac_rate_50",
             "name": "五五开",
             "icon": "⚖️",
@@ -11944,11 +12404,11 @@
           },
           {
             "id": "r_1700",
-            "name": "紫名可期",
-            "icon": "💜",
+            "name": "蓝名中坚",
+            "icon": "💪",
             "type": "rating",
             "target": 1700,
-            "color": "purple",
+            "color": "blue",
             "earned": false,
             "progress": 68,
             "current": 1162,
@@ -11956,8 +12416,21 @@
             "unlock_hint": "CF Rating 达到 1700"
           },
           {
+            "id": "es_2",
+            "name": "一发入魂",
+            "icon": "💥",
+            "type": "avg_subs",
+            "target": 2,
+            "color": "purple",
+            "earned": false,
+            "progress": 68,
+            "current": 2.95,
+            "earned_date": null,
+            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
+          },
+          {
             "id": "r_1800",
-            "name": "半步 CM",
+            "name": "紫名在望",
             "icon": "🌀",
             "type": "rating",
             "target": 1800,
@@ -11970,11 +12443,11 @@
           },
           {
             "id": "r_1900",
-            "name": "Candidate Master",
+            "name": "Candidate Master 紫名",
             "icon": "💎",
             "type": "rating",
             "target": 1900,
-            "color": "orange",
+            "color": "purple",
             "earned": false,
             "progress": 61,
             "current": 1162,
@@ -12026,7 +12499,7 @@
             "icon": "🏰",
             "type": "rating",
             "target": 2000,
-            "color": "orange",
+            "color": "purple",
             "earned": false,
             "progress": 58,
             "current": 1162,
@@ -12061,11 +12534,11 @@
           },
           {
             "id": "r_2100",
-            "name": "Master",
+            "name": "Master 橙名",
             "icon": "👑",
             "type": "rating",
             "target": 2100,
-            "color": "red",
+            "color": "orange",
             "earned": false,
             "progress": 55,
             "current": 1162,
@@ -12091,12 +12564,25 @@
             "icon": "🌍",
             "type": "rating",
             "target": 2300,
-            "color": "red",
+            "color": "flame",
             "earned": false,
             "progress": 51,
             "current": 1162,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2300"
+          },
+          {
+            "id": "r_2400",
+            "name": "Grandmaster 红名",
+            "icon": "🏆",
+            "type": "rating",
+            "target": 2400,
+            "color": "red",
+            "earned": false,
+            "progress": 48,
+            "current": 1162,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 2400"
           },
           {
             "id": "st_21",
@@ -12112,17 +12598,17 @@
             "unlock_hint": "连续 21 天打卡"
           },
           {
-            "id": "r_2500",
-            "name": "Grandmaster",
+            "id": "r_2600",
+            "name": "International Grandmaster",
             "icon": "🌟",
             "type": "rating",
-            "target": 2500,
+            "target": 2600,
             "color": "red",
             "earned": false,
-            "progress": 46,
+            "progress": 45,
             "current": 1162,
             "earned_date": null,
-            "unlock_hint": "CF Rating 达到 2500"
+            "unlock_hint": "CF Rating 达到 2600"
           },
           {
             "id": "lg_100",
@@ -12177,6 +12663,19 @@
             "unlock_hint": "单周 AC 75 题"
           },
           {
+            "id": "r_3000",
+            "name": "Legendary Grandmaster",
+            "icon": "🌌",
+            "type": "rating",
+            "target": 3000,
+            "color": "red",
+            "earned": false,
+            "progress": 39,
+            "current": 1162,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 3000"
+          },
+          {
             "id": "st_30",
             "name": "月度全勤",
             "icon": "🌟",
@@ -12188,6 +12687,19 @@
             "current": 10,
             "earned_date": null,
             "unlock_hint": "连续 30 天打卡"
+          },
+          {
+            "id": "fw_3",
+            "name": "连轴转",
+            "icon": "🗓️",
+            "type": "full_week",
+            "target": 3,
+            "color": "purple",
+            "earned": false,
+            "progress": 33,
+            "current": 1,
+            "earned_date": null,
+            "unlock_hint": "累计 3 个全勤周 (7 天全打卡)"
           },
           {
             "id": "ac_1000",
@@ -12214,6 +12726,19 @@
             "current": 114,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
+          },
+          {
+            "id": "no_30",
+            "name": "夜之帝王",
+            "icon": "🦇",
+            "type": "night_owl",
+            "target": 30,
+            "color": "red",
+            "earned": false,
+            "progress": 23,
+            "current": 7,
+            "earned_date": null,
+            "unlock_hint": "深夜 (0-6 点) AC 30 题"
           },
           {
             "id": "lg_200",
@@ -12305,6 +12830,19 @@
             "current": 10,
             "earned_date": null,
             "unlock_hint": "连续 100 天打卡"
+          },
+          {
+            "id": "py_10",
+            "name": "蛇语者",
+            "icon": "🐍",
+            "type": "python_ac",
+            "target": 10,
+            "color": "blue",
+            "earned": false,
+            "progress": 10,
+            "current": 1,
+            "earned_date": null,
+            "unlock_hint": "用 Python AC 10 题"
           },
           {
             "id": "lg_500",
@@ -13217,6 +13755,97 @@
             "unlock_hint": "参与 20 场比赛"
           },
           {
+            "id": "es_4",
+            "name": "高效出击",
+            "icon": "🚀",
+            "type": "avg_subs",
+            "target": 4,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 2.95,
+            "earned_date": "2025-10-05",
+            "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
+          },
+          {
+            "id": "es_3",
+            "name": "精打细算",
+            "icon": "🧮",
+            "type": "avg_subs",
+            "target": 3,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 2.95,
+            "earned_date": "2025-10-05",
+            "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
+          },
+          {
+            "id": "no_1",
+            "name": "夜猫子",
+            "icon": "🦉",
+            "type": "night_owl",
+            "target": 1,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-10-29",
+            "unlock_hint": "深夜 (0-6 点) AC 1 题"
+          },
+          {
+            "id": "eb_1",
+            "name": "早起鸟",
+            "icon": "🐦",
+            "type": "early_bird",
+            "target": 1,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-11-13",
+            "unlock_hint": "清晨 (6-9 点) AC 1 题"
+          },
+          {
+            "id": "eb_10",
+            "name": "晨间大师",
+            "icon": "🌅",
+            "type": "early_bird",
+            "target": 10,
+            "color": "orange",
+            "earned": true,
+            "progress": 100,
+            "current": 10,
+            "earned_date": "2026-04-22",
+            "unlock_hint": "清晨 (6-9 点) AC 10 题"
+          },
+          {
+            "id": "fw_1",
+            "name": "全周无休",
+            "icon": "📆",
+            "type": "full_week",
+            "target": 1,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-11-30",
+            "unlock_hint": "累计 1 个全勤周 (7 天全打卡)"
+          },
+          {
+            "id": "ma_15",
+            "name": "半月常客",
+            "icon": "🌤️",
+            "type": "month_active",
+            "target": 15,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 15,
+            "earned_date": "2025-11-29",
+            "unlock_hint": "单月活跃 15 天"
+          },
+          {
             "id": "fn_ac_rate_30",
             "name": "及格线",
             "icon": "📊",
@@ -13267,13 +13896,39 @@
             "current": 1000,
             "earned_date": "2026-07-20",
             "unlock_hint": "累计提交 1000 次"
+          },
+          {
+            "id": "py_1",
+            "name": "Python 玩家",
+            "icon": "🐍",
+            "type": "python_ac",
+            "target": 1,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2026-04-04",
+            "unlock_hint": "用 Python AC 1 题"
+          },
+          {
+            "id": "db_3",
+            "name": "阶梯攀登",
+            "icon": "🪜",
+            "type": "diff_bands",
+            "target": 3,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 3,
+            "earned_date": "2025-11-20",
+            "unlock_hint": "四个难度段覆盖 3 段"
           }
         ],
-        "earned_count": 71,
-        "total_count": 120,
+        "earned_count": 80,
+        "total_count": 138,
         "next_milestone": {
           "id": "r_1200",
-          "name": "Pupil",
+          "name": "Pupil 绿名",
           "icon": "🐣",
           "type": "rating",
           "target": 1200,
@@ -13285,212 +13940,285 @@
           "unlock_hint": "CF Rating 达到 1200"
         }
       },
+      "coachTips": {
+        "collapsed": [
+          {
+            "icon": "⚠️",
+            "accent": "amber",
+            "text": "本周日均 1.0 题，上周日均 2.4 题——先把热度捡回来"
+          },
+          {
+            "icon": "🚀",
+            "accent": "green",
+            "text": "距「Pupil 绿名」只差 3% 进度——集中火力冲一下"
+          }
+        ],
+        "sections": [
+          {
+            "key": "weakness",
+            "title": "薄弱点",
+            "icon": "📉",
+            "items": [
+              {
+                "icon": "📉",
+                "accent": "amber",
+                "text": "「计算几何」只 AC 过 1 题，是当前最弱专题——从 easy 档补 5 道"
+              },
+              {
+                "icon": "📉",
+                "accent": "amber",
+                "text": "「位运算」只 AC 过 3 题，是当前最弱专题——从 easy 档补 5 道"
+              },
+              {
+                "icon": "⛰️",
+                "accent": "purple",
+                "text": "难度段最高只到 1400-2000，2000+ 还是空白——每周挑 1 道更高段位的题练手"
+              }
+            ]
+          },
+          {
+            "key": "sprint",
+            "title": "冲刺点",
+            "icon": "🎯",
+            "items": [
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「Pupil 绿名」还有 38（进度 97%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「日刷十二」还有 1（进度 92%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「攀登者」还有 200（进度 91%）"
+              }
+            ]
+          },
+          {
+            "key": "review",
+            "title": "复习建议",
+            "icon": "📖",
+            "items": [
+              {
+                "icon": "📖",
+                "accent": "blue",
+                "text": "错误里 WA 占 84%——提交前先跑一遍样例边界值"
+              }
+            ]
+          }
+        ]
+      },
+      "lastSubmitDate": "2026-08-10",
       "recentSubmissions": [
         {
-          "time": "13+08",
+          "time": "22:21",
           "date": "2026-08-10",
           "platform": "codeforces",
           "problem": "2256D",
           "verdict": "AC"
         },
         {
-          "time": "40+08",
+          "time": "20:48",
           "date": "2026-08-10",
           "platform": "codeforces",
           "problem": "2256B",
           "verdict": "AC"
         },
         {
-          "time": "36+08",
+          "time": "17:53",
           "date": "2026-08-10",
           "platform": "codeforces",
           "problem": "2256D",
           "verdict": "AC"
         },
         {
-          "time": "22+08",
+          "time": "17:51",
           "date": "2026-08-10",
           "platform": "codeforces",
           "problem": "2256B",
           "verdict": "AC"
         },
         {
-          "time": "48+08",
+          "time": "17:49",
           "date": "2026-08-10",
           "platform": "codeforces",
           "problem": "2256B",
           "verdict": "WA"
         },
         {
-          "time": "30+08",
+          "time": "23:32",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256C",
           "verdict": "AC"
         },
         {
-          "time": "10+08",
+          "time": "23:15",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256B",
           "verdict": "AC"
         },
         {
-          "time": "51+08",
+          "time": "23:00",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256B",
           "verdict": "Othe"
         },
         {
-          "time": "53+08",
+          "time": "22:38",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2256A",
           "verdict": "AC"
         },
         {
-          "time": "51+08",
+          "time": "22:17",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2252C",
           "verdict": "AC"
         },
         {
-          "time": "48+08",
+          "time": "22:12",
           "date": "2026-08-09",
           "platform": "codeforces",
           "problem": "2252C",
           "verdict": "WA"
         },
         {
-          "time": "30+08",
+          "time": "19:34",
           "date": "2026-08-09",
           "platform": "nowcoder",
           "problem": "321126",
           "verdict": "AC"
         },
         {
-          "time": "47+08",
+          "time": "19:13",
           "date": "2026-08-09",
           "platform": "nowcoder",
           "problem": "320145",
           "verdict": "AC"
         },
         {
-          "time": "18+08",
+          "time": "19:11",
           "date": "2026-08-09",
           "platform": "nowcoder",
           "problem": "320145",
           "verdict": "WA"
         },
         {
-          "time": "26+08",
+          "time": "19:10",
           "date": "2026-08-09",
           "platform": "nowcoder",
           "problem": "320145",
           "verdict": "WA"
         },
         {
-          "time": "29+08",
+          "time": "19:02",
           "date": "2026-08-09",
           "platform": "nowcoder",
           "problem": "321110",
           "verdict": "AC"
         },
         {
-          "time": "37+08",
+          "time": "22:25",
           "date": "2026-08-08",
           "platform": "luogu",
           "problem": "P1972",
           "verdict": "AC"
         },
         {
-          "time": "21+08",
+          "time": "22:23",
           "date": "2026-08-08",
           "platform": "luogu",
           "problem": "P1972",
           "verdict": "Othe"
         },
         {
-          "time": "24+08",
+          "time": "17:43",
           "date": "2026-08-08",
           "platform": "luogu",
           "problem": "P1637",
           "verdict": "AC"
         },
         {
-          "time": "41+08",
+          "time": "17:25",
           "date": "2026-08-08",
           "platform": "luogu",
           "problem": "P1908",
           "verdict": "AC"
         },
         {
-          "time": "17+08",
+          "time": "16:48",
           "date": "2026-08-08",
           "platform": "luogu",
           "problem": "P1908",
           "verdict": "AC"
         },
         {
-          "time": "07+08",
+          "time": "16:45",
           "date": "2026-08-08",
           "platform": "luogu",
           "problem": "P1908",
           "verdict": "Othe"
         },
         {
-          "time": "36+08",
+          "time": "16:24",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2253B",
           "verdict": "Othe"
         },
         {
-          "time": "25+08",
+          "time": "14:53",
           "date": "2026-08-08",
           "platform": "luogu",
           "problem": "P1908",
           "verdict": "AC"
         },
         {
-          "time": "50+08",
+          "time": "23:39",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2253B",
           "verdict": "WA"
         },
         {
-          "time": "07+08",
+          "time": "23:31",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2253B",
           "verdict": "WA"
         },
         {
-          "time": "09+08",
+          "time": "22:42",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2253A",
           "verdict": "AC"
         },
         {
-          "time": "59+08",
+          "time": "21:27",
           "date": "2026-08-07",
           "platform": "luogu",
           "problem": "P4514",
           "verdict": "AC"
         },
         {
-          "time": "39+08",
+          "time": "16:49",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252C",
           "verdict": "AC"
         },
         {
-          "time": "57+08",
+          "time": "16:47",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252C",
@@ -13512,13 +14240,10 @@
           },
           "calendar": {
             "range": [
-              "2026-05-20",
+              "2026-06-17",
               "2026-08-11"
             ],
-            "cellSize": [
-              18,
-              18
-            ],
+            "cellSize": "auto",
             "splitLine": {
               "lineStyle": {
                 "color": "rgba(255,255,255,0.03)"
@@ -13531,7 +14256,7 @@
             },
             "dayLabel": {
               "color": "#9CA3AF",
-              "fontSize": 9,
+              "fontSize": 10,
               "nameMap": [
                 "日",
                 "一",
@@ -13544,7 +14269,7 @@
             },
             "monthLabel": {
               "color": "#9CA3AF",
-              "fontSize": 9
+              "fontSize": 11
             },
             "yearLabel": {
               "show": false
@@ -13555,7 +14280,7 @@
           },
           "visualMap": {
             "min": 0,
-            "max": 10,
+            "max": 7,
             "calculable": false,
             "show": false,
             "inRange": {
@@ -13573,58 +14298,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-05-21",
-                  1
-                ],
-                [
-                  "2026-05-25",
-                  2
-                ],
-                [
-                  "2026-05-26",
-                  3
-                ],
-                [
-                  "2026-05-27",
-                  3
-                ],
-                [
-                  "2026-05-28",
-                  2
-                ],
-                [
-                  "2026-05-29",
-                  4
-                ],
-                [
-                  "2026-05-30",
-                  2
-                ],
-                [
-                  "2026-05-31",
-                  6
-                ],
-                [
-                  "2026-06-02",
-                  3
-                ],
-                [
-                  "2026-06-03",
-                  6
-                ],
-                [
-                  "2026-06-04",
-                  10
-                ],
-                [
-                  "2026-06-05",
-                  2
-                ],
-                [
-                  "2026-06-12",
-                  4
-                ],
                 [
                   "2026-06-18",
                   1
@@ -18527,7 +19200,8 @@
         },
         "ratingChart": {
           "tooltip": {
-            "trigger": "axis",
+            "trigger": "item",
+            "formatter": "{b}<br/>{a}: {c}{@tip}",
             "backgroundColor": "rgba(17,24,39,0.96)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
@@ -18591,103 +19265,268 @@
           },
           "series": [
             {
+              "markLine": {
+                "silent": true,
+                "symbol": "none",
+                "label": {
+                  "show": true,
+                  "position": "insideEndTop",
+                  "fontSize": 10,
+                  "fontWeight": 600,
+                  "formatter": "{b}"
+                },
+                "data": [
+                  {
+                    "yAxis": 1200,
+                    "name": "Pupil 1200",
+                    "lineStyle": {
+                      "color": "#10B981",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#10B981"
+                    }
+                  },
+                  {
+                    "yAxis": 1400,
+                    "name": "Specialist 1400",
+                    "lineStyle": {
+                      "color": "#06B6D4",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#06B6D4"
+                    }
+                  },
+                  {
+                    "yAxis": 1600,
+                    "name": "Expert 1600",
+                    "lineStyle": {
+                      "color": "#3B82F6",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#3B82F6"
+                    }
+                  },
+                  {
+                    "yAxis": 1900,
+                    "name": "Candidate Master 1900",
+                    "lineStyle": {
+                      "color": "#8B5CF6",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#8B5CF6"
+                    }
+                  },
+                  {
+                    "yAxis": 2100,
+                    "name": "Master 2100",
+                    "lineStyle": {
+                      "color": "#F97316",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#F97316"
+                    }
+                  },
+                  {
+                    "yAxis": 2400,
+                    "name": "Grandmaster 2400",
+                    "lineStyle": {
+                      "color": "#EF4444",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#EF4444"
+                    }
+                  }
+                ]
+              },
               "name": "小宋",
               "type": "line",
               "symbol": "circle",
               "symbolSize": 6,
               "data": [
-                [
-                  "2025-10-29",
-                  362
-                ],
-                [
-                  "2025-11-07",
-                  673
-                ],
-                [
-                  "2025-11-21",
-                  816
-                ],
-                [
-                  "2025-11-29",
-                  873
-                ],
-                [
-                  "2025-11-30",
-                  949
-                ],
-                [
-                  "2025-12-06",
-                  1004
-                ],
-                [
-                  "2026-01-26",
-                  980
-                ],
-                [
-                  "2026-04-05",
-                  913
-                ],
-                [
-                  "2026-04-22",
-                  955
-                ],
-                [
-                  "2026-04-29",
-                  1016
-                ],
-                [
-                  "2026-05-22",
-                  1000
-                ],
-                [
-                  "2026-05-31",
-                  964
-                ],
-                [
-                  "2026-06-04",
-                  964
-                ],
-                [
-                  "2026-06-13",
-                  945
-                ],
-                [
-                  "2026-06-19",
-                  903
-                ],
-                [
-                  "2026-06-26",
-                  906
-                ],
-                [
-                  "2026-07-07",
-                  984
-                ],
-                [
-                  "2026-07-15",
-                  1078
-                ],
-                [
-                  "2026-07-17",
-                  1133
-                ],
-                [
-                  "2026-07-19",
-                  1163
-                ],
-                [
-                  "2026-08-07",
-                  1150
-                ],
-                [
-                  "2026-08-08",
-                  1103
-                ],
-                [
-                  "2026-08-10",
-                  1162
-                ]
+                {
+                  "value": [
+                    "2025-10-29",
+                    362
+                  ],
+                  "tip": ""
+                },
+                {
+                  "value": [
+                    "2025-11-07",
+                    673
+                  ],
+                  "tip": " (+311)"
+                },
+                {
+                  "value": [
+                    "2025-11-21",
+                    816
+                  ],
+                  "tip": " (+143)"
+                },
+                {
+                  "value": [
+                    "2025-11-29",
+                    873
+                  ],
+                  "tip": " (+57)"
+                },
+                {
+                  "value": [
+                    "2025-11-30",
+                    949
+                  ],
+                  "tip": " (+76)"
+                },
+                {
+                  "value": [
+                    "2025-12-06",
+                    1004
+                  ],
+                  "tip": " (+55)"
+                },
+                {
+                  "value": [
+                    "2026-01-26",
+                    980
+                  ],
+                  "tip": " (-24)"
+                },
+                {
+                  "value": [
+                    "2026-04-05",
+                    913
+                  ],
+                  "tip": " (-67)"
+                },
+                {
+                  "value": [
+                    "2026-04-22",
+                    955
+                  ],
+                  "tip": " (+42)"
+                },
+                {
+                  "value": [
+                    "2026-04-29",
+                    1016
+                  ],
+                  "tip": " (+61)"
+                },
+                {
+                  "value": [
+                    "2026-05-22",
+                    1000
+                  ],
+                  "tip": " (-16)"
+                },
+                {
+                  "value": [
+                    "2026-05-31",
+                    964
+                  ],
+                  "tip": " (-36)"
+                },
+                {
+                  "value": [
+                    "2026-06-04",
+                    964
+                  ],
+                  "tip": " (0)"
+                },
+                {
+                  "value": [
+                    "2026-06-13",
+                    945
+                  ],
+                  "tip": " (-19)"
+                },
+                {
+                  "value": [
+                    "2026-06-19",
+                    903
+                  ],
+                  "tip": " (-42)"
+                },
+                {
+                  "value": [
+                    "2026-06-26",
+                    906
+                  ],
+                  "tip": " (+3)"
+                },
+                {
+                  "value": [
+                    "2026-07-07",
+                    984
+                  ],
+                  "tip": " (+78)"
+                },
+                {
+                  "value": [
+                    "2026-07-15",
+                    1078
+                  ],
+                  "tip": " (+94)"
+                },
+                {
+                  "value": [
+                    "2026-07-17",
+                    1133
+                  ],
+                  "tip": " (+55)"
+                },
+                {
+                  "value": [
+                    "2026-07-19",
+                    1163
+                  ],
+                  "tip": " (+30)",
+                  "itemStyle": {
+                    "color": "#EF4444",
+                    "borderColor": "#fff",
+                    "borderWidth": 1
+                  }
+                },
+                {
+                  "value": [
+                    "2026-08-07",
+                    1150
+                  ],
+                  "tip": " (-13)"
+                },
+                {
+                  "value": [
+                    "2026-08-08",
+                    1103
+                  ],
+                  "tip": " (-47)"
+                },
+                {
+                  "value": [
+                    "2026-08-10",
+                    1162
+                  ],
+                  "tip": " (+59)"
+                }
               ],
               "smooth": false,
               "lineStyle": {
@@ -18781,11 +19620,11 @@
           },
           {
             "id": "r_1400",
-            "name": "Specialist",
+            "name": "Specialist 青名",
             "icon": "🌿",
             "type": "rating",
             "target": 1400,
-            "color": "blue",
+            "color": "cyan",
             "earned": false,
             "progress": 91,
             "current": 1279,
@@ -18872,11 +19711,11 @@
           },
           {
             "id": "r_1600",
-            "name": "Expert",
+            "name": "Expert 蓝名",
             "icon": "⚡",
             "type": "rating",
             "target": 1600,
-            "color": "purple",
+            "color": "blue",
             "earned": false,
             "progress": 80,
             "current": 1279,
@@ -18910,12 +19749,25 @@
             "unlock_hint": "解决难度 >= 2600 的题目"
           },
           {
+            "id": "ma_25",
+            "name": "满月战士",
+            "icon": "🌕",
+            "type": "month_active",
+            "target": 25,
+            "color": "orange",
+            "earned": false,
+            "progress": 76,
+            "current": 19,
+            "earned_date": null,
+            "unlock_hint": "单月活跃 25 天"
+          },
+          {
             "id": "r_1700",
-            "name": "紫名可期",
-            "icon": "💜",
+            "name": "蓝名中坚",
+            "icon": "💪",
             "type": "rating",
             "target": 1700,
-            "color": "purple",
+            "color": "blue",
             "earned": false,
             "progress": 75,
             "current": 1279,
@@ -18949,6 +19801,19 @@
             "unlock_hint": "覆盖 4 个刷题平台"
           },
           {
+            "id": "db_4",
+            "name": "全段制霸",
+            "icon": "⛰️",
+            "type": "diff_bands",
+            "target": 4,
+            "color": "red",
+            "earned": false,
+            "progress": 75,
+            "current": 3,
+            "earned_date": null,
+            "unlock_hint": "四个难度段覆盖 4 段"
+          },
+          {
             "id": "ac_400",
             "name": "四百勇士",
             "icon": "🛡️",
@@ -18960,6 +19825,19 @@
             "current": 296,
             "earned_date": null,
             "unlock_hint": "累计 AC 400 题"
+          },
+          {
+            "id": "es_2",
+            "name": "一发入魂",
+            "icon": "💥",
+            "type": "avg_subs",
+            "target": 2,
+            "color": "purple",
+            "earned": false,
+            "progress": 73,
+            "current": 2.73,
+            "earned_date": null,
+            "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
           {
             "id": "ft_200",
@@ -18989,7 +19867,7 @@
           },
           {
             "id": "r_1800",
-            "name": "半步 CM",
+            "name": "紫名在望",
             "icon": "🌀",
             "type": "rating",
             "target": 1800,
@@ -19002,11 +19880,11 @@
           },
           {
             "id": "r_1900",
-            "name": "Candidate Master",
+            "name": "Candidate Master 紫名",
             "icon": "💎",
             "type": "rating",
             "target": 1900,
-            "color": "orange",
+            "color": "purple",
             "earned": false,
             "progress": 67,
             "current": 1279,
@@ -19027,12 +19905,25 @@
             "unlock_hint": "连续 21 天打卡"
           },
           {
+            "id": "fw_3",
+            "name": "连轴转",
+            "icon": "🗓️",
+            "type": "full_week",
+            "target": 3,
+            "color": "purple",
+            "earned": false,
+            "progress": 67,
+            "current": 2,
+            "earned_date": null,
+            "unlock_hint": "累计 3 个全勤周 (7 天全打卡)"
+          },
+          {
             "id": "r_2000",
             "name": "两千大关",
             "icon": "🏰",
             "type": "rating",
             "target": 2000,
-            "color": "orange",
+            "color": "purple",
             "earned": false,
             "progress": 64,
             "current": 1279,
@@ -19041,11 +19932,11 @@
           },
           {
             "id": "r_2100",
-            "name": "Master",
+            "name": "Master 橙名",
             "icon": "👑",
             "type": "rating",
             "target": 2100,
-            "color": "red",
+            "color": "orange",
             "earned": false,
             "progress": 61,
             "current": 1279,
@@ -19110,7 +20001,7 @@
             "icon": "🌍",
             "type": "rating",
             "target": 2300,
-            "color": "red",
+            "color": "flame",
             "earned": false,
             "progress": 56,
             "current": 1279,
@@ -19131,17 +20022,17 @@
             "unlock_hint": "单日 AC 25 题"
           },
           {
-            "id": "r_2500",
-            "name": "Grandmaster",
-            "icon": "🌟",
+            "id": "r_2400",
+            "name": "Grandmaster 红名",
+            "icon": "🏆",
             "type": "rating",
-            "target": 2500,
+            "target": 2400,
             "color": "red",
             "earned": false,
-            "progress": 51,
+            "progress": 53,
             "current": 1279,
             "earned_date": null,
-            "unlock_hint": "CF Rating 达到 2500"
+            "unlock_hint": "CF Rating 达到 2400"
           },
           {
             "id": "lg_200",
@@ -19157,6 +20048,19 @@
             "unlock_hint": "洛谷 AC 200 题"
           },
           {
+            "id": "r_2600",
+            "name": "International Grandmaster",
+            "icon": "🌟",
+            "type": "rating",
+            "target": 2600,
+            "color": "red",
+            "earned": false,
+            "progress": 49,
+            "current": 1279,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 2600"
+          },
+          {
             "id": "st_30",
             "name": "月度全勤",
             "icon": "🌟",
@@ -19170,6 +20074,19 @@
             "unlock_hint": "连续 30 天打卡"
           },
           {
+            "id": "no_30",
+            "name": "夜之帝王",
+            "icon": "🦇",
+            "type": "night_owl",
+            "target": 30,
+            "color": "red",
+            "earned": false,
+            "progress": 47,
+            "current": 14,
+            "earned_date": null,
+            "unlock_hint": "深夜 (0-6 点) AC 30 题"
+          },
+          {
             "id": "fn_sub_2000",
             "name": "提交两千",
             "icon": "📦",
@@ -19181,6 +20098,19 @@
             "current": 938,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
+          },
+          {
+            "id": "r_3000",
+            "name": "Legendary Grandmaster",
+            "icon": "🌌",
+            "type": "rating",
+            "target": 3000,
+            "color": "red",
+            "earned": false,
+            "progress": 43,
+            "current": 1279,
+            "earned_date": null,
+            "unlock_hint": "CF Rating 达到 3000"
           },
           {
             "id": "dw_75",
@@ -19352,6 +20282,58 @@
             "unlock_hint": "累计 AC 5000 题"
           },
           {
+            "id": "eb_1",
+            "name": "早起鸟",
+            "icon": "🐦",
+            "type": "early_bird",
+            "target": 1,
+            "color": "green",
+            "earned": false,
+            "progress": 0,
+            "current": 0,
+            "earned_date": null,
+            "unlock_hint": "清晨 (6-9 点) AC 1 题"
+          },
+          {
+            "id": "eb_10",
+            "name": "晨间大师",
+            "icon": "🌅",
+            "type": "early_bird",
+            "target": 10,
+            "color": "orange",
+            "earned": false,
+            "progress": 0,
+            "current": 0,
+            "earned_date": null,
+            "unlock_hint": "清晨 (6-9 点) AC 10 题"
+          },
+          {
+            "id": "py_1",
+            "name": "Python 玩家",
+            "icon": "🐍",
+            "type": "python_ac",
+            "target": 1,
+            "color": "green",
+            "earned": false,
+            "progress": 0,
+            "current": 0,
+            "earned_date": null,
+            "unlock_hint": "用 Python AC 1 题"
+          },
+          {
+            "id": "py_10",
+            "name": "蛇语者",
+            "icon": "🐍",
+            "type": "python_ac",
+            "target": 10,
+            "color": "blue",
+            "earned": false,
+            "progress": 0,
+            "current": 0,
+            "earned_date": null,
+            "unlock_hint": "用 Python AC 10 题"
+          },
+          {
             "id": "r_1000",
             "name": "新手上路",
             "icon": "👶",
@@ -19366,7 +20348,7 @@
           },
           {
             "id": "r_1200",
-            "name": "Pupil",
+            "name": "Pupil 绿名",
             "icon": "🐣",
             "type": "rating",
             "target": 1200,
@@ -20262,6 +21244,84 @@
             "unlock_hint": "参与 20 场比赛"
           },
           {
+            "id": "es_4",
+            "name": "高效出击",
+            "icon": "🚀",
+            "type": "avg_subs",
+            "target": 4,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 2.73,
+            "earned_date": "2025-10-19",
+            "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
+          },
+          {
+            "id": "es_3",
+            "name": "精打细算",
+            "icon": "🧮",
+            "type": "avg_subs",
+            "target": 3,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 2.73,
+            "earned_date": "2025-10-19",
+            "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
+          },
+          {
+            "id": "no_1",
+            "name": "夜猫子",
+            "icon": "🦉",
+            "type": "night_owl",
+            "target": 1,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-10-29",
+            "unlock_hint": "深夜 (0-6 点) AC 1 题"
+          },
+          {
+            "id": "no_10",
+            "name": "深夜战神",
+            "icon": "🌙",
+            "type": "night_owl",
+            "target": 10,
+            "color": "purple",
+            "earned": true,
+            "progress": 100,
+            "current": 10,
+            "earned_date": "2026-07-17",
+            "unlock_hint": "深夜 (0-6 点) AC 10 题"
+          },
+          {
+            "id": "fw_1",
+            "name": "全周无休",
+            "icon": "📆",
+            "type": "full_week",
+            "target": 1,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 1,
+            "earned_date": "2025-11-30",
+            "unlock_hint": "累计 1 个全勤周 (7 天全打卡)"
+          },
+          {
+            "id": "ma_15",
+            "name": "半月常客",
+            "icon": "🌤️",
+            "type": "month_active",
+            "target": 15,
+            "color": "green",
+            "earned": true,
+            "progress": 100,
+            "current": 15,
+            "earned_date": "2025-11-29",
+            "unlock_hint": "单月活跃 15 天"
+          },
+          {
             "id": "fn_ac_rate_30",
             "name": "及格线",
             "icon": "📊",
@@ -20312,10 +21372,23 @@
             "current": 500,
             "earned_date": "2026-04-21",
             "unlock_hint": "累计提交 500 次"
+          },
+          {
+            "id": "db_3",
+            "name": "阶梯攀登",
+            "icon": "🪜",
+            "type": "diff_bands",
+            "target": 3,
+            "color": "blue",
+            "earned": true,
+            "progress": 100,
+            "current": 3,
+            "earned_date": "2025-10-28",
+            "unlock_hint": "四个难度段覆盖 3 段"
           }
         ],
-        "earned_count": 74,
-        "total_count": 120,
+        "earned_count": 81,
+        "total_count": 138,
         "next_milestone": {
           "id": "ac_300",
           "name": "三百猛将",
@@ -20330,212 +21403,280 @@
           "unlock_hint": "累计 AC 300 题"
         }
       },
+      "coachTips": {
+        "collapsed": [
+          {
+            "icon": "🚀",
+            "accent": "green",
+            "text": "距「三百猛将」只差 1% 进度——集中火力冲一下"
+          }
+        ],
+        "sections": [
+          {
+            "key": "weakness",
+            "title": "薄弱点",
+            "icon": "📉",
+            "items": [
+              {
+                "icon": "📉",
+                "accent": "amber",
+                "text": "「计算几何」只 AC 过 1 题，是当前最弱专题——从 easy 档补 5 道"
+              },
+              {
+                "icon": "📉",
+                "accent": "amber",
+                "text": "「位运算」只 AC 过 3 题，是当前最弱专题——从 easy 档补 5 道"
+              },
+              {
+                "icon": "⛰️",
+                "accent": "purple",
+                "text": "难度段最高只到 1400-2000，2000+ 还是空白——每周挑 1 道更高段位的题练手"
+              }
+            ]
+          },
+          {
+            "key": "sprint",
+            "title": "冲刺点",
+            "icon": "🎯",
+            "items": [
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「三百猛将」还有 4（进度 99%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「提交破千」还有 62（进度 94%）"
+              },
+              {
+                "icon": "🎯",
+                "accent": "green",
+                "text": "距「Specialist 青名」还有 121（进度 91%）"
+              }
+            ]
+          },
+          {
+            "key": "review",
+            "title": "复习建议",
+            "icon": "📖",
+            "items": [
+              {
+                "icon": "📖",
+                "accent": "blue",
+                "text": "错误里 WA 占 75%——提交前先跑一遍样例边界值"
+              }
+            ]
+          }
+        ]
+      },
+      "lastSubmitDate": "2026-08-10",
       "recentSubmissions": [
         {
-          "time": "44+08",
+          "time": "17:32",
           "date": "2026-08-10",
           "platform": "luogu",
           "problem": "P1287",
           "verdict": "AC"
         },
         {
-          "time": "10+08",
+          "time": "17:32",
           "date": "2026-08-10",
           "platform": "luogu",
           "problem": "P1287",
           "verdict": "Othe"
         },
         {
-          "time": "28+08",
+          "time": "17:11",
           "date": "2026-08-10",
           "platform": "luogu",
           "problem": "P3197",
           "verdict": "AC"
         },
         {
-          "time": "04+08",
+          "time": "17:11",
           "date": "2026-08-10",
           "platform": "luogu",
           "problem": "P3197",
           "verdict": "AC"
         },
         {
-          "time": "49+08",
+          "time": "17:09",
           "date": "2026-08-10",
           "platform": "luogu",
           "problem": "P3197",
           "verdict": "Othe"
         },
         {
-          "time": "20+08",
+          "time": "17:09",
           "date": "2026-08-10",
           "platform": "luogu",
           "problem": "P3197",
           "verdict": "Othe"
         },
         {
-          "time": "42+08",
+          "time": "17:07",
           "date": "2026-08-10",
           "platform": "luogu",
           "problem": "P3197",
           "verdict": "Othe"
         },
         {
-          "time": "48+08",
+          "time": "16:00",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "310926",
           "verdict": "AC"
         },
         {
-          "time": "39+08",
+          "time": "15:19",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "305091",
           "verdict": "AC"
         },
         {
-          "time": "23+08",
+          "time": "14:38",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320725",
           "verdict": "AC"
         },
         {
-          "time": "55+08",
+          "time": "14:26",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320725",
           "verdict": "WA"
         },
         {
-          "time": "47+08",
+          "time": "14:16",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320725",
           "verdict": "WA"
         },
         {
-          "time": "25+08",
+          "time": "13:57",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321345",
           "verdict": "AC"
         },
         {
-          "time": "12+08",
+          "time": "13:44",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320720",
           "verdict": "AC"
         },
         {
-          "time": "44+08",
+          "time": "13:29",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "321234",
           "verdict": "AC"
         },
         {
-          "time": "02+08",
+          "time": "13:27",
           "date": "2026-08-10",
           "platform": "nowcoder",
           "problem": "320414",
           "verdict": "AC"
         },
         {
-          "time": "00+08",
+          "time": "00:31",
           "date": "2026-08-08",
           "platform": "codeforces",
           "problem": "2253C",
           "verdict": "WA"
         },
         {
-          "time": "52+08",
+          "time": "23:00",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2253B",
           "verdict": "AC"
         },
         {
-          "time": "25+08",
+          "time": "22:41",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2253A",
           "verdict": "AC"
         },
         {
-          "time": "19+08",
+          "time": "17:00",
           "date": "2026-08-07",
           "platform": "luogu",
           "problem": "P2638",
           "verdict": "Othe"
         },
         {
-          "time": "42+08",
+          "time": "01:14",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252D",
           "verdict": "TLE"
         },
         {
-          "time": "33+08",
+          "time": "01:12",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252D",
           "verdict": "WA"
         },
         {
-          "time": "07+08",
+          "time": "00:32",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252D",
           "verdict": "TLE"
         },
         {
-          "time": "08+08",
+          "time": "00:29",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252D",
           "verdict": "TLE"
         },
         {
-          "time": "38+08",
+          "time": "00:23",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252D",
           "verdict": "TLE"
         },
         {
-          "time": "18+08",
+          "time": "00:16",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252D",
           "verdict": "TLE"
         },
         {
-          "time": "58+08",
+          "time": "00:13",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252D",
           "verdict": "WA"
         },
         {
-          "time": "36+08",
+          "time": "00:00",
           "date": "2026-08-07",
           "platform": "codeforces",
           "problem": "2252C",
           "verdict": "AC"
         },
         {
-          "time": "48+08",
+          "time": "23:22",
           "date": "2026-08-06",
           "platform": "codeforces",
           "problem": "2252B",
           "verdict": "AC"
         },
         {
-          "time": "58+08",
+          "time": "22:57",
           "date": "2026-08-06",
           "platform": "codeforces",
           "problem": "2252A",
@@ -20557,13 +21698,10 @@
           },
           "calendar": {
             "range": [
-              "2026-05-20",
+              "2026-06-17",
               "2026-08-11"
             ],
-            "cellSize": [
-              18,
-              18
-            ],
+            "cellSize": "auto",
             "splitLine": {
               "lineStyle": {
                 "color": "rgba(255,255,255,0.03)"
@@ -20576,7 +21714,7 @@
             },
             "dayLabel": {
               "color": "#9CA3AF",
-              "fontSize": 9,
+              "fontSize": 10,
               "nameMap": [
                 "日",
                 "一",
@@ -20589,7 +21727,7 @@
             },
             "monthLabel": {
               "color": "#9CA3AF",
-              "fontSize": 9
+              "fontSize": 11
             },
             "yearLabel": {
               "show": false
@@ -20600,7 +21738,7 @@
           },
           "visualMap": {
             "min": 0,
-            "max": 11,
+            "max": 10,
             "calculable": false,
             "show": false,
             "inRange": {
@@ -20619,72 +21757,12 @@
               "coordinateSystem": "calendar",
               "data": [
                 [
-                  "2026-05-20",
-                  2
-                ],
-                [
-                  "2026-05-21",
-                  1
-                ],
-                [
-                  "2026-05-22",
-                  1
-                ],
-                [
-                  "2026-05-26",
-                  2
-                ],
-                [
-                  "2026-05-27",
-                  3
-                ],
-                [
-                  "2026-05-28",
-                  3
-                ],
-                [
-                  "2026-05-29",
-                  5
-                ],
-                [
-                  "2026-05-30",
-                  2
-                ],
-                [
-                  "2026-05-31",
-                  1
-                ],
-                [
-                  "2026-06-03",
-                  3
-                ],
-                [
-                  "2026-06-04",
-                  4
-                ],
-                [
-                  "2026-06-07",
-                  2
-                ],
-                [
-                  "2026-06-09",
-                  2
-                ],
-                [
-                  "2026-06-11",
-                  1
-                ],
-                [
-                  "2026-06-12",
-                  5
-                ],
-                [
-                  "2026-06-16",
-                  5
-                ],
-                [
                   "2026-06-18",
-                  3
+                  1
+                ],
+                [
+                  "2026-06-19",
+                  2
                 ],
                 [
                   "2026-07-14",
@@ -20692,15 +21770,19 @@
                 ],
                 [
                   "2026-07-16",
-                  4
+                  3
+                ],
+                [
+                  "2026-07-17",
+                  1
                 ],
                 [
                   "2026-07-18",
-                  8
+                  7
                 ],
                 [
                   "2026-07-19",
-                  4
+                  5
                 ],
                 [
                   "2026-07-20",
@@ -20720,7 +21802,11 @@
                 ],
                 [
                   "2026-08-01",
-                  3
+                  2
+                ],
+                [
+                  "2026-08-02",
+                  1
                 ],
                 [
                   "2026-08-03",
@@ -20728,19 +21814,19 @@
                 ],
                 [
                   "2026-08-04",
-                  7
+                  6
                 ],
                 [
                   "2026-08-05",
-                  1
+                  2
                 ],
                 [
                   "2026-08-06",
-                  11
+                  10
                 ],
                 [
                   "2026-08-07",
-                  2
+                  3
                 ],
                 [
                   "2026-08-10",
@@ -25104,7 +26190,8 @@
         },
         "ratingChart": {
           "tooltip": {
-            "trigger": "axis",
+            "trigger": "item",
+            "formatter": "{b}<br/>{a}: {c}{@tip}",
             "backgroundColor": "rgba(17,24,39,0.96)",
             "borderColor": "rgba(255,255,255,0.10)",
             "borderWidth": 1,
@@ -25168,79 +26255,226 @@
           },
           "series": [
             {
+              "markLine": {
+                "silent": true,
+                "symbol": "none",
+                "label": {
+                  "show": true,
+                  "position": "insideEndTop",
+                  "fontSize": 10,
+                  "fontWeight": 600,
+                  "formatter": "{b}"
+                },
+                "data": [
+                  {
+                    "yAxis": 1200,
+                    "name": "Pupil 1200",
+                    "lineStyle": {
+                      "color": "#10B981",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#10B981"
+                    }
+                  },
+                  {
+                    "yAxis": 1400,
+                    "name": "Specialist 1400",
+                    "lineStyle": {
+                      "color": "#06B6D4",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#06B6D4"
+                    }
+                  },
+                  {
+                    "yAxis": 1600,
+                    "name": "Expert 1600",
+                    "lineStyle": {
+                      "color": "#3B82F6",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#3B82F6"
+                    }
+                  },
+                  {
+                    "yAxis": 1900,
+                    "name": "Candidate Master 1900",
+                    "lineStyle": {
+                      "color": "#8B5CF6",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#8B5CF6"
+                    }
+                  },
+                  {
+                    "yAxis": 2100,
+                    "name": "Master 2100",
+                    "lineStyle": {
+                      "color": "#F97316",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#F97316"
+                    }
+                  },
+                  {
+                    "yAxis": 2400,
+                    "name": "Grandmaster 2400",
+                    "lineStyle": {
+                      "color": "#EF4444",
+                      "type": "dashed",
+                      "width": 1,
+                      "opacity": 0.5
+                    },
+                    "label": {
+                      "color": "#EF4444"
+                    }
+                  }
+                ]
+              },
               "name": "小任",
               "type": "line",
               "symbol": "circle",
               "symbolSize": 6,
               "data": [
-                [
-                  "2025-11-07",
-                  381
-                ],
-                [
-                  "2026-05-19",
-                  663
-                ],
-                [
-                  "2026-05-22",
-                  815
-                ],
-                [
-                  "2026-05-31",
-                  916
-                ],
-                [
-                  "2026-06-04",
-                  916
-                ],
-                [
-                  "2026-06-08",
-                  1025
-                ],
-                [
-                  "2026-06-10",
-                  1074
-                ],
-                [
-                  "2026-06-13",
-                  1059
-                ],
-                [
-                  "2026-06-19",
-                  1075
-                ],
-                [
-                  "2026-06-26",
-                  1080
-                ],
-                [
-                  "2026-07-15",
-                  1070
-                ],
-                [
-                  "2026-07-17",
-                  1067
-                ],
-                [
-                  "2026-07-19",
-                  1073
-                ],
-                [
-                  "2026-08-02",
-                  1130
-                ],
-                [
-                  "2026-08-05",
-                  1198
-                ],
-                [
-                  "2026-08-07",
-                  1264
-                ],
-                [
-                  "2026-08-08",
-                  1279
-                ]
+                {
+                  "value": [
+                    "2025-11-07",
+                    381
+                  ],
+                  "tip": ""
+                },
+                {
+                  "value": [
+                    "2026-05-19",
+                    663
+                  ],
+                  "tip": " (+282)"
+                },
+                {
+                  "value": [
+                    "2026-05-22",
+                    815
+                  ],
+                  "tip": " (+152)"
+                },
+                {
+                  "value": [
+                    "2026-05-31",
+                    916
+                  ],
+                  "tip": " (+101)"
+                },
+                {
+                  "value": [
+                    "2026-06-04",
+                    916
+                  ],
+                  "tip": " (0)"
+                },
+                {
+                  "value": [
+                    "2026-06-08",
+                    1025
+                  ],
+                  "tip": " (+109)"
+                },
+                {
+                  "value": [
+                    "2026-06-10",
+                    1074
+                  ],
+                  "tip": " (+49)"
+                },
+                {
+                  "value": [
+                    "2026-06-13",
+                    1059
+                  ],
+                  "tip": " (-15)"
+                },
+                {
+                  "value": [
+                    "2026-06-19",
+                    1075
+                  ],
+                  "tip": " (+16)"
+                },
+                {
+                  "value": [
+                    "2026-06-26",
+                    1080
+                  ],
+                  "tip": " (+5)"
+                },
+                {
+                  "value": [
+                    "2026-07-15",
+                    1070
+                  ],
+                  "tip": " (-10)"
+                },
+                {
+                  "value": [
+                    "2026-07-17",
+                    1067
+                  ],
+                  "tip": " (-3)"
+                },
+                {
+                  "value": [
+                    "2026-07-19",
+                    1073
+                  ],
+                  "tip": " (+6)"
+                },
+                {
+                  "value": [
+                    "2026-08-02",
+                    1130
+                  ],
+                  "tip": " (+57)"
+                },
+                {
+                  "value": [
+                    "2026-08-05",
+                    1198
+                  ],
+                  "tip": " (+68)"
+                },
+                {
+                  "value": [
+                    "2026-08-07",
+                    1264
+                  ],
+                  "tip": " (+66)"
+                },
+                {
+                  "value": [
+                    "2026-08-08",
+                    1279
+                  ],
+                  "tip": " (+15)",
+                  "itemStyle": {
+                    "color": "#EF4444",
+                    "borderColor": "#fff",
+                    "borderWidth": 1
+                  }
+                }
               ],
               "smooth": false,
               "lineStyle": {
@@ -25307,7 +26541,8 @@
     ],
     "ratingComparison": {
       "tooltip": {
-        "trigger": "axis",
+        "trigger": "item",
+        "formatter": "{b}<br/>{a}: {c}{@tip}",
         "backgroundColor": "rgba(17,24,39,0.96)",
         "borderColor": "rgba(255,255,255,0.10)",
         "borderWidth": 1,
@@ -25389,142 +26624,249 @@
           "symbol": "circle",
           "symbolSize": 6,
           "data": [
-            [
-              "2025-10-11",
-              391
-            ],
-            [
-              "2025-10-29",
-              692
-            ],
-            [
-              "2025-11-07",
-              982
-            ],
-            [
-              "2025-11-11",
-              1063
-            ],
-            [
-              "2025-11-17",
-              1142
-            ],
-            [
-              "2025-11-21",
-              1159
-            ],
-            [
-              "2025-12-12",
-              1179
-            ],
-            [
-              "2025-12-24",
-              1128
-            ],
-            [
-              "2025-12-28",
-              1090
-            ],
-            [
-              "2025-12-30",
-              1169
-            ],
-            [
-              "2026-01-08",
-              1173
-            ],
-            [
-              "2026-01-13",
-              1279
-            ],
-            [
-              "2026-01-18",
-              1283
-            ],
-            [
-              "2026-01-19",
-              1359
-            ],
-            [
-              "2026-01-30",
-              1310
-            ],
-            [
-              "2026-02-26",
-              1249
-            ],
-            [
-              "2026-03-17",
-              1227
-            ],
-            [
-              "2026-03-22",
-              1269
-            ],
-            [
-              "2026-03-29",
-              1262
-            ],
-            [
-              "2026-03-30",
-              1283
-            ],
-            [
-              "2026-04-08",
-              1337
-            ],
-            [
-              "2026-04-14",
-              1419
-            ],
-            [
-              "2026-04-22",
-              1437
-            ],
-            [
-              "2026-04-29",
-              1431
-            ],
-            [
-              "2026-05-19",
-              1397
-            ],
-            [
-              "2026-05-22",
-              1524
-            ],
-            [
-              "2026-05-31",
-              1578
-            ],
-            [
-              "2026-06-04",
-              1578
-            ],
-            [
-              "2026-06-13",
-              1571
-            ],
-            [
-              "2026-06-19",
-              1673
-            ],
-            [
-              "2026-06-26",
-              1683
-            ],
-            [
-              "2026-07-13",
-              1649
-            ],
-            [
-              "2026-08-07",
-              1672
-            ],
-            [
-              "2026-08-10",
-              1712
-            ]
+            {
+              "value": [
+                "2025-10-11",
+                391
+              ],
+              "tip": ""
+            },
+            {
+              "value": [
+                "2025-10-29",
+                692
+              ],
+              "tip": " (+301)"
+            },
+            {
+              "value": [
+                "2025-11-07",
+                982
+              ],
+              "tip": " (+290)"
+            },
+            {
+              "value": [
+                "2025-11-11",
+                1063
+              ],
+              "tip": " (+81)"
+            },
+            {
+              "value": [
+                "2025-11-17",
+                1142
+              ],
+              "tip": " (+79)"
+            },
+            {
+              "value": [
+                "2025-11-21",
+                1159
+              ],
+              "tip": " (+17)"
+            },
+            {
+              "value": [
+                "2025-12-12",
+                1179
+              ],
+              "tip": " (+20)"
+            },
+            {
+              "value": [
+                "2025-12-24",
+                1128
+              ],
+              "tip": " (-51)"
+            },
+            {
+              "value": [
+                "2025-12-28",
+                1090
+              ],
+              "tip": " (-38)"
+            },
+            {
+              "value": [
+                "2025-12-30",
+                1169
+              ],
+              "tip": " (+79)"
+            },
+            {
+              "value": [
+                "2026-01-08",
+                1173
+              ],
+              "tip": " (+4)"
+            },
+            {
+              "value": [
+                "2026-01-13",
+                1279
+              ],
+              "tip": " (+106)"
+            },
+            {
+              "value": [
+                "2026-01-18",
+                1283
+              ],
+              "tip": " (+4)"
+            },
+            {
+              "value": [
+                "2026-01-19",
+                1359
+              ],
+              "tip": " (+76)"
+            },
+            {
+              "value": [
+                "2026-01-30",
+                1310
+              ],
+              "tip": " (-49)"
+            },
+            {
+              "value": [
+                "2026-02-26",
+                1249
+              ],
+              "tip": " (-61)"
+            },
+            {
+              "value": [
+                "2026-03-17",
+                1227
+              ],
+              "tip": " (-22)"
+            },
+            {
+              "value": [
+                "2026-03-22",
+                1269
+              ],
+              "tip": " (+42)"
+            },
+            {
+              "value": [
+                "2026-03-29",
+                1262
+              ],
+              "tip": " (-7)"
+            },
+            {
+              "value": [
+                "2026-03-30",
+                1283
+              ],
+              "tip": " (+21)"
+            },
+            {
+              "value": [
+                "2026-04-08",
+                1337
+              ],
+              "tip": " (+54)"
+            },
+            {
+              "value": [
+                "2026-04-14",
+                1419
+              ],
+              "tip": " (+82)"
+            },
+            {
+              "value": [
+                "2026-04-22",
+                1437
+              ],
+              "tip": " (+18)"
+            },
+            {
+              "value": [
+                "2026-04-29",
+                1431
+              ],
+              "tip": " (-6)"
+            },
+            {
+              "value": [
+                "2026-05-19",
+                1397
+              ],
+              "tip": " (-34)"
+            },
+            {
+              "value": [
+                "2026-05-22",
+                1524
+              ],
+              "tip": " (+127)"
+            },
+            {
+              "value": [
+                "2026-05-31",
+                1578
+              ],
+              "tip": " (+54)"
+            },
+            {
+              "value": [
+                "2026-06-04",
+                1578
+              ],
+              "tip": " (0)"
+            },
+            {
+              "value": [
+                "2026-06-13",
+                1571
+              ],
+              "tip": " (-7)"
+            },
+            {
+              "value": [
+                "2026-06-19",
+                1673
+              ],
+              "tip": " (+102)"
+            },
+            {
+              "value": [
+                "2026-06-26",
+                1683
+              ],
+              "tip": " (+10)"
+            },
+            {
+              "value": [
+                "2026-07-13",
+                1649
+              ],
+              "tip": " (-34)"
+            },
+            {
+              "value": [
+                "2026-08-07",
+                1672
+              ],
+              "tip": " (+23)"
+            },
+            {
+              "value": [
+                "2026-08-10",
+                1712
+              ],
+              "tip": " (+40)",
+              "itemStyle": {
+                "color": "#EF4444",
+                "borderColor": "#fff",
+                "borderWidth": 1
+              }
+            }
           ],
           "smooth": false,
           "lineStyle": {
@@ -25554,6 +26896,97 @@
                 }
               ]
             }
+          },
+          "markLine": {
+            "silent": true,
+            "symbol": "none",
+            "label": {
+              "show": true,
+              "position": "insideEndTop",
+              "fontSize": 10,
+              "fontWeight": 600,
+              "formatter": "{b}"
+            },
+            "data": [
+              {
+                "yAxis": 1200,
+                "name": "Pupil 1200",
+                "lineStyle": {
+                  "color": "#10B981",
+                  "type": "dashed",
+                  "width": 1,
+                  "opacity": 0.5
+                },
+                "label": {
+                  "color": "#10B981"
+                }
+              },
+              {
+                "yAxis": 1400,
+                "name": "Specialist 1400",
+                "lineStyle": {
+                  "color": "#06B6D4",
+                  "type": "dashed",
+                  "width": 1,
+                  "opacity": 0.5
+                },
+                "label": {
+                  "color": "#06B6D4"
+                }
+              },
+              {
+                "yAxis": 1600,
+                "name": "Expert 1600",
+                "lineStyle": {
+                  "color": "#3B82F6",
+                  "type": "dashed",
+                  "width": 1,
+                  "opacity": 0.5
+                },
+                "label": {
+                  "color": "#3B82F6"
+                }
+              },
+              {
+                "yAxis": 1900,
+                "name": "Candidate Master 1900",
+                "lineStyle": {
+                  "color": "#8B5CF6",
+                  "type": "dashed",
+                  "width": 1,
+                  "opacity": 0.5
+                },
+                "label": {
+                  "color": "#8B5CF6"
+                }
+              },
+              {
+                "yAxis": 2100,
+                "name": "Master 2100",
+                "lineStyle": {
+                  "color": "#F97316",
+                  "type": "dashed",
+                  "width": 1,
+                  "opacity": 0.5
+                },
+                "label": {
+                  "color": "#F97316"
+                }
+              },
+              {
+                "yAxis": 2400,
+                "name": "Grandmaster 2400",
+                "lineStyle": {
+                  "color": "#EF4444",
+                  "type": "dashed",
+                  "width": 1,
+                  "opacity": 0.5
+                },
+                "label": {
+                  "color": "#EF4444"
+                }
+              }
+            ]
           }
         },
         {
@@ -25562,102 +26995,179 @@
           "symbol": "circle",
           "symbolSize": 6,
           "data": [
-            [
-              "2025-10-11",
-              0
-            ],
-            [
-              "2025-10-29",
-              362
-            ],
-            [
-              "2025-11-07",
-              673
-            ],
-            [
-              "2025-11-21",
-              816
-            ],
-            [
-              "2025-11-29",
-              873
-            ],
-            [
-              "2025-11-30",
-              949
-            ],
-            [
-              "2025-12-06",
-              1004
-            ],
-            [
-              "2026-01-26",
-              980
-            ],
-            [
-              "2026-04-05",
-              913
-            ],
-            [
-              "2026-04-22",
-              955
-            ],
-            [
-              "2026-04-29",
-              1016
-            ],
-            [
-              "2026-05-22",
-              1000
-            ],
-            [
-              "2026-05-31",
-              964
-            ],
-            [
-              "2026-06-04",
-              964
-            ],
-            [
-              "2026-06-13",
-              945
-            ],
-            [
-              "2026-06-19",
-              903
-            ],
-            [
-              "2026-06-26",
-              906
-            ],
-            [
-              "2026-07-07",
-              984
-            ],
-            [
-              "2026-07-15",
-              1078
-            ],
-            [
-              "2026-07-17",
-              1133
-            ],
-            [
-              "2026-07-19",
-              1163
-            ],
-            [
-              "2026-08-07",
-              1150
-            ],
-            [
-              "2026-08-08",
-              1103
-            ],
-            [
-              "2026-08-10",
-              1162
-            ]
+            {
+              "value": [
+                "2025-10-11",
+                0
+              ],
+              "tip": ""
+            },
+            {
+              "value": [
+                "2025-10-29",
+                362
+              ],
+              "tip": ""
+            },
+            {
+              "value": [
+                "2025-11-07",
+                673
+              ],
+              "tip": " (+311)"
+            },
+            {
+              "value": [
+                "2025-11-21",
+                816
+              ],
+              "tip": " (+143)"
+            },
+            {
+              "value": [
+                "2025-11-29",
+                873
+              ],
+              "tip": " (+57)"
+            },
+            {
+              "value": [
+                "2025-11-30",
+                949
+              ],
+              "tip": " (+76)"
+            },
+            {
+              "value": [
+                "2025-12-06",
+                1004
+              ],
+              "tip": " (+55)"
+            },
+            {
+              "value": [
+                "2026-01-26",
+                980
+              ],
+              "tip": " (-24)"
+            },
+            {
+              "value": [
+                "2026-04-05",
+                913
+              ],
+              "tip": " (-67)"
+            },
+            {
+              "value": [
+                "2026-04-22",
+                955
+              ],
+              "tip": " (+42)"
+            },
+            {
+              "value": [
+                "2026-04-29",
+                1016
+              ],
+              "tip": " (+61)"
+            },
+            {
+              "value": [
+                "2026-05-22",
+                1000
+              ],
+              "tip": " (-16)"
+            },
+            {
+              "value": [
+                "2026-05-31",
+                964
+              ],
+              "tip": " (-36)"
+            },
+            {
+              "value": [
+                "2026-06-04",
+                964
+              ],
+              "tip": " (0)"
+            },
+            {
+              "value": [
+                "2026-06-13",
+                945
+              ],
+              "tip": " (-19)"
+            },
+            {
+              "value": [
+                "2026-06-19",
+                903
+              ],
+              "tip": " (-42)"
+            },
+            {
+              "value": [
+                "2026-06-26",
+                906
+              ],
+              "tip": " (+3)"
+            },
+            {
+              "value": [
+                "2026-07-07",
+                984
+              ],
+              "tip": " (+78)"
+            },
+            {
+              "value": [
+                "2026-07-15",
+                1078
+              ],
+              "tip": " (+94)"
+            },
+            {
+              "value": [
+                "2026-07-17",
+                1133
+              ],
+              "tip": " (+55)"
+            },
+            {
+              "value": [
+                "2026-07-19",
+                1163
+              ],
+              "tip": " (+30)",
+              "itemStyle": {
+                "color": "#EF4444",
+                "borderColor": "#fff",
+                "borderWidth": 1
+              }
+            },
+            {
+              "value": [
+                "2026-08-07",
+                1150
+              ],
+              "tip": " (-13)"
+            },
+            {
+              "value": [
+                "2026-08-08",
+                1103
+              ],
+              "tip": " (-47)"
+            },
+            {
+              "value": [
+                "2026-08-10",
+                1162
+              ],
+              "tip": " (+59)"
+            }
           ],
           "smooth": false,
           "lineStyle": {
@@ -25695,78 +27205,137 @@
           "symbol": "circle",
           "symbolSize": 6,
           "data": [
-            [
-              "2025-10-11",
-              0
-            ],
-            [
-              "2025-11-07",
-              381
-            ],
-            [
-              "2026-05-19",
-              663
-            ],
-            [
-              "2026-05-22",
-              815
-            ],
-            [
-              "2026-05-31",
-              916
-            ],
-            [
-              "2026-06-04",
-              916
-            ],
-            [
-              "2026-06-08",
-              1025
-            ],
-            [
-              "2026-06-10",
-              1074
-            ],
-            [
-              "2026-06-13",
-              1059
-            ],
-            [
-              "2026-06-19",
-              1075
-            ],
-            [
-              "2026-06-26",
-              1080
-            ],
-            [
-              "2026-07-15",
-              1070
-            ],
-            [
-              "2026-07-17",
-              1067
-            ],
-            [
-              "2026-07-19",
-              1073
-            ],
-            [
-              "2026-08-02",
-              1130
-            ],
-            [
-              "2026-08-05",
-              1198
-            ],
-            [
-              "2026-08-07",
-              1264
-            ],
-            [
-              "2026-08-08",
-              1279
-            ]
+            {
+              "value": [
+                "2025-10-11",
+                0
+              ],
+              "tip": ""
+            },
+            {
+              "value": [
+                "2025-11-07",
+                381
+              ],
+              "tip": ""
+            },
+            {
+              "value": [
+                "2026-05-19",
+                663
+              ],
+              "tip": " (+282)"
+            },
+            {
+              "value": [
+                "2026-05-22",
+                815
+              ],
+              "tip": " (+152)"
+            },
+            {
+              "value": [
+                "2026-05-31",
+                916
+              ],
+              "tip": " (+101)"
+            },
+            {
+              "value": [
+                "2026-06-04",
+                916
+              ],
+              "tip": " (0)"
+            },
+            {
+              "value": [
+                "2026-06-08",
+                1025
+              ],
+              "tip": " (+109)"
+            },
+            {
+              "value": [
+                "2026-06-10",
+                1074
+              ],
+              "tip": " (+49)"
+            },
+            {
+              "value": [
+                "2026-06-13",
+                1059
+              ],
+              "tip": " (-15)"
+            },
+            {
+              "value": [
+                "2026-06-19",
+                1075
+              ],
+              "tip": " (+16)"
+            },
+            {
+              "value": [
+                "2026-06-26",
+                1080
+              ],
+              "tip": " (+5)"
+            },
+            {
+              "value": [
+                "2026-07-15",
+                1070
+              ],
+              "tip": " (-10)"
+            },
+            {
+              "value": [
+                "2026-07-17",
+                1067
+              ],
+              "tip": " (-3)"
+            },
+            {
+              "value": [
+                "2026-07-19",
+                1073
+              ],
+              "tip": " (+6)"
+            },
+            {
+              "value": [
+                "2026-08-02",
+                1130
+              ],
+              "tip": " (+57)"
+            },
+            {
+              "value": [
+                "2026-08-05",
+                1198
+              ],
+              "tip": " (+68)"
+            },
+            {
+              "value": [
+                "2026-08-07",
+                1264
+              ],
+              "tip": " (+66)"
+            },
+            {
+              "value": [
+                "2026-08-08",
+                1279
+              ],
+              "tip": " (+15)",
+              "itemStyle": {
+                "color": "#EF4444",
+                "borderColor": "#fff",
+                "borderWidth": 1
+              }
+            }
           ],
           "smooth": false,
           "lineStyle": {
@@ -25969,5 +27538,6 @@
       ],
       "backgroundColor": "transparent"
     }
-  }
+  },
+  "exportedAt": "2026-08-11 15:45"
 }
