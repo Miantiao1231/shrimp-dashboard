@@ -648,6 +648,7 @@ async function initAuth() {
     MY_COACH_HANDLE = null;
   }
   renderAuthArea();
+  renderAll(); // 队列勾选框按登录态重渲染（刷新场景 initAuth 也必须重渲染）
 }
 
 function renderAuthArea() {
