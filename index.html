@@ -625,18 +625,26 @@ function renderCoach(m) {
 }
 
 // ===== VP 登录（打钩权限：登录且是本人才能勾自己的题）=====
-// 身份来自服务器 session（HttpOnly cookie），前端只做显示层判断
+// 身份来自服务器 session。GitHub Pages 跨域场景浏览器拒收 cookie，
+// 走 token 模式：login 返回的 token 存 localStorage，请求带 Authorization header。
+// /dash 同源场景 cookie 仍可用（两者兼容）。
 let MY_COACH_HANDLE = null; // 登录后 = 别名映射到教练库的 handle；未登录 null
 const VP_HANDLE_ALIASES = {'Mianiii': 'Mianii', 'rhz666': 'lywyb'}; // VP 名 → 教练库名
+const API_BASE = 'https://101.200.232.38'; // 打钩 API（Caddy 443 HTTPS 反代 8081；Pages 跨域 / 本地 8080 同用）
+
+function authHeaders() {
+  const t = localStorage.getItem('vp_token');
+  return t ? {'Authorization': 'Bearer ' + t} : {};
+}
 
 async function initAuth() {
   try {
-    const resp = await fetch('/api/auth/me', {cache: 'no-cache'});
+    const resp = await fetch(API_BASE + '/api/auth/me', {cache: 'no-cache', headers: authHeaders()});
     const data = await resp.json();
     const h = data.user && data.user.handle ? data.user.handle : null;
     MY_COACH_HANDLE = h ? (VP_HANDLE_ALIASES[h] || h) : null;
   } catch(e) {
-    // 本地 8080 打开时无 /api → 静默只读（打钩仅在 /dash 线上可用）
+    // 网络不可达（本地 8080 / Pages 后端宕机）→ 静默只读降级
     MY_COACH_HANDLE = null;
   }
   renderAuthArea();
@@ -672,12 +680,13 @@ async function doLogin(ev) {
   const handle = document.getElementById('authHandle').value.trim();
   const password = document.getElementById('authPass').value;
   try {
-    const resp = await fetch('/api/auth/login', {
+    const resp = await fetch(API_BASE + '/api/auth/login', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({handle, password}),
     });
     const data = await resp.json().catch(() => ({}));
     if (!resp.ok) { alert(data.detail || '登录失败'); return; }
+    if (data.token) localStorage.setItem('vp_token', data.token); // 跨域 token 模式
     MY_COACH_HANDLE = data.user ? (VP_HANDLE_ALIASES[data.user.handle] || data.user.handle) : null;
     renderAuthArea();
     renderAll(); // 队列勾选框按新身份重渲染
@@ -685,7 +694,8 @@ async function doLogin(ev) {
 }
 
 async function doLogout() {
-  try { await fetch('/api/auth/logout', {method: 'POST'}); } catch(e) {}
+  localStorage.removeItem('vp_token');
+  try { await fetch(API_BASE + '/api/auth/logout', {method: 'POST', headers: authHeaders()}); } catch(e) {}
   MY_COACH_HANDLE = null;
   renderAuthArea();
   renderAll();
@@ -697,8 +707,8 @@ async function checkQueue(cb, problemId, platform) {
   const row = cb.closest('.queue-item');
   cb.disabled = true; // 防连点（双击会连调两次接口）
   try {
-    const resp = await fetch('/api/review/check', {
-      method: 'POST', headers: {'Content-Type': 'application/json'},
+    const resp = await fetch(API_BASE + '/api/review/check', {
+      method: 'POST', headers: Object.assign({'Content-Type': 'application/json'}, authHeaders()),
       body: JSON.stringify({problem_id: problemId, platform}),
     });
     const data = await resp.json().catch(() => ({}));
