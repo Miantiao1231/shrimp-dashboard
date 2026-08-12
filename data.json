@@ -26611,7 +26611,7 @@
         "label": "小任",
         "rating": 1279,
         "rank": "4539",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1183
       }
     ],
@@ -27615,5 +27615,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-12 14:02"
+  "exportedAt": "2026-08-12 15:10"
 }
