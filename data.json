@@ -1860,6 +1860,33 @@
         ],
         "sections": [
           {
+            "key": "queue",
+            "title": "复习队列",
+            "icon": "📚",
+            "items": [
+              {
+                "icon": "🔥",
+                "accent": "red",
+                "text": " NC0805-popcount · 第1轮 · 超期 4 天 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补"
+              },
+              {
+                "icon": "⏳",
+                "accent": "teal",
+                "text": "1500 2146D1 Max Sum OR (Easy Version) · 第2轮 · 8-14 到期 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做"
+              },
+              {
+                "icon": "⏳",
+                "accent": "teal",
+                "text": " hdu0804-病毒片段 · 第2轮 · 8-14 到期 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界"
+              },
+              {
+                "icon": "⏳",
+                "accent": "teal",
+                "text": " HDU6-interval · 第2轮 · 8-14 到期 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写"
+              }
+            ]
+          },
+          {
             "key": "weakness",
             "title": "薄弱点",
             "icon": "📉",
@@ -27615,5 +27642,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-12 15:10"
+  "exportedAt": "2026-08-12 16:05"
 }
