@@ -111,8 +111,27 @@ code,pre,.mono{font-family:'Fira Code',monospace}
   background:rgba(10,10,14,0.95);backdrop-filter:blur(24px) saturate(180%);
   border-bottom:1px solid rgba(255,255,255,0.06);
   padding:1rem 2rem;
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
 }
 .header h1{font-size:1.25rem;font-weight:800;letter-spacing:-0.02em}
+
+/* ===== VP 登录（打钩权限：仅 /dash 线上同源可用，本地 8080 只读降级）===== */
+.auth-area{display:flex;align-items:center;gap:0.5rem}
+.auth-btn{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);
+  color:#E0E0E0;padding:0.4rem 0.9rem;border-radius:0.5rem;font-size:0.8125rem;cursor:pointer}
+.auth-btn:hover{background:rgba(255,255,255,0.12)}
+.auth-user{font-size:0.8125rem;color:rgba(255,255,255,0.7)}
+.auth-form{display:flex;gap:0.4rem;align-items:center}
+.auth-form input{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);
+  color:#fff;border-radius:0.4rem;padding:0.35rem 0.6rem;font-size:0.8125rem;width:8rem}
+.auth-form button{background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.35);
+  color:#FBBF24;border-radius:0.4rem;padding:0.35rem 0.7rem;font-size:0.8125rem;cursor:pointer}
+.auth-form button[type="button"]{background:transparent;border-color:rgba(255,255,255,0.15);color:rgba(255,255,255,0.6)}
+
+/* 复习队列项：勾选框 = 复习通过（独立 AC）标记 */
+.queue-item{display:flex;align-items:center;gap:0.5rem}
+.queue-check{flex-shrink:0;display:inline-flex;align-items:center;margin-left:auto}
+.queue-check input{width:1rem;height:1rem;accent-color:#F59E0B;cursor:pointer}
 
 /* ===== TABS ===== */
 .tab-bar{display:flex;gap:0.25rem;margin:1.5rem 0 0.5rem}
@@ -291,6 +310,7 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 
 <div class="header" role="banner">
   <h1>🦞 小虾教练 · 训练仪表盘</h1>
+  <div id="authArea" class="auth-area"></div>
 </div>
 
 <!-- SKELETON LOADING -->
@@ -454,6 +474,7 @@ async function init() {
 
   buildTabs();
   renderAll();
+  initAuth(); // 登录态（打钩权限）与数据加载并行
 
   // 容器可见后再触发一次 resize，确保图表填满
   requestAnimationFrame(() => {
@@ -539,6 +560,21 @@ function coachTipHTML(t) {
   </div>`;
 }
 
+// 复习队列项：登录且是本人 → 带勾选框（复习通过）；否则纯文本只读
+function queueTipHTML(item, isMine) {
+  const pid = String(item.problem_id || '').replace(/'/g, "\\'");
+  const plat = String(item.platform || '');
+  const cb = isMine
+    ? `<label class="queue-check" title="标记复习通过（独立 AC）">
+         <input type="checkbox" onchange="checkQueue(this,'${pid}','${plat}')">
+       </label>`
+    : '';
+  return `<div class="coach-tip queue-item">
+    <span class="tip-icon">${item.icon}</span>
+    <span class="tip-text">${item.text}</span>${cb}
+  </div>`;
+}
+
 function toggleCoach() {
   const btn = document.getElementById('coachToggle');
   const details = document.getElementById('coachDetails');
@@ -578,12 +614,108 @@ function renderCoach(m) {
         ${sections.map(s => `
           <div class="coach-section">
             <div class="coach-sec-title">${s.icon} ${s.title}</div>
-            <div class="coach-tips">${s.items.map(coachTipHTML).join('')}</div>
+            <div class="coach-tips">${s.items.map(item => s.key === 'queue'
+              ? queueTipHTML(item, MY_COACH_HANDLE === currentHandle)
+              : coachTipHTML(item)).join('')}</div>
           </div>`).join('')}
       </div>
     </div>`;
   const btn = document.getElementById('coachToggle');
   if (btn) btn.onclick = toggleCoach;
+}
+
+// ===== VP 登录（打钩权限：登录且是本人才能勾自己的题）=====
+// 身份来自服务器 session（HttpOnly cookie），前端只做显示层判断
+let MY_COACH_HANDLE = null; // 登录后 = 别名映射到教练库的 handle；未登录 null
+const VP_HANDLE_ALIASES = {'Mianiii': 'Mianii', 'rhz666': 'lywyb'}; // VP 名 → 教练库名
+
+async function initAuth() {
+  try {
+    const resp = await fetch('/api/auth/me', {cache: 'no-cache'});
+    const data = await resp.json();
+    const h = data.user && data.user.handle ? data.user.handle : null;
+    MY_COACH_HANDLE = h ? (VP_HANDLE_ALIASES[h] || h) : null;
+  } catch(e) {
+    // 本地 8080 打开时无 /api → 静默只读（打钩仅在 /dash 线上可用）
+    MY_COACH_HANDLE = null;
+  }
+  renderAuthArea();
+}
+
+function renderAuthArea() {
+  const el = document.getElementById('authArea');
+  if (!el) return;
+  if (!MY_COACH_HANDLE) {
+    el.innerHTML = `<button class="auth-btn" onclick="toggleAuthForm()">🔐 登录后打钩</button>`;
+  } else {
+    el.innerHTML = `<span class="auth-user">👤 ${MY_COACH_HANDLE}</span>
+      <button class="auth-btn" onclick="doLogout()">退出</button>`;
+  }
+}
+
+function toggleAuthForm() {
+  const area = document.getElementById('authArea');
+  if (area.querySelector('.auth-form')) { area.innerHTML = ''; renderAuthArea(); return; }
+  area.innerHTML = `<form class="auth-form" onsubmit="doLogin(event)">
+    <input id="authHandle" placeholder="handle" autocomplete="username" required>
+    <input id="authPass" type="password" placeholder="密码" autocomplete="current-password" required>
+    <button type="submit">登录</button>
+    <button type="button" onclick="cancelAuthForm()">取消</button>
+  </form>`;
+  document.getElementById('authHandle').focus();
+}
+
+function cancelAuthForm() { document.getElementById('authArea').innerHTML = ''; renderAuthArea(); }
+
+async function doLogin(ev) {
+  ev.preventDefault();
+  const handle = document.getElementById('authHandle').value.trim();
+  const password = document.getElementById('authPass').value;
+  try {
+    const resp = await fetch('/api/auth/login', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({handle, password}),
+    });
+    const data = await resp.json().catch(() => ({}));
+    if (!resp.ok) { alert(data.detail || '登录失败'); return; }
+    MY_COACH_HANDLE = data.user ? (VP_HANDLE_ALIASES[data.user.handle] || data.user.handle) : null;
+    renderAuthArea();
+    renderAll(); // 队列勾选框按新身份重渲染
+  } catch(e) { alert('网络错误，登录失败'); }
+}
+
+async function doLogout() {
+  try { await fetch('/api/auth/logout', {method: 'POST'}); } catch(e) {}
+  MY_COACH_HANDLE = null;
+  renderAuthArea();
+  renderAll();
+}
+
+// 打钩 = 复习通过（独立 AC）→ stage+1 / 出师
+async function checkQueue(cb, problemId, platform) {
+  if (!MY_COACH_HANDLE) { toggleAuthForm(); cb.checked = false; return; }
+  const row = cb.closest('.queue-item');
+  cb.disabled = true; // 防连点（双击会连调两次接口）
+  try {
+    const resp = await fetch('/api/review/check', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({problem_id: problemId, platform}),
+    });
+    const data = await resp.json().catch(() => ({}));
+    if (!resp.ok) { alert(data.detail || '打钩失败'); cb.checked = false; cb.disabled = false; return; }
+    if (data.status === 'graduated') {
+      // 四轮全过 → 出师：淡出移除
+      row.style.transition = 'opacity .35s'; row.style.opacity = '0';
+      setTimeout(() => row.remove(), 350);
+    } else {
+      // 推进一轮：原地更新文案，移除勾选框防重复
+      row.querySelector('.tip-text').textContent =
+        `✅ 已通过 · 第${data.stage}轮（${data.next_review} 前复习）`;
+      row.querySelector('.queue-check')?.remove();
+    }
+  } catch(e) {
+    alert('网络错误，打钩失败'); cb.checked = false; cb.disabled = false;
+  }
 }
 
 // ===== METRIC CARDS =====
