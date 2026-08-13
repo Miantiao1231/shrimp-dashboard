@@ -26638,7 +26638,7 @@
         "label": "Mianiii",
         "rating": 1712,
         "rank": "653",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1242
       },
       {
@@ -27658,5 +27658,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-13 09:09"
+  "exportedAt": "2026-08-13 12:09"
 }
