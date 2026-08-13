@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 27,
-        "total_ac": 755,
-        "total_subs": 2192,
+        "week_ac": 25,
+        "total_ac": 757,
+        "total_subs": 2195,
         "ac_rate": 39.2,
         "topic_count": 18
       },
       "streak": {
-        "current": 7,
+        "current": 8,
         "longest": 13,
-        "last_active": "2026-08-12",
+        "last_active": "2026-08-13",
         "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 11,
-          "subs": 16
+          "ac": 13,
+          "subs": 19
         },
         "last_week": {
           "ac": 27,
           "subs": 68
         },
-        "ac_delta": -59,
-        "subs_delta": -76
+        "ac_delta": -52,
+        "subs_delta": -72
       },
       "achievements": {
         "achievements": [
@@ -178,7 +178,7 @@
             "color": "orange",
             "earned": false,
             "progress": 76,
-            "current": 755,
+            "current": 757,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -295,7 +295,7 @@
             "color": "red",
             "earned": false,
             "progress": 61,
-            "current": 304,
+            "current": 306,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -334,7 +334,7 @@
             "color": "orange",
             "earned": false,
             "progress": 50,
-            "current": 755,
+            "current": 757,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -360,7 +360,7 @@
             "color": "red",
             "earned": false,
             "progress": 44,
-            "current": 2192,
+            "current": 2195,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -386,7 +386,7 @@
             "color": "red",
             "earned": false,
             "progress": 38,
-            "current": 755,
+            "current": 757,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -438,7 +438,7 @@
             "color": "red",
             "earned": false,
             "progress": 25,
-            "current": 755,
+            "current": 757,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -451,7 +451,7 @@
             "color": "red",
             "earned": false,
             "progress": 15,
-            "current": 755,
+            "current": 757,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1853,6 +1853,11 @@
       "coachTips": {
         "collapsed": [
           {
+            "icon": "⚠️",
+            "accent": "amber",
+            "text": "本周日均 2.6 题，上周日均 3.9 题——先把热度捡回来"
+          },
+          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「稳扎稳打」只差 2% 进度——集中火力冲一下"
@@ -1865,16 +1870,16 @@
             "icon": "📚",
             "items": [
               {
-                "icon": "⏳",
-                "accent": "teal",
-                "text": " hdu0804-病毒片段 · 第2轮 · 8-14 到期 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
+                "icon": "🔥",
+                "accent": "red",
+                "text": " hdu0804-病毒片段 · 第2轮 · 今天复习 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
                 "problem_id": "hdu0804-病毒片段",
                 "platform": "nowcoder"
               },
               {
-                "icon": "⏳",
-                "accent": "teal",
-                "text": " HDU6-interval · 第2轮 · 8-14 到期 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
+                "icon": "🔥",
+                "accent": "red",
+                "text": " HDU6-interval · 第2轮 · 今天复习 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
                 "problem_id": "HDU6-interval",
                 "platform": "nowcoder"
               },
@@ -1947,8 +1952,29 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-08-12",
+      "lastSubmitDate": "2026-08-13",
       "recentSubmissions": [
+        {
+          "time": "22:45",
+          "date": "2026-08-13",
+          "platform": "codeforces",
+          "problem": "1313C2",
+          "verdict": "AC"
+        },
+        {
+          "time": "22:17",
+          "date": "2026-08-13",
+          "platform": "codeforces",
+          "problem": "1313C2",
+          "verdict": "WA"
+        },
+        {
+          "time": "21:42",
+          "date": "2026-08-13",
+          "platform": "codeforces",
+          "problem": "1364C",
+          "verdict": "AC"
+        },
         {
           "time": "11:42",
           "date": "2026-08-12",
@@ -2137,27 +2163,6 @@
           "platform": "codeforces",
           "problem": "2248D",
           "verdict": "WA"
-        },
-        {
-          "time": "18:25",
-          "date": "2026-08-08",
-          "platform": "codeforces",
-          "problem": "2248D",
-          "verdict": "WA"
-        },
-        {
-          "time": "14:08",
-          "date": "2026-08-08",
-          "platform": "codeforces",
-          "problem": "2253C",
-          "verdict": "WA"
-        },
-        {
-          "time": "13:14",
-          "date": "2026-08-08",
-          "platform": "codeforces",
-          "problem": "2253B",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -2175,8 +2180,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-19",
-              "2026-08-13"
+              "2026-06-20",
+              "2026-08-14"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -2233,10 +2238,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-06-19",
-                  1
-                ],
                 [
                   "2026-06-23",
                   4
@@ -2328,6 +2329,10 @@
                 [
                   "2026-08-12",
                   1
+                ],
+                [
+                  "2026-08-13",
+                  2
                 ]
               ]
             }
@@ -2408,7 +2413,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 859,
+                  "value": 861,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -2420,7 +2425,7 @@
                   }
                 },
                 {
-                  "value": 755,
+                  "value": 756,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -6027,6 +6032,14 @@
                 [
                   "2026-08-12",
                   800
+                ],
+                [
+                  "2026-08-13",
+                  1600.0
+                ],
+                [
+                  "2026-08-13",
+                  1900.0
                 ]
               ],
               "symbolSize": 7,
@@ -11370,6 +11383,10 @@
                 [
                   "2026-08-11",
                   800
+                ],
+                [
+                  "2026-08-13",
+                  1900.0
                 ]
               ],
               "symbolSize": 5,
@@ -11421,14 +11438,14 @@
               "fontSize": 11
             },
             "data": [
-              "08/04",
               "08/06",
               "08/07",
               "08/08",
               "08/09",
               "08/10",
               "08/11",
-              "08/12"
+              "08/12",
+              "08/13"
             ]
           },
           "yAxis": {
@@ -11460,14 +11477,14 @@
             {
               "type": "bar",
               "data": [
-                2,
                 5,
                 3,
                 4,
                 4,
                 7,
                 3,
-                1
+                1,
+                2
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -11652,16 +11669,16 @@
               "stack": "total",
               "data": [
                 18,
-                26,
+                27,
                 31,
                 13,
                 17,
                 13,
                 2,
                 0,
-                18,
+                19,
                 11,
-                12,
+                13,
                 7,
                 1,
                 1,
@@ -11676,11 +11693,11 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                3,
-                1,
+                4,
+                2,
                 3,
                 4,
-                6,
+                7,
                 1,
                 0,
                 0,
@@ -12149,7 +12166,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 16,
+        "week_ac": 14,
         "total_ac": 303,
         "total_subs": 1062,
         "ac_rate": 35.2,
@@ -12159,7 +12176,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-13",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -13992,7 +14009,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 0.8 题，上周日均 2.4 题——先把热度捡回来"
+            "text": "本周日均 0.6 题，上周日均 2.4 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -14287,8 +14304,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-19",
-              "2026-08-13"
+              "2026-06-20",
+              "2026-08-14"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19628,7 +19645,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 28,
+        "week_ac": 18,
         "total_ac": 302,
         "total_subs": 955,
         "ac_rate": 36.1,
@@ -19638,7 +19655,7 @@
         "current": 4,
         "longest": 14,
         "last_active": "2026-08-13",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -21761,8 +21778,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-19",
-              "2026-08-13"
+              "2026-06-20",
+              "2026-08-14"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -21819,10 +21836,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-06-19",
-                  2
-                ],
                 [
                   "2026-07-14",
                   3
@@ -26654,7 +26667,7 @@
         "label": "Mianiii",
         "rating": 1712,
         "rank": "653",
-        "last_submit_days": 1,
+        "last_submit_days": 0,
         "nc_rating": 1242
       },
       {
@@ -27674,5 +27687,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-13 21:07"
+  "exportedAt": "2026-08-14 00:07"
 }
