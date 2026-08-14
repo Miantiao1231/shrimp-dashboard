@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 25,
+        "week_ac": 21,
         "total_ac": 757,
         "total_subs": 2195,
         "ac_rate": 39.2,
@@ -22,7 +22,7 @@
         "current": 8,
         "longest": 13,
         "last_active": "2026-08-13",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 2.6 题，上周日均 3.9 题——先把热度捡回来"
+            "text": "本周日均 2.2 题，上周日均 3.9 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1872,14 +1872,14 @@
               {
                 "icon": "🔥",
                 "accent": "red",
-                "text": " hdu0804-病毒片段 · 第2轮 · 今天复习 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
+                "text": " hdu0804-病毒片段 · 第2轮 · 超期 1 天 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
                 "problem_id": "hdu0804-病毒片段",
                 "platform": "nowcoder"
               },
               {
                 "icon": "🔥",
                 "accent": "red",
-                "text": " HDU6-interval · 第2轮 · 今天复习 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
+                "text": " HDU6-interval · 第2轮 · 超期 1 天 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
                 "problem_id": "HDU6-interval",
                 "platform": "nowcoder"
               },
@@ -2187,8 +2187,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-20",
-              "2026-08-14"
+              "2026-06-21",
+              "2026-08-15"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -12173,7 +12173,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 14,
+        "week_ac": 12,
         "total_ac": 303,
         "total_subs": 1062,
         "ac_rate": 35.2,
@@ -12183,7 +12183,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-13",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -14016,7 +14016,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 0.6 题，上周日均 2.4 题——先把热度捡回来"
+            "text": "本周日均 0.5 题，上周日均 2.4 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -14311,8 +14311,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-20",
-              "2026-08-14"
+              "2026-06-21",
+              "2026-08-15"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19652,7 +19652,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 18,
+        "week_ac": 15,
         "total_ac": 302,
         "total_subs": 955,
         "ac_rate": 36.1,
@@ -19662,7 +19662,7 @@
         "current": 4,
         "longest": 14,
         "last_active": "2026-08-13",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -21785,8 +21785,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-20",
-              "2026-08-14"
+              "2026-06-21",
+              "2026-08-15"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -26674,7 +26674,7 @@
         "label": "Mianiii",
         "rating": 1712,
         "rank": "653",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1242
       },
       {
@@ -27694,5 +27694,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-14 21:07"
+  "exportedAt": "2026-08-15 00:07"
 }
