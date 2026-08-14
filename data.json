@@ -26675,7 +26675,7 @@
         "label": "小宋",
         "rating": 1162,
         "rank": "4266",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 429
       },
       {
@@ -26683,7 +26683,7 @@
         "label": "小任",
         "rating": 1279,
         "rank": "4539",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1183
       }
     ],
@@ -27687,5 +27687,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-14 15:07"
+  "exportedAt": "2026-08-14 18:07"
 }
