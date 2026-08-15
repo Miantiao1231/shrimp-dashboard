@@ -1870,20 +1870,6 @@
             "icon": "📚",
             "items": [
               {
-                "icon": "🔥",
-                "accent": "red",
-                "text": " hdu0804-病毒片段 · 第2轮 · 超期 1 天 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
-                "problem_id": "hdu0804-病毒片段",
-                "platform": "nowcoder"
-              },
-              {
-                "icon": "🔥",
-                "accent": "red",
-                "text": " HDU6-interval · 第2轮 · 超期 1 天 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
-                "problem_id": "HDU6-interval",
-                "platform": "nowcoder"
-              },
-              {
                 "icon": "⏳",
                 "accent": "teal",
                 "text": " HDU9-D · 第1轮 · 8-17 到期 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
@@ -1903,6 +1889,20 @@
                 "text": "1500 2146D1 Max Sum OR (Easy Version) · 第3轮 · 8-26 到期 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做",
                 "problem_id": "2146D1",
                 "platform": "codeforces"
+              },
+              {
+                "icon": "⏳",
+                "accent": "teal",
+                "text": " hdu0804-病毒片段 · 第3轮 · 8-29 到期 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
+                "problem_id": "hdu0804-病毒片段",
+                "platform": "nowcoder"
+              },
+              {
+                "icon": "⏳",
+                "accent": "teal",
+                "text": " HDU6-interval · 第3轮 · 8-29 到期 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
+                "problem_id": "HDU6-interval",
+                "platform": "nowcoder"
               }
             ]
           },
@@ -27694,5 +27694,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-15 12:07"
+  "exportedAt": "2026-08-15 15:07"
 }
