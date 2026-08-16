@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 23,
+        "week_ac": 19,
         "total_ac": 763,
         "total_subs": 2206,
         "ac_rate": 39.3,
@@ -22,20 +22,20 @@
         "current": 2,
         "longest": 13,
         "last_active": "2026-08-16",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 19,
           "subs": 30
         },
-        "last_week": {
-          "ac": 27,
-          "subs": 68
-        },
-        "ac_delta": -30,
-        "subs_delta": -56
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -1853,6 +1853,11 @@
       "coachTips": {
         "collapsed": [
           {
+            "icon": "⚠️",
+            "accent": "amber",
+            "text": "本周日均 0.0 题，上周日均 2.7 题——先把热度捡回来"
+          },
+          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「稳扎稳打」只差 2% 进度——集中火力冲一下"
@@ -1865,9 +1870,9 @@
             "icon": "📚",
             "items": [
               {
-                "icon": "⏳",
-                "accent": "teal",
-                "text": " HDU9-D · 第1轮 · 8-17 到期 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
+                "icon": "🔥",
+                "accent": "red",
+                "text": " HDU9-D · 第1轮 · 今天复习 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
                 "problem_id": "HDU9-D",
                 "platform": "nowcoder"
               },
@@ -2182,8 +2187,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-22",
-              "2026-08-16"
+              "2026-06-23",
+              "2026-08-17"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -12220,7 +12225,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 9,
+        "week_ac": 3,
         "total_ac": 303,
         "total_subs": 1062,
         "ac_rate": 35.2,
@@ -12230,20 +12235,20 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-13",
-        "days_since_last": 3,
+        "days_since_last": 4,
         "is_broken": true
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 3,
           "subs": 9
         },
-        "last_week": {
-          "ac": 17,
-          "subs": 38
-        },
-        "ac_delta": -82,
-        "subs_delta": -76
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -14063,7 +14068,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 0.4 题，上周日均 2.4 题——先把热度捡回来"
+            "text": "本周日均 0.0 题，上周日均 0.4 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -14372,8 +14377,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-22",
-              "2026-08-16"
+              "2026-06-23",
+              "2026-08-17"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19723,20 +19728,20 @@
         "current": 4,
         "longest": 14,
         "last_active": "2026-08-13",
-        "days_since_last": 3,
+        "days_since_last": 4,
         "is_broken": true
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 15,
           "subs": 33
         },
-        "last_week": {
-          "ac": 25,
-          "subs": 41
-        },
-        "ac_delta": -40,
-        "subs_delta": -20
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -21556,7 +21561,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 2.1 题，上周日均 3.6 题——先把热度捡回来"
+            "text": "本周日均 0.0 题，上周日均 2.1 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -21865,8 +21870,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-22",
-              "2026-08-16"
+              "2026-06-23",
+              "2026-08-17"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -27774,5 +27779,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-16 21:07"
+  "exportedAt": "2026-08-17 00:07"
 }
