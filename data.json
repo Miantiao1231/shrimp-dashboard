@@ -1870,17 +1870,17 @@
             "icon": "📚",
             "items": [
               {
-                "icon": "🔥",
-                "accent": "red",
-                "text": " HDU9-D · 第1轮 · 今天复习 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
-                "problem_id": "HDU9-D",
+                "icon": "⏳",
+                "accent": "teal",
+                "text": " NC0805-popcount · 第2轮 · 8-19 到期 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
+                "problem_id": "NC0805-popcount",
                 "platform": "nowcoder"
               },
               {
                 "icon": "⏳",
                 "accent": "teal",
-                "text": " NC0805-popcount · 第2轮 · 8-19 到期 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
-                "problem_id": "NC0805-popcount",
+                "text": " HDU9-D · 第2轮 · 8-24 到期 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
+                "problem_id": "HDU9-D",
                 "platform": "nowcoder"
               },
               {
@@ -26843,7 +26843,7 @@
         "label": "小任",
         "rating": 1279,
         "rank": "4539",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1233
       }
     ],
@@ -27847,5 +27847,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-17 18:07"
+  "exportedAt": "2026-08-17 21:07"
 }
