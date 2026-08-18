@@ -12,9 +12,9 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 26,
-        "total_ac": 777,
-        "total_subs": 2235,
+        "week_ac": 24,
+        "total_ac": 778,
+        "total_subs": 2236,
         "ac_rate": 39.4,
         "topic_count": 18
       },
@@ -22,20 +22,20 @@
         "current": 4,
         "longest": 13,
         "last_active": "2026-08-18",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 12,
-          "subs": 26
+          "ac": 13,
+          "subs": 27
         },
         "last_week": {
           "ac": 21,
           "subs": 33
         },
-        "ac_delta": -43,
-        "subs_delta": -21
+        "ac_delta": -38,
+        "subs_delta": -18
       },
       "achievements": {
         "achievements": [
@@ -165,7 +165,7 @@
             "color": "orange",
             "earned": false,
             "progress": 78,
-            "current": 777,
+            "current": 778,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -281,8 +281,8 @@
             "target": 500,
             "color": "red",
             "earned": false,
-            "progress": 63,
-            "current": 317,
+            "progress": 64,
+            "current": 318,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -334,7 +334,7 @@
             "color": "orange",
             "earned": false,
             "progress": 52,
-            "current": 777,
+            "current": 778,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 45,
-            "current": 2235,
+            "current": 2236,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -386,7 +386,7 @@
             "color": "red",
             "earned": false,
             "progress": 39,
-            "current": 777,
+            "current": 778,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -425,7 +425,7 @@
             "color": "red",
             "earned": false,
             "progress": 26,
-            "current": 777,
+            "current": 778,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -451,7 +451,7 @@
             "color": "red",
             "earned": false,
             "progress": 16,
-            "current": 777,
+            "current": 778,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1865,9 +1865,9 @@
             "icon": "📚",
             "items": [
               {
-                "icon": "⏳",
-                "accent": "teal",
-                "text": " NC0805-popcount · 第2轮 · 8-19 到期 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
+                "icon": "🔥",
+                "accent": "red",
+                "text": " NC0805-popcount · 第2轮 · 今天复习 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
                 "problem_id": "NC0805-popcount",
                 "platform": "nowcoder"
               },
@@ -1956,6 +1956,13 @@
       },
       "lastSubmitDate": "2026-08-18",
       "recentSubmissions": [
+        {
+          "time": "23:41",
+          "date": "2026-08-18",
+          "platform": "codeforces",
+          "problem": "1454F",
+          "verdict": "AC"
+        },
         {
           "time": "16:54",
           "date": "2026-08-18",
@@ -2158,13 +2165,6 @@
           "platform": "codeforces",
           "problem": "547B",
           "verdict": "WA"
-        },
-        {
-          "time": "15:07",
-          "date": "2026-08-16",
-          "platform": "codeforces",
-          "problem": "280B",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -2182,8 +2182,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-24",
-              "2026-08-18"
+              "2026-06-25",
+              "2026-08-19"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -2240,10 +2240,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-06-24",
-                  1
-                ],
                 [
                   "2026-07-02",
                   2
@@ -2346,7 +2342,7 @@
                 ],
                 [
                   "2026-08-18",
-                  1
+                  2
                 ]
               ]
             }
@@ -2427,7 +2423,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 881,
+                  "value": 882,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -6134,6 +6130,10 @@
                 [
                   "2026-08-18",
                   800
+                ],
+                [
+                  "2026-08-18",
+                  2100.0
                 ]
               ],
               "symbolSize": 7,
@@ -11658,7 +11658,7 @@
                 3,
                 3,
                 11,
-                1
+                2
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -11868,11 +11868,11 @@
               "stack": "total",
               "data": [
                 5,
-                2,
+                3,
                 3,
                 4,
-                8,
-                2,
+                9,
+                3,
                 0,
                 0,
                 0,
@@ -12347,7 +12347,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 7,
+        "week_ac": 6,
         "total_ac": 309,
         "total_subs": 1074,
         "ac_rate": 35.4,
@@ -12357,7 +12357,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-17",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -14201,8 +14201,8 @@
             "items": [
               {
                 "icon": "⚡",
-                "accent": "amber",
-                "text": "1400 2252C Risky Tower · 第1轮 · 8-19 到期 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "accent": "red",
+                "text": "1400 2252C Risky Tower · 第1轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -14494,8 +14494,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-24",
-              "2026-08-18"
+              "2026-06-25",
+              "2026-08-19"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19887,7 +19887,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 18,
+        "week_ac": 14,
         "total_ac": 314,
         "total_subs": 980,
         "ac_rate": 36.5,
@@ -19897,7 +19897,7 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-08-17",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -21741,8 +21741,8 @@
             "items": [
               {
                 "icon": "⚡",
-                "accent": "amber",
-                "text": "1500 2254E Chronostasis · 第1轮 · 8-19 到期 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "accent": "red",
+                "text": "1500 2254E Chronostasis · 第1轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               }
@@ -22034,8 +22034,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-24",
-              "2026-08-18"
+              "2026-06-25",
+              "2026-08-19"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -28072,5 +28072,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-18 21:07"
+  "exportedAt": "2026-08-19 00:07"
 }
