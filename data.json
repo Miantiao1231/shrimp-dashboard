@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 24,
+        "week_ac": 23,
         "total_ac": 778,
         "total_subs": 2236,
         "ac_rate": 39.4,
@@ -22,7 +22,7 @@
         "current": 4,
         "longest": 13,
         "last_active": "2026-08-18",
-        "days_since_last": 1,
+        "days_since_last": 2,
         "is_broken": false
       },
       "weekly": {
@@ -1867,7 +1867,7 @@
               {
                 "icon": "🔥",
                 "accent": "red",
-                "text": " NC0805-popcount · 第2轮 · 今天复习 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
+                "text": " NC0805-popcount · 第2轮 · 超期 1 天 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
                 "problem_id": "NC0805-popcount",
                 "platform": "nowcoder"
               },
@@ -2182,8 +2182,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-25",
-              "2026-08-19"
+              "2026-06-26",
+              "2026-08-20"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -12357,8 +12357,8 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-17",
-        "days_since_last": 2,
-        "is_broken": false
+        "days_since_last": 3,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
@@ -14202,7 +14202,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -14494,8 +14494,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-25",
-              "2026-08-19"
+              "2026-06-26",
+              "2026-08-20"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19887,7 +19887,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 14,
+        "week_ac": 12,
         "total_ac": 314,
         "total_subs": 980,
         "ac_rate": 36.5,
@@ -19897,8 +19897,8 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-08-17",
-        "days_since_last": 2,
-        "is_broken": false
+        "days_since_last": 3,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
@@ -21728,6 +21728,11 @@
       "coachTips": {
         "collapsed": [
           {
+            "icon": "⚠️",
+            "accent": "amber",
+            "text": "本周日均 1.8 题，上周日均 2.9 题——先把热度捡回来"
+          },
+          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「提交破千」只差 2% 进度——集中火力冲一下"
@@ -21742,7 +21747,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               }
@@ -22034,8 +22039,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-25",
-              "2026-08-19"
+              "2026-06-26",
+              "2026-08-20"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -27038,7 +27043,7 @@
         "label": "Mianiii",
         "rating": 1753,
         "rank": "725",
-        "last_submit_days": 0,
+        "last_submit_days": 1,
         "nc_rating": 1242
       },
       {
@@ -28072,5 +28077,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-19 21:07"
+  "exportedAt": "2026-08-20 00:07"
 }
