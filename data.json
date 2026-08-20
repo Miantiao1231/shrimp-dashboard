@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 23,
+        "week_ac": 19,
         "total_ac": 778,
         "total_subs": 2236,
         "ac_rate": 39.4,
@@ -22,8 +22,8 @@
         "current": 4,
         "longest": 13,
         "last_active": "2026-08-18",
-        "days_since_last": 2,
-        "is_broken": false
+        "days_since_last": 3,
+        "is_broken": true
       },
       "weekly": {
         "this_week": {
@@ -2182,8 +2182,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-26",
-              "2026-08-20"
+              "2026-06-27",
+              "2026-08-21"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -12357,7 +12357,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-17",
-        "days_since_last": 3,
+        "days_since_last": 4,
         "is_broken": true
       },
       "weekly": {
@@ -14202,7 +14202,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -14494,8 +14494,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-26",
-              "2026-08-20"
+              "2026-06-27",
+              "2026-08-21"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19897,7 +19897,7 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-08-17",
-        "days_since_last": 3,
+        "days_since_last": 4,
         "is_broken": true
       },
       "weekly": {
@@ -21730,7 +21730,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 1.8 题，上周日均 2.9 题——先把热度捡回来"
+            "text": "本周日均 1.4 题，上周日均 2.9 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -21747,7 +21747,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               }
@@ -22039,8 +22039,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-26",
-              "2026-08-20"
+              "2026-06-27",
+              "2026-08-21"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -27043,7 +27043,7 @@
         "label": "Mianiii",
         "rating": 1753,
         "rank": "725",
-        "last_submit_days": 1,
+        "last_submit_days": 2,
         "nc_rating": 1242
       },
       {
@@ -28077,5 +28077,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-20 21:07"
+  "exportedAt": "2026-08-21 00:07"
 }
