@@ -1865,13 +1865,6 @@
             "icon": "📚",
             "items": [
               {
-                "icon": "🔥",
-                "accent": "red",
-                "text": " NC0805-popcount · 第2轮 · 超期 1 天 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
-                "problem_id": "NC0805-popcount",
-                "platform": "nowcoder"
-              },
-              {
                 "icon": "⏳",
                 "accent": "teal",
                 "text": " HDU9-D · 第2轮 · 8-24 到期 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
@@ -1897,6 +1890,13 @@
                 "accent": "teal",
                 "text": " HDU6-interval · 第3轮 · 8-29 到期 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
                 "problem_id": "HDU6-interval",
+                "platform": "nowcoder"
+              },
+              {
+                "icon": "⏳",
+                "accent": "teal",
+                "text": " NC0805-popcount · 第3轮 · 9-3 到期 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
+                "problem_id": "NC0805-popcount",
                 "platform": "nowcoder"
               }
             ]
@@ -27051,7 +27051,7 @@
         "label": "小宋",
         "rating": 1162,
         "rank": "4266",
-        "last_submit_days": 2,
+        "last_submit_days": 3,
         "nc_rating": 429
       },
       {
@@ -28077,5 +28077,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-20 15:07"
+  "exportedAt": "2026-08-20 18:07"
 }
