@@ -22,7 +22,7 @@
         "current": 1,
         "longest": 13,
         "last_active": "2026-08-21",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -1872,6 +1872,13 @@
                 "platform": "nowcoder"
               },
               {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "2000 817E Choosing The Commander · 第1轮 · 8-24 到期 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· bitmasks,data structures,trees",
+                "problem_id": "817E",
+                "platform": "codeforces"
+              },
+              {
                 "icon": "⏳",
                 "accent": "teal",
                 "text": "1500 2146D1 Max Sum OR (Easy Version) · 第3轮 · 8-26 到期 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做",
@@ -1890,13 +1897,6 @@
                 "accent": "teal",
                 "text": " HDU6-interval · 第3轮 · 8-29 到期 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
                 "problem_id": "HDU6-interval",
-                "platform": "nowcoder"
-              },
-              {
-                "icon": "⏳",
-                "accent": "teal",
-                "text": " NC0805-popcount · 第3轮 · 9-3 到期 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
-                "problem_id": "NC0805-popcount",
                 "platform": "nowcoder"
               }
             ]
@@ -2182,8 +2182,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-27",
-              "2026-08-21"
+              "2026-06-28",
+              "2026-08-22"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -12373,7 +12373,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-17",
-        "days_since_last": 4,
+        "days_since_last": 5,
         "is_broken": true
       },
       "weekly": {
@@ -14218,7 +14218,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 3 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -14510,8 +14510,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-27",
-              "2026-08-21"
+              "2026-06-28",
+              "2026-08-22"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19913,7 +19913,7 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-08-17",
-        "days_since_last": 4,
+        "days_since_last": 5,
         "is_broken": true
       },
       "weekly": {
@@ -21746,7 +21746,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 1.4 题，上周日均 2.9 题——先把热度捡回来"
+            "text": "本周日均 1.2 题，上周日均 2.9 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -21763,7 +21763,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 3 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               }
@@ -22055,8 +22055,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-27",
-              "2026-08-21"
+              "2026-06-28",
+              "2026-08-22"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -28093,5 +28093,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-21 21:07"
+  "exportedAt": "2026-08-22 00:07"
 }
