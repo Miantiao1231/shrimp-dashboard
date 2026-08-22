@@ -1879,6 +1879,13 @@
                 "platform": "codeforces"
               },
               {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "2000 514C Watto and Mechanism · 第1轮 · 8-25 到期 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· binary search,data structures,hashing,string suffix structures,strings",
+                "problem_id": "514C",
+                "platform": "codeforces"
+              },
+              {
                 "icon": "⏳",
                 "accent": "teal",
                 "text": "1500 2146D1 Max Sum OR (Easy Version) · 第3轮 · 8-26 到期 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做",
@@ -1890,13 +1897,6 @@
                 "accent": "teal",
                 "text": " hdu0804-病毒片段 · 第3轮 · 8-29 到期 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
                 "problem_id": "hdu0804-病毒片段",
-                "platform": "nowcoder"
-              },
-              {
-                "icon": "⏳",
-                "accent": "teal",
-                "text": " HDU6-interval · 第3轮 · 8-29 到期 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
-                "problem_id": "HDU6-interval",
                 "platform": "nowcoder"
               }
             ]
@@ -27103,7 +27103,7 @@
         "label": "小宋",
         "rating": 1162,
         "rank": "4266",
-        "last_submit_days": 4,
+        "last_submit_days": 5,
         "nc_rating": 429
       },
       {
@@ -28129,5 +28129,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-22 15:07"
+  "exportedAt": "2026-08-22 18:07"
 }
