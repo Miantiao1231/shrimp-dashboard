@@ -12,7 +12,7 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 23,
+        "week_ac": 12,
         "total_ac": 788,
         "total_subs": 2253,
         "ac_rate": 39.6,
@@ -22,7 +22,7 @@
         "current": 1,
         "longest": 13,
         "last_active": "2026-08-24",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 2.0 题，上周日均 3.0 题——先把热度捡回来"
+            "text": "本周日均 1.0 题，上周日均 3.0 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1872,21 +1872,21 @@
               {
                 "icon": "🔥",
                 "accent": "red",
-                "text": " HDU9-D · 第2轮 · 今天复习 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
+                "text": " HDU9-D · 第2轮 · 超期 1 天 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
                 "problem_id": "HDU9-D",
                 "platform": "nowcoder"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "2000 817E Choosing The Commander · 第1轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· bitmasks,data structures,trees",
+                "text": "2000 817E Choosing The Commander · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· bitmasks,data structures,trees",
                 "problem_id": "817E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
-                "accent": "amber",
-                "text": "2000 514C Watto and Mechanism · 第1轮 · 8-25 到期 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· binary search,data structures,hashing,string suffix structures,strings",
+                "accent": "red",
+                "text": "2000 514C Watto and Mechanism · 第1轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· binary search,data structures,hashing,string suffix structures,strings",
                 "problem_id": "514C",
                 "platform": "codeforces"
               },
@@ -2187,8 +2187,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-30",
-              "2026-08-24"
+              "2026-07-01",
+              "2026-08-25"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -12432,7 +12432,7 @@
     },
     "Guitaring": {
       "stats": {
-        "week_ac": 6,
+        "week_ac": 0,
         "total_ac": 309,
         "total_subs": 1074,
         "ac_rate": 35.4,
@@ -12442,7 +12442,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-17",
-        "days_since_last": 7,
+        "days_since_last": 8,
         "is_broken": true
       },
       "weekly": {
@@ -14292,7 +14292,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 5 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 6 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -14584,8 +14584,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-30",
-              "2026-08-24"
+              "2026-07-01",
+              "2026-08-25"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -19977,7 +19977,7 @@
     },
     "lywyb": {
       "stats": {
-        "week_ac": 7,
+        "week_ac": 0,
         "total_ac": 314,
         "total_subs": 980,
         "ac_rate": 36.5,
@@ -19987,7 +19987,7 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-08-17",
-        "days_since_last": 7,
+        "days_since_last": 8,
         "is_broken": true
       },
       "weekly": {
@@ -21837,7 +21837,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 5 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 6 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               }
@@ -22129,8 +22129,8 @@
           },
           "calendar": {
             "range": [
-              "2026-06-30",
-              "2026-08-24"
+              "2026-07-01",
+              "2026-08-25"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -28167,5 +28167,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-24 22:03"
+  "exportedAt": "2026-08-25 00:07"
 }
