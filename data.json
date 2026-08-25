@@ -12,10 +12,10 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 14,
-        "total_ac": 790,
-        "total_subs": 2261,
-        "ac_rate": 39.5,
+        "week_ac": 15,
+        "total_ac": 791,
+        "total_subs": 2262,
+        "ac_rate": 39.6,
         "topic_count": 18
       },
       "streak": {
@@ -27,15 +27,15 @@
       },
       "weekly": {
         "this_week": {
-          "ac": 4,
-          "subs": 11
+          "ac": 5,
+          "subs": 12
         },
         "last_week": {
           "ac": 21,
           "subs": 41
         },
-        "ac_delta": -81,
-        "subs_delta": -73
+        "ac_delta": -76,
+        "subs_delta": -71
       },
       "achievements": {
         "achievements": [
@@ -165,7 +165,7 @@
             "color": "orange",
             "earned": false,
             "progress": 79,
-            "current": 790,
+            "current": 791,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -268,8 +268,8 @@
             "target": 500,
             "color": "red",
             "earned": false,
-            "progress": 65,
-            "current": 327,
+            "progress": 66,
+            "current": 328,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -334,7 +334,7 @@
             "color": "orange",
             "earned": false,
             "progress": 53,
-            "current": 790,
+            "current": 791,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 45,
-            "current": 2261,
+            "current": 2262,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -386,7 +386,7 @@
             "color": "red",
             "earned": false,
             "progress": 40,
-            "current": 790,
+            "current": 791,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -425,7 +425,7 @@
             "color": "red",
             "earned": false,
             "progress": 26,
-            "current": 790,
+            "current": 791,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -451,7 +451,7 @@
             "color": "red",
             "earned": false,
             "progress": 16,
-            "current": 790,
+            "current": 791,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1853,11 +1853,6 @@
       "coachTips": {
         "collapsed": [
           {
-            "icon": "⚠️",
-            "accent": "amber",
-            "text": "本周日均 2.0 题，上周日均 3.0 题——先把热度捡回来"
-          },
-          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「稳扎稳打」只差 2% 进度——集中火力冲一下"
@@ -1869,27 +1864,6 @@
             "title": "复习队列",
             "icon": "📚",
             "items": [
-              {
-                "icon": "🔥",
-                "accent": "red",
-                "text": " HDU9-D · 第2轮 · 超期 1 天 · ✍️手动 · 树上启发式合并 + K号码建模(s+depth) + 卡哈希(unordered_map转map/set)",
-                "problem_id": "HDU9-D",
-                "platform": "nowcoder"
-              },
-              {
-                "icon": "⚡",
-                "accent": "red",
-                "text": "2000 817E Choosing The Commander · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· bitmasks,data structures,trees",
-                "problem_id": "817E",
-                "platform": "codeforces"
-              },
-              {
-                "icon": "⚡",
-                "accent": "red",
-                "text": "2000 514C Watto and Mechanism · 第1轮 · 今天复习 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· binary search,data structures,hashing,string suffix structures,strings",
-                "problem_id": "514C",
-                "platform": "codeforces"
-              },
               {
                 "icon": "⏳",
                 "accent": "teal",
@@ -1903,6 +1877,27 @@
                 "text": " hdu0804-病毒片段 · 第3轮 · 8-29 到期 · ✍️手动 · 区间完全包含最长；离线排序+BIT前缀max；自己敲AC，卡点=operator<方向/多组cnt清零/sort边界",
                 "problem_id": "hdu0804-病毒片段",
                 "platform": "nowcoder"
+              },
+              {
+                "icon": "⏳",
+                "accent": "teal",
+                "text": " HDU6-interval · 第3轮 · 8-29 到期 · ✍️手动 · 区间包含查询:排序砍l维+BIT管r维前缀max,8/7重写",
+                "problem_id": "HDU6-interval",
+                "platform": "nowcoder"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "2000 817E Choosing The Commander · 第2轮 · 9-1 到期 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· bitmasks,data structures,trees",
+                "problem_id": "817E",
+                "platform": "codeforces"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "2000 514C Watto and Mechanism · 第2轮 · 9-1 到期 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· binary search,data structures,hashing,string suffix structures,strings",
+                "problem_id": "514C",
+                "platform": "codeforces"
               }
             ]
           },
@@ -1961,6 +1956,13 @@
       },
       "lastSubmitDate": "2026-08-25",
       "recentSubmissions": [
+        {
+          "time": "20:36",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "1114D",
+          "verdict": "AC"
+        },
         {
           "time": "17:14",
           "date": "2026-08-25",
@@ -2163,13 +2165,6 @@
           "platform": "codeforces",
           "problem": "2257E",
           "verdict": "WA"
-        },
-        {
-          "time": "16:22",
-          "date": "2026-08-18",
-          "platform": "codeforces",
-          "problem": "2257E",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -2363,7 +2358,7 @@
                 ],
                 [
                   "2026-08-25",
-                  2
+                  3
                 ]
               ]
             }
@@ -2444,7 +2439,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 894,
+                  "value": 895,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -6203,6 +6198,10 @@
                 [
                   "2026-08-25",
                   800
+                ],
+                [
+                  "2026-08-25",
+                  1900.0
                 ]
               ],
               "symbolSize": 7,
@@ -11779,7 +11778,7 @@
                 4,
                 4,
                 2,
-                2
+                3
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -11988,7 +11987,7 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                7,
+                8,
                 4,
                 4,
                 8,
@@ -28203,5 +28202,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-25 18:07"
+  "exportedAt": "2026-08-25 21:07"
 }
