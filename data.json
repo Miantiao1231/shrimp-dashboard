@@ -12,30 +12,30 @@
   "members": {
     "Mianii": {
       "stats": {
-        "week_ac": 12,
-        "total_ac": 788,
-        "total_subs": 2253,
-        "ac_rate": 39.6,
+        "week_ac": 14,
+        "total_ac": 790,
+        "total_subs": 2261,
+        "ac_rate": 39.5,
         "topic_count": 18
       },
       "streak": {
-        "current": 1,
+        "current": 2,
         "longest": 13,
-        "last_active": "2026-08-24",
-        "days_since_last": 1,
+        "last_active": "2026-08-25",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
-          "ac": 2,
-          "subs": 3
+          "ac": 4,
+          "subs": 11
         },
         "last_week": {
           "ac": 21,
           "subs": 41
         },
-        "ac_delta": -90,
-        "subs_delta": -93
+        "ac_delta": -81,
+        "subs_delta": -73
       },
       "achievements": {
         "achievements": [
@@ -165,7 +165,7 @@
             "color": "orange",
             "earned": false,
             "progress": 79,
-            "current": 788,
+            "current": 790,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
           },
@@ -269,7 +269,7 @@
             "color": "red",
             "earned": false,
             "progress": 65,
-            "current": 325,
+            "current": 327,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 500 题"
           },
@@ -334,7 +334,7 @@
             "color": "orange",
             "earned": false,
             "progress": 53,
-            "current": 788,
+            "current": 790,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 45,
-            "current": 2253,
+            "current": 2261,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -385,8 +385,8 @@
             "target": 2000,
             "color": "red",
             "earned": false,
-            "progress": 39,
-            "current": 788,
+            "progress": 40,
+            "current": 790,
             "earned_date": null,
             "unlock_hint": "累计 AC 2000 题"
           },
@@ -425,7 +425,7 @@
             "color": "red",
             "earned": false,
             "progress": 26,
-            "current": 788,
+            "current": 790,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
           },
@@ -451,7 +451,7 @@
             "color": "red",
             "earned": false,
             "progress": 16,
-            "current": 788,
+            "current": 790,
             "earned_date": null,
             "unlock_hint": "累计 AC 5000 题"
           },
@@ -1855,7 +1855,7 @@
           {
             "icon": "⚠️",
             "accent": "amber",
-            "text": "本周日均 1.0 题，上周日均 3.0 题——先把热度捡回来"
+            "text": "本周日均 2.0 题，上周日均 3.0 题——先把热度捡回来"
           },
           {
             "icon": "🚀",
@@ -1959,8 +1959,64 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-08-24",
+      "lastSubmitDate": "2026-08-25",
       "recentSubmissions": [
+        {
+          "time": "17:14",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128G",
+          "verdict": "AC"
+        },
+        {
+          "time": "17:08",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128G",
+          "verdict": "WA"
+        },
+        {
+          "time": "16:57",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128G",
+          "verdict": "WA"
+        },
+        {
+          "time": "16:56",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128G",
+          "verdict": "WA"
+        },
+        {
+          "time": "16:48",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128G",
+          "verdict": "WA"
+        },
+        {
+          "time": "16:38",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128G",
+          "verdict": "WA"
+        },
+        {
+          "time": "16:34",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128G",
+          "verdict": "WA"
+        },
+        {
+          "time": "16:12",
+          "date": "2026-08-25",
+          "platform": "codeforces",
+          "problem": "104128I",
+          "verdict": "AC"
+        },
         {
           "time": "17:04",
           "date": "2026-08-24",
@@ -2114,62 +2170,6 @@
           "platform": "codeforces",
           "problem": "2257E",
           "verdict": "WA"
-        },
-        {
-          "time": "16:20",
-          "date": "2026-08-18",
-          "platform": "codeforces",
-          "problem": "2257E",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:19",
-          "date": "2026-08-18",
-          "platform": "codeforces",
-          "problem": "2257E",
-          "verdict": "WA"
-        },
-        {
-          "time": "00:32",
-          "date": "2026-08-18",
-          "platform": "codeforces",
-          "problem": "2257E",
-          "verdict": "WA"
-        },
-        {
-          "time": "00:22",
-          "date": "2026-08-18",
-          "platform": "codeforces",
-          "problem": "2257E",
-          "verdict": "WA"
-        },
-        {
-          "time": "00:19",
-          "date": "2026-08-18",
-          "platform": "codeforces",
-          "problem": "2257E",
-          "verdict": "WA"
-        },
-        {
-          "time": "00:17",
-          "date": "2026-08-18",
-          "platform": "codeforces",
-          "problem": "2257E",
-          "verdict": "WA"
-        },
-        {
-          "time": "23:29",
-          "date": "2026-08-17",
-          "platform": "codeforces",
-          "problem": "2257D",
-          "verdict": "AC"
-        },
-        {
-          "time": "23:07",
-          "date": "2026-08-17",
-          "platform": "codeforces",
-          "problem": "2257C",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -2360,6 +2360,10 @@
                 [
                   "2026-08-24",
                   2
+                ],
+                [
+                  "2026-08-25",
+                  2
                 ]
               ]
             }
@@ -2440,7 +2444,7 @@
               "type": "bar",
               "data": [
                 {
-                  "value": 892,
+                  "value": 894,
                   "itemStyle": {
                     "color": "#10B981",
                     "borderRadius": [
@@ -2452,7 +2456,7 @@
                   }
                 },
                 {
-                  "value": 780,
+                  "value": 786,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -6191,6 +6195,14 @@
                 [
                   "2026-08-24",
                   1900.0
+                ],
+                [
+                  "2026-08-25",
+                  800
+                ],
+                [
+                  "2026-08-25",
+                  800
                 ]
               ],
               "symbolSize": 7,
@@ -11646,6 +11658,30 @@
                 [
                   "2026-08-24",
                   2400.0
+                ],
+                [
+                  "2026-08-25",
+                  800
+                ],
+                [
+                  "2026-08-25",
+                  800
+                ],
+                [
+                  "2026-08-25",
+                  800
+                ],
+                [
+                  "2026-08-25",
+                  800
+                ],
+                [
+                  "2026-08-25",
+                  800
+                ],
+                [
+                  "2026-08-25",
+                  800
                 ]
               ],
               "symbolSize": 5,
@@ -11697,14 +11733,14 @@
               "fontSize": 11
             },
             "data": [
-              "08/13",
               "08/15",
               "08/16",
               "08/17",
               "08/18",
               "08/21",
               "08/22",
-              "08/24"
+              "08/24",
+              "08/25"
             ]
           },
           "yAxis": {
@@ -11736,13 +11772,13 @@
             {
               "type": "bar",
               "data": [
-                4,
                 3,
                 3,
                 11,
                 2,
                 4,
                 4,
+                2,
                 2
               ],
               "barWidth": "55%",
@@ -27141,7 +27177,7 @@
         "label": "小宋",
         "rating": 1162,
         "rank": "4266",
-        "last_submit_days": 7,
+        "last_submit_days": 8,
         "nc_rating": 429
       },
       {
@@ -28167,5 +28203,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-25 15:07"
+  "exportedAt": "2026-08-25 18:07"
 }
