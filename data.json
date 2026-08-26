@@ -14,8 +14,8 @@
       "stats": {
         "week_ac": 19,
         "total_ac": 797,
-        "total_subs": 2277,
-        "ac_rate": 39.6,
+        "total_subs": 2287,
+        "ac_rate": 39.4,
         "topic_count": 18
       },
       "streak": {
@@ -28,14 +28,14 @@
       "weekly": {
         "this_week": {
           "ac": 11,
-          "subs": 27
+          "subs": 37
         },
         "last_week": {
           "ac": 21,
           "subs": 41
         },
         "ac_delta": -48,
-        "subs_delta": -34
+        "subs_delta": -10
       },
       "achievements": {
         "achievements": [
@@ -204,7 +204,7 @@
             "color": "purple",
             "earned": false,
             "progress": 77,
-            "current": 2.59,
+            "current": 2.6,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -347,7 +347,7 @@
             "color": "red",
             "earned": false,
             "progress": 46,
-            "current": 2277,
+            "current": 2287,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -1608,7 +1608,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.59,
+            "current": 2.6,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -1621,7 +1621,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.59,
+            "current": 2.6,
             "earned_date": "2025-09-09",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -1957,6 +1957,76 @@
       "lastSubmitDate": "2026-08-26",
       "recentSubmissions": [
         {
+          "time": "16:04",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:53",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "WA"
+        },
+        {
+          "time": "15:50",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:47",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:45",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:43",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:40",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:39",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:36",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "TLE"
+        },
+        {
+          "time": "15:35",
+          "date": "2026-08-26",
+          "platform": "codeforces",
+          "problem": "105924H",
+          "verdict": "WA"
+        },
+        {
           "time": "14:44",
           "date": "2026-08-26",
           "platform": "codeforces",
@@ -2094,76 +2164,6 @@
           "date": "2026-08-25",
           "platform": "codeforces",
           "problem": "104128G",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:48",
-          "date": "2026-08-25",
-          "platform": "codeforces",
-          "problem": "104128G",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:38",
-          "date": "2026-08-25",
-          "platform": "codeforces",
-          "problem": "104128G",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:34",
-          "date": "2026-08-25",
-          "platform": "codeforces",
-          "problem": "104128G",
-          "verdict": "WA"
-        },
-        {
-          "time": "16:12",
-          "date": "2026-08-25",
-          "platform": "codeforces",
-          "problem": "104128I",
-          "verdict": "AC"
-        },
-        {
-          "time": "17:04",
-          "date": "2026-08-24",
-          "platform": "codeforces",
-          "problem": "1092F",
-          "verdict": "AC"
-        },
-        {
-          "time": "14:06",
-          "date": "2026-08-24",
-          "platform": "codeforces",
-          "problem": "1088E",
-          "verdict": "AC"
-        },
-        {
-          "time": "13:58",
-          "date": "2026-08-24",
-          "platform": "codeforces",
-          "problem": "1088E",
-          "verdict": "MLE"
-        },
-        {
-          "time": "19:44",
-          "date": "2026-08-22",
-          "platform": "codeforces",
-          "problem": "161D",
-          "verdict": "AC"
-        },
-        {
-          "time": "18:46",
-          "date": "2026-08-22",
-          "platform": "codeforces",
-          "problem": "1324F",
-          "verdict": "AC"
-        },
-        {
-          "time": "18:45",
-          "date": "2026-08-22",
-          "platform": "codeforces",
-          "problem": "1324F",
           "verdict": "WA"
         }
       ],
@@ -2455,7 +2455,7 @@
                   }
                 },
                 {
-                  "value": 793,
+                  "value": 795,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -2479,7 +2479,7 @@
                   }
                 },
                 {
-                  "value": 106,
+                  "value": 114,
                   "itemStyle": {
                     "color": "#F97316",
                     "borderRadius": [
@@ -6133,23 +6133,23 @@
                 ],
                 [
                   "2026-08-17",
-                  800
+                  800.0
                 ],
                 [
                   "2026-08-17",
-                  800
+                  800.0
                 ],
                 [
                   "2026-08-17",
-                  800
+                  1200.0
                 ],
                 [
                   "2026-08-17",
-                  800
+                  1600.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
@@ -11628,39 +11628,39 @@
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  2000.0
                 ],
                 [
                   "2026-08-21",
@@ -11712,6 +11712,46 @@
                 ],
                 [
                   "2026-08-25",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
+                  800
+                ],
+                [
+                  "2026-08-26",
                   800
                 ],
                 [
@@ -11995,15 +12035,15 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                20,
-                136,
-                119,
+                19,
+                135,
+                118,
                 43,
-                52,
-                37,
+                53,
+                36,
                 21,
                 56,
-                41,
+                42,
                 128,
                 69,
                 10,
@@ -12028,14 +12068,14 @@
               "data": [
                 21,
                 32,
-                32,
+                33,
                 15,
                 20,
-                14,
+                15,
                 2,
                 0,
                 20,
-                12,
+                13,
                 16,
                 7,
                 1,
@@ -12051,17 +12091,17 @@
               "type": "bar",
               "stack": "total",
               "data": [
-                9,
-                4,
+                10,
+                5,
                 4,
                 8,
-                12,
+                13,
                 4,
                 0,
                 2,
                 0,
+                3,
                 2,
-                1,
                 1,
                 0,
                 0,
@@ -24115,11 +24155,11 @@
                 ],
                 [
                   "2026-08-17",
-                  800
+                  800.0
                 ],
                 [
                   "2026-08-17",
-                  800
+                  800.0
                 ]
               ],
               "symbolSize": 7,
@@ -26614,11 +26654,11 @@
                 ],
                 [
                   "2026-08-17",
-                  800
+                  800.0
                 ],
                 [
                   "2026-08-18",
-                  800
+                  1600.0
                 ]
               ],
               "symbolSize": 5,
@@ -26878,7 +26918,7 @@
                 20,
                 10,
                 65,
-                29,
+                30,
                 3,
                 11,
                 1
@@ -28406,5 +28446,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-26 16:30"
+  "exportedAt": "2026-08-26 18:07"
 }
