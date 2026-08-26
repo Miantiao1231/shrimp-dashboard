@@ -22,7 +22,7 @@
         "current": 3,
         "longest": 13,
         "last_active": "2026-08-26",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
@@ -1867,7 +1867,7 @@
               {
                 "icon": "🔥",
                 "accent": "red",
-                "text": "1500 2146D1 Max Sum OR (Easy Version) · 第3轮 · 今天复习 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做",
+                "text": "1500 2146D1 Max Sum OR (Easy Version) · 第3轮 · 超期 1 天 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做",
                 "problem_id": "2146D1",
                 "platform": "codeforces"
               },
@@ -2182,8 +2182,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-02",
-              "2026-08-26"
+              "2026-07-03",
+              "2026-08-27"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -2240,10 +2240,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-02",
-                  2
-                ],
                 [
                   "2026-07-07",
                   3
@@ -12602,7 +12598,7 @@
         "current": 1,
         "longest": 10,
         "last_active": "2026-08-17",
-        "days_since_last": 9,
+        "days_since_last": 10,
         "is_broken": true
       },
       "weekly": {
@@ -14452,7 +14448,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 7 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 8 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -14744,8 +14740,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-02",
-              "2026-08-26"
+              "2026-07-03",
+              "2026-08-27"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -20168,7 +20164,7 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-08-17",
-        "days_since_last": 9,
+        "days_since_last": 10,
         "is_broken": true
       },
       "weekly": {
@@ -22018,7 +22014,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 7 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 8 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               },
@@ -22324,8 +22320,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-02",
-              "2026-08-26"
+              "2026-07-03",
+              "2026-08-27"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -28446,5 +28442,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-26 21:07"
+  "exportedAt": "2026-08-27 00:07"
 }
