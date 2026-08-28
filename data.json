@@ -12595,28 +12595,28 @@
       "stats": {
         "week_ac": 0,
         "total_ac": 309,
-        "total_subs": 1074,
-        "ac_rate": 35.4,
+        "total_subs": 1087,
+        "ac_rate": 35.0,
         "topic_count": 16
       },
       "streak": {
         "current": 1,
         "longest": 10,
-        "last_active": "2026-08-17",
-        "days_since_last": 12,
-        "is_broken": true
+        "last_active": "2026-08-28",
+        "days_since_last": 1,
+        "is_broken": false
       },
       "weekly": {
         "this_week": {
           "ac": 0,
-          "subs": 0
+          "subs": 13
         },
         "last_week": {
           "ac": 6,
           "subs": 12
         },
         "ac_delta": -100,
-        "subs_delta": -100
+        "subs_delta": 8
       },
       "achievements": {
         "achievements": [
@@ -12915,7 +12915,7 @@
             "color": "purple",
             "earned": false,
             "progress": 68,
-            "current": 2.93,
+            "current": 2.96,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
@@ -13045,7 +13045,7 @@
             "color": "orange",
             "earned": false,
             "progress": 54,
-            "current": 1074,
+            "current": 1087,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -13245,6 +13245,19 @@
             "unlock_hint": "洛谷 AC 200 题"
           },
           {
+            "id": "fn_sub_5000",
+            "name": "提交狂魔",
+            "icon": "📮",
+            "type": "total_subs",
+            "target": 5000,
+            "color": "red",
+            "earned": false,
+            "progress": 22,
+            "current": 1087,
+            "earned_date": null,
+            "unlock_hint": "累计提交 5000 次"
+          },
+          {
             "id": "ac_1500",
             "name": "千五战神",
             "icon": "🗡️",
@@ -13256,19 +13269,6 @@
             "current": 309,
             "earned_date": null,
             "unlock_hint": "累计 AC 1500 题"
-          },
-          {
-            "id": "fn_sub_5000",
-            "name": "提交狂魔",
-            "icon": "📮",
-            "type": "total_subs",
-            "target": 5000,
-            "color": "red",
-            "earned": false,
-            "progress": 21,
-            "current": 1074,
-            "earned_date": null,
-            "unlock_hint": "累计提交 5000 次"
           },
           {
             "id": "st_50",
@@ -14254,7 +14254,7 @@
             "color": "green",
             "earned": true,
             "progress": 100,
-            "current": 2.93,
+            "current": 2.96,
             "earned_date": "2025-10-05",
             "unlock_hint": "平均每 AC 一题 ≤ 4 次提交"
           },
@@ -14267,7 +14267,7 @@
             "color": "blue",
             "earned": true,
             "progress": 100,
-            "current": 2.93,
+            "current": 2.96,
             "earned_date": "2025-10-05",
             "unlock_hint": "平均每 AC 一题 ≤ 3 次提交"
           },
@@ -14517,8 +14517,99 @@
           }
         ]
       },
-      "lastSubmitDate": "2026-08-17",
+      "lastSubmitDate": "2026-08-29",
       "recentSubmissions": [
+        {
+          "time": "01:41",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:41",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:39",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "CE"
+        },
+        {
+          "time": "01:30",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:29",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "MLE"
+        },
+        {
+          "time": "01:27",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:23",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:13",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:11",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "WA"
+        },
+        {
+          "time": "01:07",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:06",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:06",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
+        {
+          "time": "01:05",
+          "date": "2026-08-29",
+          "platform": "nowcoder",
+          "problem": "208774",
+          "verdict": "Othe"
+        },
         {
           "time": "15:27",
           "date": "2026-08-17",
@@ -14637,97 +14728,6 @@
           "platform": "codeforces",
           "problem": "2256D",
           "verdict": "AC"
-        },
-        {
-          "time": "20:48",
-          "date": "2026-08-10",
-          "platform": "codeforces",
-          "problem": "2256B",
-          "verdict": "AC"
-        },
-        {
-          "time": "17:53",
-          "date": "2026-08-10",
-          "platform": "codeforces",
-          "problem": "2256D",
-          "verdict": "AC"
-        },
-        {
-          "time": "17:51",
-          "date": "2026-08-10",
-          "platform": "codeforces",
-          "problem": "2256B",
-          "verdict": "AC"
-        },
-        {
-          "time": "17:49",
-          "date": "2026-08-10",
-          "platform": "codeforces",
-          "problem": "2256B",
-          "verdict": "WA"
-        },
-        {
-          "time": "23:32",
-          "date": "2026-08-09",
-          "platform": "codeforces",
-          "problem": "2256C",
-          "verdict": "AC"
-        },
-        {
-          "time": "23:15",
-          "date": "2026-08-09",
-          "platform": "codeforces",
-          "problem": "2256B",
-          "verdict": "AC"
-        },
-        {
-          "time": "23:00",
-          "date": "2026-08-09",
-          "platform": "codeforces",
-          "problem": "2256B",
-          "verdict": "Othe"
-        },
-        {
-          "time": "22:38",
-          "date": "2026-08-09",
-          "platform": "codeforces",
-          "problem": "2256A",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:17",
-          "date": "2026-08-09",
-          "platform": "codeforces",
-          "problem": "2252C",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:12",
-          "date": "2026-08-09",
-          "platform": "codeforces",
-          "problem": "2252C",
-          "verdict": "WA"
-        },
-        {
-          "time": "19:34",
-          "date": "2026-08-09",
-          "platform": "nowcoder",
-          "problem": "321126",
-          "verdict": "AC"
-        },
-        {
-          "time": "19:13",
-          "date": "2026-08-09",
-          "platform": "nowcoder",
-          "problem": "320145",
-          "verdict": "AC"
-        },
-        {
-          "time": "19:11",
-          "date": "2026-08-09",
-          "platform": "nowcoder",
-          "problem": "320145",
-          "verdict": "WA"
         }
       ],
       "charts": {
@@ -14958,7 +14958,7 @@
                   }
                 },
                 {
-                  "value": 506,
+                  "value": 507,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -14970,7 +14970,7 @@
                   }
                 },
                 {
-                  "value": 87,
+                  "value": 97,
                   "itemStyle": {
                     "color": "#4B5563",
                     "borderRadius": [
@@ -14994,7 +14994,7 @@
                   }
                 },
                 {
-                  "value": 25,
+                  "value": 26,
                   "itemStyle": {
                     "color": "#94A3B8",
                     "borderRadius": [
@@ -15018,7 +15018,7 @@
                   }
                 },
                 {
-                  "value": 3,
+                  "value": 4,
                   "itemStyle": {
                     "color": "#8B5CF6",
                     "borderRadius": [
@@ -19435,6 +19435,58 @@
                 ],
                 [
                   "2026-08-17",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
+                  800
+                ],
+                [
+                  "2026-08-29",
                   800
                 ]
               ],
@@ -27354,7 +27406,7 @@
         "label": "小宋",
         "rating": 1167,
         "rank": "newbie",
-        "last_submit_days": 11,
+        "last_submit_days": 0,
         "nc_rating": 429
       },
       {
@@ -28443,5 +28495,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-29 03:07"
+  "exportedAt": "2026-08-29 04:02"
 }
