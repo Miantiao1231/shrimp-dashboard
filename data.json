@@ -27341,7 +27341,7 @@
         "label": "Mianiii",
         "rating": 1765,
         "rank": "expert",
-        "last_submit_days": 1,
+        "last_submit_days": 2,
         "nc_rating": 1229
       },
       {
@@ -27349,7 +27349,7 @@
         "label": "小宋",
         "rating": 1167,
         "rank": "newbie",
-        "last_submit_days": 10,
+        "last_submit_days": 11,
         "nc_rating": 429
       },
       {
@@ -28438,5 +28438,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-28 15:07"
+  "exportedAt": "2026-08-28 18:07"
 }
