@@ -12595,28 +12595,28 @@
       "stats": {
         "week_ac": 0,
         "total_ac": 309,
-        "total_subs": 1087,
-        "ac_rate": 35.0,
+        "total_subs": 1089,
+        "ac_rate": 34.9,
         "topic_count": 16
       },
       "streak": {
-        "current": 1,
+        "current": 2,
         "longest": 10,
-        "last_active": "2026-08-28",
-        "days_since_last": 1,
+        "last_active": "2026-08-29",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
           "ac": 0,
-          "subs": 13
+          "subs": 15
         },
         "last_week": {
           "ac": 6,
           "subs": 12
         },
         "ac_delta": -100,
-        "subs_delta": 8
+        "subs_delta": 25
       },
       "achievements": {
         "achievements": [
@@ -12686,19 +12686,6 @@
             "unlock_hint": "洛谷 AC 50 题"
           },
           {
-            "id": "fn_ac_rate_40",
-            "name": "稳扎稳打",
-            "icon": "📈",
-            "type": "ac_rate",
-            "target": 40,
-            "color": "blue",
-            "earned": false,
-            "progress": 88,
-            "current": 35,
-            "earned_date": null,
-            "unlock_hint": "AC 率达到 40%"
-          },
-          {
             "id": "dw_35",
             "name": "周刷三五",
             "icon": "🚀",
@@ -12710,6 +12697,19 @@
             "current": 30,
             "earned_date": null,
             "unlock_hint": "单周 AC 35 题"
+          },
+          {
+            "id": "fn_ac_rate_40",
+            "name": "稳扎稳打",
+            "icon": "📈",
+            "type": "ac_rate",
+            "target": 40,
+            "color": "blue",
+            "earned": false,
+            "progress": 85,
+            "current": 34,
+            "earned_date": null,
+            "unlock_hint": "AC 率达到 40%"
           },
           {
             "id": "r_1400",
@@ -12881,19 +12881,6 @@
             "unlock_hint": "深夜 (0-6 点) AC 10 题"
           },
           {
-            "id": "fn_ac_rate_50",
-            "name": "五五开",
-            "icon": "⚖️",
-            "type": "ac_rate",
-            "target": 50,
-            "color": "purple",
-            "earned": false,
-            "progress": 70,
-            "current": 35,
-            "earned_date": null,
-            "unlock_hint": "AC 率达到 50%"
-          },
-          {
             "id": "r_1700",
             "name": "蓝名中坚",
             "icon": "💪",
@@ -12918,6 +12905,19 @@
             "current": 2.96,
             "earned_date": null,
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
+          },
+          {
+            "id": "fn_ac_rate_50",
+            "name": "五五开",
+            "icon": "⚖️",
+            "type": "ac_rate",
+            "target": 50,
+            "color": "purple",
+            "earned": false,
+            "progress": 68,
+            "current": 34,
+            "earned_date": null,
+            "unlock_hint": "AC 率达到 50%"
           },
           {
             "id": "r_1800",
@@ -12998,19 +12998,6 @@
             "unlock_hint": "CF Rating 达到 2000"
           },
           {
-            "id": "fn_ac_rate_60",
-            "name": "高效选手",
-            "icon": "🚀",
-            "type": "ac_rate",
-            "target": 60,
-            "color": "orange",
-            "earned": false,
-            "progress": 58,
-            "current": 35,
-            "earned_date": null,
-            "unlock_hint": "AC 率达到 60%"
-          },
-          {
             "id": "cf_200",
             "name": "CF 狂人",
             "icon": "🔥",
@@ -13022,6 +13009,19 @@
             "current": 115,
             "earned_date": null,
             "unlock_hint": "CF 平台 AC 200 题"
+          },
+          {
+            "id": "fn_ac_rate_60",
+            "name": "高效选手",
+            "icon": "🚀",
+            "type": "ac_rate",
+            "target": 60,
+            "color": "orange",
+            "earned": false,
+            "progress": 57,
+            "current": 34,
+            "earned_date": null,
+            "unlock_hint": "AC 率达到 60%"
           },
           {
             "id": "r_2100",
@@ -13045,7 +13045,7 @@
             "color": "orange",
             "earned": false,
             "progress": 54,
-            "current": 1087,
+            "current": 1089,
             "earned_date": null,
             "unlock_hint": "累计提交 2000 次"
           },
@@ -13253,7 +13253,7 @@
             "color": "red",
             "earned": false,
             "progress": 22,
-            "current": 1087,
+            "current": 1089,
             "earned_date": null,
             "unlock_hint": "累计提交 5000 次"
           },
@@ -14520,6 +14520,20 @@
       "lastSubmitDate": "2026-08-29",
       "recentSubmissions": [
         {
+          "time": "10:56",
+          "date": "2026-08-29",
+          "platform": "codeforces",
+          "problem": "2257A",
+          "verdict": "WA"
+        },
+        {
+          "time": "10:54",
+          "date": "2026-08-29",
+          "platform": "codeforces",
+          "problem": "2257A",
+          "verdict": "WA"
+        },
+        {
           "time": "01:41",
           "date": "2026-08-29",
           "platform": "nowcoder",
@@ -14714,20 +14728,6 @@
           "platform": "codeforces",
           "problem": "105901H",
           "verdict": "CE"
-        },
-        {
-          "time": "17:10",
-          "date": "2026-08-11",
-          "platform": "codeforces",
-          "problem": "1709D",
-          "verdict": "AC"
-        },
-        {
-          "time": "22:21",
-          "date": "2026-08-10",
-          "platform": "codeforces",
-          "problem": "2256D",
-          "verdict": "AC"
         }
       ],
       "charts": {
@@ -14958,7 +14958,7 @@
                   }
                 },
                 {
-                  "value": 507,
+                  "value": 509,
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderRadius": [
@@ -19488,6 +19488,14 @@
                 [
                   "2026-08-29",
                   800
+                ],
+                [
+                  "2026-08-29",
+                  800.0
+                ],
+                [
+                  "2026-08-29",
+                  800.0
                 ]
               ],
               "symbolSize": 5,
@@ -28495,5 +28503,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-29 09:07"
+  "exportedAt": "2026-08-29 12:07"
 }
