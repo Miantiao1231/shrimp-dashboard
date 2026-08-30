@@ -22,20 +22,20 @@
         "current": 1,
         "longest": 13,
         "last_active": "2026-08-30",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 17,
           "subs": 48
         },
-        "last_week": {
-          "ac": 21,
-          "subs": 41
-        },
-        "ac_delta": -19,
-        "subs_delta": 17
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -1853,6 +1853,11 @@
       "coachTips": {
         "collapsed": [
           {
+            "icon": "⚠️",
+            "accent": "amber",
+            "text": "本周日均 0.0 题，上周日均 2.4 题——先把热度捡回来"
+          },
+          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「紫名在望」只差 2% 进度——集中火力冲一下"
@@ -1867,35 +1872,35 @@
               {
                 "icon": "🔥",
                 "accent": "red",
-                "text": "1500 2146D1 Max Sum OR (Easy Version) · 第3轮 · 超期 4 天 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做",
+                "text": "1500 2146D1 Max Sum OR (Easy Version) · 第3轮 · 超期 5 天 · ✍️手动 · Max Sum OR 位运算构造，看题解才AC，3天后重做",
                 "problem_id": "2146D1",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1900 547B Mike and Feet · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· binary search,data structures,dp,dsu",
+                "text": "1900 547B Mike and Feet · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· binary search,data structures,dp,dsu",
                 "problem_id": "547B",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1900 1313C2 Skyscrapers (hard version) · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· data structures,dp,greedy",
+                "text": "1900 1313C2 Skyscrapers (hard version) · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· data structures,dp,greedy",
                 "problem_id": "1313C2",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "2000 1132F Clear the String · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· dp",
+                "text": "2000 1132F Clear the String · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· dp",
                 "problem_id": "1132F",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "2000 2257E Busy Beaver · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· brute force,data structures,divide and conquer,dp,greedy,implementation,sortings",
+                "text": "2000 2257E Busy Beaver · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· brute force,data structures,divide and conquer,dp,greedy,implementation,sortings",
                 "problem_id": "2257E",
                 "platform": "codeforces"
               }
@@ -2182,8 +2187,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-06",
-              "2026-08-30"
+              "2026-07-07",
+              "2026-08-31"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -12646,20 +12651,20 @@
         "current": 3,
         "longest": 10,
         "last_active": "2026-08-30",
-        "days_since_last": 0,
+        "days_since_last": 1,
         "is_broken": false
       },
       "weekly": {
         "this_week": {
+          "ac": 0,
+          "subs": 0
+        },
+        "last_week": {
           "ac": 7,
           "subs": 28
         },
-        "last_week": {
-          "ac": 6,
-          "subs": 12
-        },
-        "ac_delta": 17,
-        "subs_delta": 133
+        "ac_delta": -100,
+        "subs_delta": -100
       },
       "achievements": {
         "achievements": [
@@ -14477,6 +14482,11 @@
       "coachTips": {
         "collapsed": [
           {
+            "icon": "⚠️",
+            "accent": "amber",
+            "text": "本周日均 0.0 题，上周日均 1.0 题——先把热度捡回来"
+          },
+          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「日刷十二」只差 8% 进度——集中火力冲一下"
@@ -14491,7 +14501,7 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 11 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 12 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1162 的 +238）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -14783,8 +14793,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-06",
-              "2026-08-30"
+              "2026-07-07",
+              "2026-08-31"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -14841,10 +14851,6 @@
               "type": "heatmap",
               "coordinateSystem": "calendar",
               "data": [
-                [
-                  "2026-07-06",
-                  4
-                ],
                 [
                   "2026-07-14",
                   4
@@ -20326,7 +20332,7 @@
         "current": 2,
         "longest": 14,
         "last_active": "2026-08-17",
-        "days_since_last": 13,
+        "days_since_last": 14,
         "is_broken": true
       },
       "weekly": {
@@ -20335,11 +20341,11 @@
           "subs": 0
         },
         "last_week": {
-          "ac": 7,
-          "subs": 12
+          "ac": 0,
+          "subs": 0
         },
-        "ac_delta": -100,
-        "subs_delta": -100
+        "ac_delta": 0,
+        "subs_delta": 0
       },
       "achievements": {
         "achievements": [
@@ -22157,11 +22163,6 @@
       "coachTips": {
         "collapsed": [
           {
-            "icon": "⚠️",
-            "accent": "amber",
-            "text": "本周日均 0.0 题，上周日均 1.0 题——先把热度捡回来"
-          },
-          {
             "icon": "🚀",
             "accent": "green",
             "text": "距「提交破千」只差 2% 进度——集中火力冲一下"
@@ -22176,21 +22177,21 @@
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1500 2254E Chronostasis · 第1轮 · 超期 11 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
+                "text": "1500 2254E Chronostasis · 第1轮 · 超期 12 天 · ⚡自动 · ⚡自动入队：难度 1500（超当前 rating 1279 的 +221）· binary search,data structures,greedy",
                 "problem_id": "2254E",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
+                "text": "1300 2248C Maximize the Score · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1300（超当前 rating 1080 的 +220）· dp,greedy",
                 "problem_id": "2248C",
                 "platform": "codeforces"
               },
               {
                 "icon": "⚡",
                 "accent": "red",
-                "text": "1400 2252C Risky Tower · 第1轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
+                "text": "1400 2252C Risky Tower · 第1轮 · 超期 2 天 · ⚡自动 · ⚡自动入队：难度 1400（超当前 rating 1132 的 +268）· binary search,brute force,data structures,greedy,sortings",
                 "problem_id": "2252C",
                 "platform": "codeforces"
               }
@@ -22482,8 +22483,8 @@
           },
           "calendar": {
             "range": [
-              "2026-07-06",
-              "2026-08-30"
+              "2026-07-07",
+              "2026-08-31"
             ],
             "cellSize": "auto",
             "splitLine": {
@@ -28611,5 +28612,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-08-30 21:07"
+  "exportedAt": "2026-08-31 00:07"
 }
