@@ -1871,37 +1871,37 @@
             "items": [
               {
                 "icon": "⚡",
-                "accent": "red",
-                "text": "2000 817E Choosing The Commander · 第2轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· bitmasks,data structures,trees",
-                "problem_id": "817E",
-                "platform": "codeforces"
-              },
-              {
-                "icon": "⚡",
-                "accent": "red",
-                "text": "2000 514C Watto and Mechanism · 第2轮 · 超期 1 天 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1753 的 +247）· binary search,data structures,hashing,string suffix structures,strings",
-                "problem_id": "514C",
-                "platform": "codeforces"
-              },
-              {
-                "icon": "⏳",
-                "accent": "teal",
-                "text": " NC0805-popcount · 第3轮 · 9-3 到期 · ✍️手动 · Σ f(i)f(i+d) 数位DP: 乘积拆位+进位处理, 用户没想到数位DP, 待补",
-                "problem_id": "NC0805-popcount",
-                "platform": "nowcoder"
-              },
-              {
-                "icon": "⚡",
-                "accent": "amber",
-                "text": "1900 1114D Flood Fill · 第2轮 · 9-6 到期 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· dp",
-                "problem_id": "1114D",
-                "platform": "codeforces"
-              },
-              {
-                "icon": "⚡",
                 "accent": "amber",
                 "text": "1900 1092F Tree with Maximum Cost · 第2轮 · 9-6 到期 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· dfs and similar,dp,trees",
                 "problem_id": "1092F",
+                "platform": "codeforces"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "1900 547B Mike and Feet · 第2轮 · 9-7 到期 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· binary search,data structures,dp,dsu",
+                "problem_id": "547B",
+                "platform": "codeforces"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "1900 1313C2 Skyscrapers (hard version) · 第2轮 · 9-7 到期 · ⚡自动 · ⚡自动入队：难度 1900（超当前 rating 1683 的 +217）· data structures,dp,greedy",
+                "problem_id": "1313C2",
+                "platform": "codeforces"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "2000 1132F Clear the String · 第2轮 · 9-7 到期 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· dp",
+                "problem_id": "1132F",
+                "platform": "codeforces"
+              },
+              {
+                "icon": "⚡",
+                "accent": "amber",
+                "text": "2000 2257E Busy Beaver · 第2轮 · 9-7 到期 · ⚡自动 · ⚡自动入队：难度 2000（超当前 rating 1765 的 +235）· brute force,data structures,divide and conquer,dp,greedy,implementation,sortings",
+                "problem_id": "2257E",
                 "platform": "codeforces"
               }
             ]
@@ -27571,7 +27571,7 @@
         "label": "小宋",
         "rating": 1213,
         "rank": "4356",
-        "last_submit_days": 1,
+        "last_submit_days": 2,
         "nc_rating": 429
       },
       {
@@ -28667,5 +28667,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-02 12:07"
+  "exportedAt": "2026-09-02 15:07"
 }
