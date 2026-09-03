@@ -19,10 +19,10 @@
         "topic_count": 18
       },
       "streak": {
-        "current": 1,
+        "current": 2,
         "longest": 13,
-        "last_active": "2026-09-02",
-        "days_since_last": 1,
+        "last_active": "2026-09-03",
+        "days_since_last": 0,
         "is_broken": false
       },
       "weekly": {
@@ -196,6 +196,19 @@
             "unlock_hint": "平均每 AC 一题 ≤ 2 次提交"
           },
           {
+            "id": "dd_25",
+            "name": "刷题机器",
+            "icon": "🤖",
+            "type": "max_daily",
+            "target": 25,
+            "color": "red",
+            "earned": false,
+            "progress": 76,
+            "current": 19,
+            "earned_date": null,
+            "unlock_hint": "单日 AC 25 题"
+          },
+          {
             "id": "mp_4",
             "name": "四通八达",
             "icon": "🧭",
@@ -220,19 +233,6 @@
             "current": 1765,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2400"
-          },
-          {
-            "id": "dd_25",
-            "name": "刷题机器",
-            "icon": "🤖",
-            "type": "max_daily",
-            "target": 25,
-            "color": "red",
-            "earned": false,
-            "progress": 72,
-            "current": 18,
-            "earned_date": null,
-            "unlock_hint": "单日 AC 25 题"
           },
           {
             "id": "cf_500",
@@ -11957,14 +11957,14 @@
               "fontSize": 11
             },
             "data": [
-              "08/22",
               "08/24",
               "08/25",
               "08/26",
               "08/27",
               "08/30",
               "08/31",
-              "09/02"
+              "09/02",
+              "09/03"
             ]
           },
           "yAxis": {
@@ -11996,14 +11996,14 @@
             {
               "type": "bar",
               "data": [
-                4,
                 2,
                 4,
                 5,
                 2,
                 6,
                 5,
-                2
+                1,
+                1
               ],
               "barWidth": "55%",
               "itemStyle": {
@@ -12595,13 +12595,6 @@
                 },
                 {
                   "value": [
-                    "2026-06-04",
-                    1578
-                  ],
-                  "tip": " (0)"
-                },
-                {
-                  "value": [
                     "2026-06-13",
                     1571
                   ],
@@ -12616,17 +12609,10 @@
                 },
                 {
                   "value": [
-                    "2026-06-26",
-                    1683
-                  ],
-                  "tip": " (+10)"
-                },
-                {
-                  "value": [
                     "2026-07-13",
                     1649
                   ],
-                  "tip": " (-34)"
+                  "tip": " (-24)"
                 },
                 {
                   "value": [
@@ -12647,28 +12633,7 @@
                     "2026-08-18",
                     1753
                   ],
-                  "tip": " (+41)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1683
-                  ],
-                  "tip": " (-70)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1652
-                  ],
-                  "tip": " (-31)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1765
-                  ],
-                  "tip": " (+113)",
+                  "tip": " (+41)",
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderColor": "#fff",
@@ -12721,7 +12686,7 @@
       },
       "streak": {
         "current": 1,
-        "longest": 10,
+        "longest": 14,
         "last_active": "2026-09-02",
         "days_since_last": 1,
         "is_broken": false
@@ -12975,19 +12940,6 @@
             "unlock_hint": "CF Rating 达到 1700"
           },
           {
-            "id": "st_14",
-            "name": "两周全勤",
-            "icon": "🌙",
-            "type": "streak",
-            "target": 14,
-            "color": "purple",
-            "earned": false,
-            "progress": 71,
-            "current": 10,
-            "earned_date": null,
-            "unlock_hint": "连续 14 天打卡"
-          },
-          {
             "id": "no_10",
             "name": "深夜战神",
             "icon": "🌙",
@@ -13038,6 +12990,19 @@
             "current": 1213,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 1800"
+          },
+          {
+            "id": "st_21",
+            "name": "三周不怠",
+            "icon": "📖",
+            "type": "streak",
+            "target": 21,
+            "color": "purple",
+            "earned": false,
+            "progress": 67,
+            "current": 14,
+            "earned_date": null,
+            "unlock_hint": "连续 21 天打卡"
           },
           {
             "id": "r_1900",
@@ -13183,19 +13148,6 @@
             "unlock_hint": "CF Rating 达到 2400"
           },
           {
-            "id": "st_21",
-            "name": "三周不怠",
-            "icon": "📖",
-            "type": "streak",
-            "target": 21,
-            "color": "purple",
-            "earned": false,
-            "progress": 48,
-            "current": 10,
-            "earned_date": null,
-            "unlock_hint": "连续 21 天打卡"
-          },
-          {
             "id": "r_2600",
             "name": "International Grandmaster",
             "icon": "🌟",
@@ -13207,6 +13159,19 @@
             "current": 1213,
             "earned_date": null,
             "unlock_hint": "CF Rating 达到 2600"
+          },
+          {
+            "id": "st_30",
+            "name": "月度全勤",
+            "icon": "🌟",
+            "type": "streak",
+            "target": 30,
+            "color": "orange",
+            "earned": false,
+            "progress": 47,
+            "current": 14,
+            "earned_date": null,
+            "unlock_hint": "连续 30 天打卡"
           },
           {
             "id": "lg_100",
@@ -13274,19 +13239,6 @@
             "unlock_hint": "单周 AC 75 题"
           },
           {
-            "id": "st_30",
-            "name": "月度全勤",
-            "icon": "🌟",
-            "type": "streak",
-            "target": 30,
-            "color": "orange",
-            "earned": false,
-            "progress": 33,
-            "current": 10,
-            "earned_date": null,
-            "unlock_hint": "连续 30 天打卡"
-          },
-          {
             "id": "fw_3",
             "name": "连轴转",
             "icon": "🗓️",
@@ -13311,6 +13263,19 @@
             "current": 320,
             "earned_date": null,
             "unlock_hint": "累计 AC 1000 题"
+          },
+          {
+            "id": "st_50",
+            "name": "五十连击",
+            "icon": "💪",
+            "type": "streak",
+            "target": 50,
+            "color": "orange",
+            "earned": false,
+            "progress": 28,
+            "current": 14,
+            "earned_date": null,
+            "unlock_hint": "连续 50 天打卡"
           },
           {
             "id": "cf_500",
@@ -13378,19 +13343,6 @@
             "unlock_hint": "累计 AC 1500 题"
           },
           {
-            "id": "st_50",
-            "name": "五十连击",
-            "icon": "💪",
-            "type": "streak",
-            "target": 50,
-            "color": "orange",
-            "earned": false,
-            "progress": 20,
-            "current": 10,
-            "earned_date": null,
-            "unlock_hint": "连续 50 天打卡"
-          },
-          {
             "id": "ac_2000",
             "name": "两千狂魔",
             "icon": "🤯",
@@ -13404,6 +13356,19 @@
             "unlock_hint": "累计 AC 2000 题"
           },
           {
+            "id": "st_100",
+            "name": "百天传说",
+            "icon": "🐲",
+            "type": "streak",
+            "target": 100,
+            "color": "red",
+            "earned": false,
+            "progress": 14,
+            "current": 14,
+            "earned_date": null,
+            "unlock_hint": "连续 100 天打卡"
+          },
+          {
             "id": "ac_3000",
             "name": "三千传说",
             "icon": "🐉",
@@ -13415,19 +13380,6 @@
             "current": 320,
             "earned_date": null,
             "unlock_hint": "累计 AC 3000 题"
-          },
-          {
-            "id": "st_100",
-            "name": "百天传说",
-            "icon": "🐲",
-            "type": "streak",
-            "target": 100,
-            "color": "red",
-            "earned": false,
-            "progress": 10,
-            "current": 10,
-            "earned_date": null,
-            "unlock_hint": "连续 100 天打卡"
           },
           {
             "id": "py_10",
@@ -13662,6 +13614,19 @@
             "current": 10,
             "earned_date": null,
             "unlock_hint": "连续 10 天打卡"
+          },
+          {
+            "id": "st_14",
+            "name": "两周全勤",
+            "icon": "🌙",
+            "type": "streak",
+            "target": 14,
+            "color": "purple",
+            "earned": true,
+            "progress": 100,
+            "current": 14,
+            "earned_date": null,
+            "unlock_hint": "连续 14 天打卡"
           },
           {
             "id": "tp_1",
@@ -14535,7 +14500,7 @@
             "unlock_hint": "四个难度段覆盖 3 段"
           }
         ],
-        "earned_count": 81,
+        "earned_count": 82,
         "total_count": 138,
         "next_milestone": {
           "id": "dd_12",
@@ -20327,13 +20292,6 @@
                 },
                 {
                   "value": [
-                    "2026-06-04",
-                    964
-                  ],
-                  "tip": " (0)"
-                },
-                {
-                  "value": [
                     "2026-06-13",
                     945
                   ],
@@ -20348,17 +20306,10 @@
                 },
                 {
                   "value": [
-                    "2026-06-26",
-                    906
-                  ],
-                  "tip": " (+3)"
-                },
-                {
-                  "value": [
                     "2026-07-07",
                     984
                   ],
-                  "tip": " (+78)"
+                  "tip": " (+81)"
                 },
                 {
                   "value": [
@@ -20404,31 +20355,10 @@
                 },
                 {
                   "value": [
-                    "2026-08-26",
-                    986
-                  ],
-                  "tip": " (-176)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1165
-                  ],
-                  "tip": " (+179)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1167
-                  ],
-                  "tip": " (+2)"
-                },
-                {
-                  "value": [
                     "2026-08-30",
                     1213
                   ],
-                  "tip": " (+46)",
+                  "tip": " (+51)",
                   "itemStyle": {
                     "color": "#EF4444",
                     "borderColor": "#fff",
@@ -27773,13 +27703,6 @@
                 },
                 {
                   "value": [
-                    "2026-06-04",
-                    916
-                  ],
-                  "tip": " (0)"
-                },
-                {
-                  "value": [
                     "2026-06-08",
                     1025
                   ],
@@ -27808,17 +27731,10 @@
                 },
                 {
                   "value": [
-                    "2026-06-26",
-                    1080
-                  ],
-                  "tip": " (+5)"
-                },
-                {
-                  "value": [
                     "2026-07-15",
                     1070
                   ],
-                  "tip": " (-10)"
+                  "tip": " (-5)"
                 },
                 {
                   "value": [
@@ -27873,27 +27789,6 @@
                     1227
                   ],
                   "tip": " (-52)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1080
-                  ],
-                  "tip": " (-147)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1132
-                  ],
-                  "tip": " (+52)"
-                },
-                {
-                  "value": [
-                    "2026-08-26",
-                    1234
-                  ],
-                  "tip": " (+102)"
                 }
               ],
               "smooth": false,
@@ -28235,13 +28130,6 @@
             },
             {
               "value": [
-                "2026-06-04",
-                1578
-              ],
-              "tip": " (0)"
-            },
-            {
-              "value": [
                 "2026-06-13",
                 1571
               ],
@@ -28256,17 +28144,10 @@
             },
             {
               "value": [
-                "2026-06-26",
-                1683
-              ],
-              "tip": " (+10)"
-            },
-            {
-              "value": [
                 "2026-07-13",
                 1649
               ],
-              "tip": " (-34)"
+              "tip": " (-24)"
             },
             {
               "value": [
@@ -28287,28 +28168,7 @@
                 "2026-08-18",
                 1753
               ],
-              "tip": " (+41)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1683
-              ],
-              "tip": " (-70)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1652
-              ],
-              "tip": " (-31)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1765
-              ],
-              "tip": " (+113)",
+              "tip": " (+41)",
               "itemStyle": {
                 "color": "#EF4444",
                 "borderColor": "#fff",
@@ -28536,13 +28396,6 @@
             },
             {
               "value": [
-                "2026-06-04",
-                964
-              ],
-              "tip": " (0)"
-            },
-            {
-              "value": [
                 "2026-06-13",
                 945
               ],
@@ -28557,17 +28410,10 @@
             },
             {
               "value": [
-                "2026-06-26",
-                906
-              ],
-              "tip": " (+3)"
-            },
-            {
-              "value": [
                 "2026-07-07",
                 984
               ],
-              "tip": " (+78)"
+              "tip": " (+81)"
             },
             {
               "value": [
@@ -28613,31 +28459,10 @@
             },
             {
               "value": [
-                "2026-08-26",
-                986
-              ],
-              "tip": " (-176)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1165
-              ],
-              "tip": " (+179)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1167
-              ],
-              "tip": " (+2)"
-            },
-            {
-              "value": [
                 "2026-08-30",
                 1213
               ],
-              "tip": " (+46)",
+              "tip": " (+51)",
               "itemStyle": {
                 "color": "#EF4444",
                 "borderColor": "#fff",
@@ -28718,13 +28543,6 @@
             },
             {
               "value": [
-                "2026-06-04",
-                916
-              ],
-              "tip": " (0)"
-            },
-            {
-              "value": [
                 "2026-06-08",
                 1025
               ],
@@ -28753,17 +28571,10 @@
             },
             {
               "value": [
-                "2026-06-26",
-                1080
-              ],
-              "tip": " (+5)"
-            },
-            {
-              "value": [
                 "2026-07-15",
                 1070
               ],
-              "tip": " (-10)"
+              "tip": " (-5)"
             },
             {
               "value": [
@@ -28818,27 +28629,6 @@
                 1227
               ],
               "tip": " (-52)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1080
-              ],
-              "tip": " (-147)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1132
-              ],
-              "tip": " (+52)"
-            },
-            {
-              "value": [
-                "2026-08-26",
-                1234
-              ],
-              "tip": " (+102)"
             }
           ],
           "smooth": false,
@@ -29043,5 +28833,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-03 12:07"
+  "exportedAt": "2026-09-03 13:06"
 }
