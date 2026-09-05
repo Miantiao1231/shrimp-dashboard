@@ -12689,6 +12689,978 @@
             }
           ],
           "backgroundColor": "transparent"
+        },
+        "difficultyClimb": {
+          "codeforces": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "CF Rating",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0
+            },
+            "series": [
+              {
+                "name": "Codeforces",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 1075.0,
+                    "solved": 4
+                  },
+                  {
+                    "value": 1275.0,
+                    "solved": 4
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 1310.5,
+                    "solved": 19
+                  },
+                  {
+                    "value": 1237.5,
+                    "solved": 24
+                  },
+                  {
+                    "value": 1025.0,
+                    "solved": 4
+                  },
+                  {
+                    "value": 1075.0,
+                    "solved": 8
+                  },
+                  {
+                    "value": 1100.0,
+                    "solved": 9
+                  },
+                  {
+                    "value": 1500.0,
+                    "solved": 2
+                  },
+                  {
+                    "value": 950.0,
+                    "solved": 2
+                  },
+                  {
+                    "value": 1033.3,
+                    "solved": 3
+                  },
+                  {
+                    "value": 1525.0,
+                    "solved": 4
+                  },
+                  {
+                    "value": 1666.7,
+                    "solved": 3
+                  },
+                  {
+                    "value": 1900.0,
+                    "solved": 2
+                  },
+                  {
+                    "value": 1106.2,
+                    "solved": 16
+                  },
+                  {
+                    "value": 1518.2,
+                    "solved": 11
+                  },
+                  {
+                    "value": 1654.5,
+                    "solved": 11
+                  },
+                  {
+                    "value": 2050.0,
+                    "solved": 4
+                  },
+                  {
+                    "value": 1666.7,
+                    "solved": 3
+                  }
+                ],
+                "lineStyle": {
+                  "color": "#3B82F6",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#3B82F6"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#3B82F6"
+                },
+                "markLine": {
+                  "silent": true,
+                  "symbol": "none",
+                  "label": {
+                    "show": true,
+                    "position": "insideEndTop",
+                    "fontSize": 10,
+                    "fontWeight": 600,
+                    "formatter": "{b}"
+                  },
+                  "data": [
+                    {
+                      "yAxis": 1200,
+                      "name": "Pupil 1200",
+                      "lineStyle": {
+                        "color": "#10B981",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#10B981"
+                      }
+                    },
+                    {
+                      "yAxis": 1400,
+                      "name": "Specialist 1400",
+                      "lineStyle": {
+                        "color": "#06B6D4",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#06B6D4"
+                      }
+                    },
+                    {
+                      "yAxis": 1600,
+                      "name": "Expert 1600",
+                      "lineStyle": {
+                        "color": "#3B82F6",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#3B82F6"
+                      }
+                    },
+                    {
+                      "yAxis": 1900,
+                      "name": "Candidate Master 1900",
+                      "lineStyle": {
+                        "color": "#8B5CF6",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#8B5CF6"
+                      }
+                    },
+                    {
+                      "yAxis": 2100,
+                      "name": "Master 2100",
+                      "lineStyle": {
+                        "color": "#F97316",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#F97316"
+                      }
+                    },
+                    {
+                      "yAxis": 2400,
+                      "name": "Grandmaster 2400",
+                      "lineStyle": {
+                        "color": "#EF4444",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#EF4444"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "codeforces",
+              "label": "Codeforces",
+              "color": "#3B82F6",
+              "mode": "rating",
+              "axis": "CF Rating",
+              "ticks": []
+            }
+          },
+          "luogu": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "洛谷难度",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0.5,
+              "max": 8.5
+            },
+            "series": [
+              {
+                "name": "洛谷",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 2.9,
+                    "solved": 9
+                  },
+                  {
+                    "value": 3.0,
+                    "solved": 6
+                  },
+                  {
+                    "value": 3.1,
+                    "solved": 8
+                  },
+                  {
+                    "value": 4.2,
+                    "solved": 4
+                  },
+                  {
+                    "value": 4.0,
+                    "solved": 5
+                  },
+                  {
+                    "value": 4.0,
+                    "solved": 5
+                  },
+                  {
+                    "value": 3.0,
+                    "solved": 2
+                  },
+                  null,
+                  {
+                    "value": 4.0,
+                    "solved": 3
+                  },
+                  {
+                    "value": 3.0,
+                    "solved": 1
+                  },
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 4.9,
+                    "solved": 7
+                  },
+                  {
+                    "value": 3.0,
+                    "solved": 1
+                  },
+                  {
+                    "value": 2.0,
+                    "solved": 1
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 1.5,
+                    "solved": 2
+                  },
+                  {
+                    "value": 3.5,
+                    "solved": 2
+                  }
+                ],
+                "lineStyle": {
+                  "color": "#10B981",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#10B981"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#10B981"
+                },
+                "markArea": {
+                  "silent": true,
+                  "data": [
+                    [
+                      {
+                        "name": "入门",
+                        "yAxis": 0.5,
+                        "itemStyle": {
+                          "color": "#9CA3AF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#9CA3AF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "入门"
+                        }
+                      },
+                      {
+                        "yAxis": 1.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及−",
+                        "yAxis": 1.5,
+                        "itemStyle": {
+                          "color": "#34D39926"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#34D399",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及−"
+                        }
+                      },
+                      {
+                        "yAxis": 2.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及/提高−",
+                        "yAxis": 2.5,
+                        "itemStyle": {
+                          "color": "#2DD4BF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#2DD4BF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及/提高−"
+                        }
+                      },
+                      {
+                        "yAxis": 3.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及+/提高",
+                        "yAxis": 3.5,
+                        "itemStyle": {
+                          "color": "#3B82F626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#3B82F6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及+/提高"
+                        }
+                      },
+                      {
+                        "yAxis": 4.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "提高+/省选−",
+                        "yAxis": 4.5,
+                        "itemStyle": {
+                          "color": "#8B5CF626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#8B5CF6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "提高+/省选−"
+                        }
+                      },
+                      {
+                        "yAxis": 5.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "省选/NOI−",
+                        "yAxis": 5.5,
+                        "itemStyle": {
+                          "color": "#F59E0B26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F59E0B",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "省选/NOI−"
+                        }
+                      },
+                      {
+                        "yAxis": 6.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "NOI/NOI+",
+                        "yAxis": 6.5,
+                        "itemStyle": {
+                          "color": "#F8717126"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F87171",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "NOI/NOI+"
+                        }
+                      },
+                      {
+                        "yAxis": 7.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "高级",
+                        "yAxis": 7.5,
+                        "itemStyle": {
+                          "color": "#E11D4826"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#E11D48",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "高级"
+                        }
+                      },
+                      {
+                        "yAxis": 8.5
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "luogu",
+              "label": "洛谷",
+              "color": "#10B981",
+              "mode": "tier",
+              "axis": "洛谷难度",
+              "ticks": [
+                {
+                  "v": 1,
+                  "label": "入门",
+                  "color": "#9CA3AF"
+                },
+                {
+                  "v": 2,
+                  "label": "普及−",
+                  "color": "#34D399"
+                },
+                {
+                  "v": 3,
+                  "label": "普及/提高−",
+                  "color": "#2DD4BF"
+                },
+                {
+                  "v": 4,
+                  "label": "普及+/提高",
+                  "color": "#3B82F6"
+                },
+                {
+                  "v": 5,
+                  "label": "提高+/省选−",
+                  "color": "#8B5CF6"
+                },
+                {
+                  "v": 6,
+                  "label": "省选/NOI−",
+                  "color": "#F59E0B"
+                },
+                {
+                  "v": 7,
+                  "label": "NOI/NOI+",
+                  "color": "#F87171"
+                },
+                {
+                  "v": 8,
+                  "label": "高级",
+                  "color": "#E11D48"
+                }
+              ]
+            }
+          },
+          "nowcoder": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "牛客难度",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0.5,
+              "max": 5.5
+            },
+            "series": [
+              {
+                "name": "牛客",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 1.2,
+                    "solved": 6
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 2.4,
+                    "solved": 7
+                  },
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 1.0,
+                    "solved": 3
+                  },
+                  {
+                    "value": 1.0,
+                    "solved": 3
+                  },
+                  null,
+                  null
+                ],
+                "lineStyle": {
+                  "color": "#8B5CF6",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#8B5CF6"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#8B5CF6"
+                },
+                "markArea": {
+                  "silent": true,
+                  "data": [
+                    [
+                      {
+                        "name": "入门",
+                        "yAxis": 0.5,
+                        "itemStyle": {
+                          "color": "#9CA3AF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#9CA3AF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "入门"
+                        }
+                      },
+                      {
+                        "yAxis": 1.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "简单",
+                        "yAxis": 1.5,
+                        "itemStyle": {
+                          "color": "#34D39926"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#34D399",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "简单"
+                        }
+                      },
+                      {
+                        "yAxis": 2.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "中等",
+                        "yAxis": 2.5,
+                        "itemStyle": {
+                          "color": "#3B82F626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#3B82F6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "中等"
+                        }
+                      },
+                      {
+                        "yAxis": 3.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "较难",
+                        "yAxis": 3.5,
+                        "itemStyle": {
+                          "color": "#F59E0B26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F59E0B",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "较难"
+                        }
+                      },
+                      {
+                        "yAxis": 4.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "困难",
+                        "yAxis": 4.5,
+                        "itemStyle": {
+                          "color": "#F8717126"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F87171",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "困难"
+                        }
+                      },
+                      {
+                        "yAxis": 5.5
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "nowcoder",
+              "label": "牛客",
+              "color": "#8B5CF6",
+              "mode": "tier",
+              "axis": "牛客难度",
+              "ticks": [
+                {
+                  "v": 1,
+                  "label": "入门",
+                  "color": "#9CA3AF"
+                },
+                {
+                  "v": 2,
+                  "label": "简单",
+                  "color": "#34D399"
+                },
+                {
+                  "v": 3,
+                  "label": "中等",
+                  "color": "#3B82F6"
+                },
+                {
+                  "v": 4,
+                  "label": "较难",
+                  "color": "#F59E0B"
+                },
+                {
+                  "v": 5,
+                  "label": "困难",
+                  "color": "#F87171"
+                }
+              ]
+            }
+          }
         }
       }
     },
@@ -20462,6 +21434,942 @@
             }
           ],
           "backgroundColor": "transparent"
+        },
+        "difficultyClimb": {
+          "codeforces": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "CF Rating",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0
+            },
+            "series": [
+              {
+                "name": "Codeforces",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 1075.0,
+                    "solved": 4
+                  },
+                  {
+                    "value": 850.0,
+                    "solved": 2
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 800.0,
+                    "solved": 1
+                  },
+                  {
+                    "value": 1161.5,
+                    "solved": 13
+                  },
+                  {
+                    "value": 1058.3,
+                    "solved": 12
+                  },
+                  {
+                    "value": 800.0,
+                    "solved": 2
+                  },
+                  {
+                    "value": 800.0,
+                    "solved": 1
+                  },
+                  null,
+                  {
+                    "value": 1150.0,
+                    "solved": 2
+                  },
+                  {
+                    "value": 1075.0,
+                    "solved": 4
+                  },
+                  {
+                    "value": 955.6,
+                    "solved": 9
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 983.3,
+                    "solved": 6
+                  },
+                  {
+                    "value": 1700.0,
+                    "solved": 1
+                  },
+                  null,
+                  {
+                    "value": 933.3,
+                    "solved": 3
+                  },
+                  {
+                    "value": 1600.0,
+                    "solved": 2
+                  }
+                ],
+                "lineStyle": {
+                  "color": "#3B82F6",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#3B82F6"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#3B82F6"
+                },
+                "markLine": {
+                  "silent": true,
+                  "symbol": "none",
+                  "label": {
+                    "show": true,
+                    "position": "insideEndTop",
+                    "fontSize": 10,
+                    "fontWeight": 600,
+                    "formatter": "{b}"
+                  },
+                  "data": [
+                    {
+                      "yAxis": 1200,
+                      "name": "Pupil 1200",
+                      "lineStyle": {
+                        "color": "#10B981",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#10B981"
+                      }
+                    },
+                    {
+                      "yAxis": 1400,
+                      "name": "Specialist 1400",
+                      "lineStyle": {
+                        "color": "#06B6D4",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#06B6D4"
+                      }
+                    },
+                    {
+                      "yAxis": 1600,
+                      "name": "Expert 1600",
+                      "lineStyle": {
+                        "color": "#3B82F6",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#3B82F6"
+                      }
+                    },
+                    {
+                      "yAxis": 1900,
+                      "name": "Candidate Master 1900",
+                      "lineStyle": {
+                        "color": "#8B5CF6",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#8B5CF6"
+                      }
+                    },
+                    {
+                      "yAxis": 2100,
+                      "name": "Master 2100",
+                      "lineStyle": {
+                        "color": "#F97316",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#F97316"
+                      }
+                    },
+                    {
+                      "yAxis": 2400,
+                      "name": "Grandmaster 2400",
+                      "lineStyle": {
+                        "color": "#EF4444",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#EF4444"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "codeforces",
+              "label": "Codeforces",
+              "color": "#3B82F6",
+              "mode": "rating",
+              "axis": "CF Rating",
+              "ticks": []
+            }
+          },
+          "luogu": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "洛谷难度",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0.5,
+              "max": 8.5
+            },
+            "series": [
+              {
+                "name": "洛谷",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 2.8,
+                    "solved": 4
+                  },
+                  null,
+                  {
+                    "value": 2.3,
+                    "solved": 3
+                  },
+                  {
+                    "value": 3.0,
+                    "solved": 1
+                  },
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 5.0,
+                    "solved": 2
+                  },
+                  null,
+                  {
+                    "value": 4.1,
+                    "solved": 7
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 2.0,
+                    "solved": 1
+                  },
+                  null
+                ],
+                "lineStyle": {
+                  "color": "#10B981",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#10B981"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#10B981"
+                },
+                "markArea": {
+                  "silent": true,
+                  "data": [
+                    [
+                      {
+                        "name": "入门",
+                        "yAxis": 0.5,
+                        "itemStyle": {
+                          "color": "#9CA3AF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#9CA3AF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "入门"
+                        }
+                      },
+                      {
+                        "yAxis": 1.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及−",
+                        "yAxis": 1.5,
+                        "itemStyle": {
+                          "color": "#34D39926"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#34D399",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及−"
+                        }
+                      },
+                      {
+                        "yAxis": 2.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及/提高−",
+                        "yAxis": 2.5,
+                        "itemStyle": {
+                          "color": "#2DD4BF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#2DD4BF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及/提高−"
+                        }
+                      },
+                      {
+                        "yAxis": 3.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及+/提高",
+                        "yAxis": 3.5,
+                        "itemStyle": {
+                          "color": "#3B82F626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#3B82F6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及+/提高"
+                        }
+                      },
+                      {
+                        "yAxis": 4.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "提高+/省选−",
+                        "yAxis": 4.5,
+                        "itemStyle": {
+                          "color": "#8B5CF626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#8B5CF6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "提高+/省选−"
+                        }
+                      },
+                      {
+                        "yAxis": 5.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "省选/NOI−",
+                        "yAxis": 5.5,
+                        "itemStyle": {
+                          "color": "#F59E0B26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F59E0B",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "省选/NOI−"
+                        }
+                      },
+                      {
+                        "yAxis": 6.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "NOI/NOI+",
+                        "yAxis": 6.5,
+                        "itemStyle": {
+                          "color": "#F8717126"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F87171",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "NOI/NOI+"
+                        }
+                      },
+                      {
+                        "yAxis": 7.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "高级",
+                        "yAxis": 7.5,
+                        "itemStyle": {
+                          "color": "#E11D4826"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#E11D48",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "高级"
+                        }
+                      },
+                      {
+                        "yAxis": 8.5
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "luogu",
+              "label": "洛谷",
+              "color": "#10B981",
+              "mode": "tier",
+              "axis": "洛谷难度",
+              "ticks": [
+                {
+                  "v": 1,
+                  "label": "入门",
+                  "color": "#9CA3AF"
+                },
+                {
+                  "v": 2,
+                  "label": "普及−",
+                  "color": "#34D399"
+                },
+                {
+                  "v": 3,
+                  "label": "普及/提高−",
+                  "color": "#2DD4BF"
+                },
+                {
+                  "v": 4,
+                  "label": "普及+/提高",
+                  "color": "#3B82F6"
+                },
+                {
+                  "v": 5,
+                  "label": "提高+/省选−",
+                  "color": "#8B5CF6"
+                },
+                {
+                  "v": 6,
+                  "label": "省选/NOI−",
+                  "color": "#F59E0B"
+                },
+                {
+                  "v": 7,
+                  "label": "NOI/NOI+",
+                  "color": "#F87171"
+                },
+                {
+                  "v": 8,
+                  "label": "高级",
+                  "color": "#E11D48"
+                }
+              ]
+            }
+          },
+          "nowcoder": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "牛客难度",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0.5,
+              "max": 5.5
+            },
+            "series": [
+              {
+                "name": "牛客",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 1.2,
+                    "solved": 4
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 2.4,
+                    "solved": 7
+                  },
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 1.0,
+                    "solved": 3
+                  },
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 4.0,
+                    "solved": 1
+                  }
+                ],
+                "lineStyle": {
+                  "color": "#8B5CF6",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#8B5CF6"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#8B5CF6"
+                },
+                "markArea": {
+                  "silent": true,
+                  "data": [
+                    [
+                      {
+                        "name": "入门",
+                        "yAxis": 0.5,
+                        "itemStyle": {
+                          "color": "#9CA3AF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#9CA3AF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "入门"
+                        }
+                      },
+                      {
+                        "yAxis": 1.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "简单",
+                        "yAxis": 1.5,
+                        "itemStyle": {
+                          "color": "#34D39926"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#34D399",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "简单"
+                        }
+                      },
+                      {
+                        "yAxis": 2.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "中等",
+                        "yAxis": 2.5,
+                        "itemStyle": {
+                          "color": "#3B82F626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#3B82F6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "中等"
+                        }
+                      },
+                      {
+                        "yAxis": 3.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "较难",
+                        "yAxis": 3.5,
+                        "itemStyle": {
+                          "color": "#F59E0B26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F59E0B",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "较难"
+                        }
+                      },
+                      {
+                        "yAxis": 4.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "困难",
+                        "yAxis": 4.5,
+                        "itemStyle": {
+                          "color": "#F8717126"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F87171",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "困难"
+                        }
+                      },
+                      {
+                        "yAxis": 5.5
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "nowcoder",
+              "label": "牛客",
+              "color": "#8B5CF6",
+              "mode": "tier",
+              "axis": "牛客难度",
+              "ticks": [
+                {
+                  "v": 1,
+                  "label": "入门",
+                  "color": "#9CA3AF"
+                },
+                {
+                  "v": 2,
+                  "label": "简单",
+                  "color": "#34D399"
+                },
+                {
+                  "v": 3,
+                  "label": "中等",
+                  "color": "#3B82F6"
+                },
+                {
+                  "v": 4,
+                  "label": "较难",
+                  "color": "#F59E0B"
+                },
+                {
+                  "v": 5,
+                  "label": "困难",
+                  "color": "#F87171"
+                }
+              ]
+            }
+          }
         }
       }
     },
@@ -27931,6 +29839,951 @@
             }
           ],
           "backgroundColor": "transparent"
+        },
+        "difficultyClimb": {
+          "codeforces": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "CF Rating",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0
+            },
+            "series": [
+              {
+                "name": "Codeforces",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 850.0,
+                    "solved": 2
+                  },
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 866.7,
+                    "solved": 3
+                  },
+                  {
+                    "value": 1233.3,
+                    "solved": 3
+                  },
+                  {
+                    "value": 1180.0,
+                    "solved": 5
+                  },
+                  {
+                    "value": 920.0,
+                    "solved": 5
+                  },
+                  {
+                    "value": 933.3,
+                    "solved": 3
+                  },
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 925.0,
+                    "solved": 8
+                  },
+                  null,
+                  {
+                    "value": 1033.3,
+                    "solved": 3
+                  },
+                  {
+                    "value": 1060.0,
+                    "solved": 10
+                  },
+                  null,
+                  {
+                    "value": 800.0,
+                    "solved": 2
+                  },
+                  null,
+                  null
+                ],
+                "lineStyle": {
+                  "color": "#3B82F6",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#3B82F6"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#3B82F6"
+                },
+                "markLine": {
+                  "silent": true,
+                  "symbol": "none",
+                  "label": {
+                    "show": true,
+                    "position": "insideEndTop",
+                    "fontSize": 10,
+                    "fontWeight": 600,
+                    "formatter": "{b}"
+                  },
+                  "data": [
+                    {
+                      "yAxis": 1200,
+                      "name": "Pupil 1200",
+                      "lineStyle": {
+                        "color": "#10B981",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#10B981"
+                      }
+                    },
+                    {
+                      "yAxis": 1400,
+                      "name": "Specialist 1400",
+                      "lineStyle": {
+                        "color": "#06B6D4",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#06B6D4"
+                      }
+                    },
+                    {
+                      "yAxis": 1600,
+                      "name": "Expert 1600",
+                      "lineStyle": {
+                        "color": "#3B82F6",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#3B82F6"
+                      }
+                    },
+                    {
+                      "yAxis": 1900,
+                      "name": "Candidate Master 1900",
+                      "lineStyle": {
+                        "color": "#8B5CF6",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#8B5CF6"
+                      }
+                    },
+                    {
+                      "yAxis": 2100,
+                      "name": "Master 2100",
+                      "lineStyle": {
+                        "color": "#F97316",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#F97316"
+                      }
+                    },
+                    {
+                      "yAxis": 2400,
+                      "name": "Grandmaster 2400",
+                      "lineStyle": {
+                        "color": "#EF4444",
+                        "type": "dashed",
+                        "width": 1,
+                        "opacity": 0.5
+                      },
+                      "label": {
+                        "color": "#EF4444"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "codeforces",
+              "label": "Codeforces",
+              "color": "#3B82F6",
+              "mode": "rating",
+              "axis": "CF Rating",
+              "ticks": []
+            }
+          },
+          "luogu": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "洛谷难度",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0.5,
+              "max": 8.5
+            },
+            "series": [
+              {
+                "name": "洛谷",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 2.0,
+                    "solved": 5
+                  },
+                  {
+                    "value": 2.0,
+                    "solved": 1
+                  },
+                  {
+                    "value": 2.7,
+                    "solved": 3
+                  },
+                  {
+                    "value": 2.4,
+                    "solved": 8
+                  },
+                  {
+                    "value": 2.0,
+                    "solved": 2
+                  },
+                  {
+                    "value": 3.4,
+                    "solved": 9
+                  },
+                  {
+                    "value": 2.0,
+                    "solved": 4
+                  },
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 3.0,
+                    "solved": 2
+                  },
+                  null,
+                  {
+                    "value": 3.0,
+                    "solved": 11
+                  },
+                  {
+                    "value": 2.6,
+                    "solved": 20
+                  },
+                  {
+                    "value": 2.1,
+                    "solved": 8
+                  },
+                  null,
+                  {
+                    "value": 2.6,
+                    "solved": 14
+                  }
+                ],
+                "lineStyle": {
+                  "color": "#10B981",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#10B981"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#10B981"
+                },
+                "markArea": {
+                  "silent": true,
+                  "data": [
+                    [
+                      {
+                        "name": "入门",
+                        "yAxis": 0.5,
+                        "itemStyle": {
+                          "color": "#9CA3AF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#9CA3AF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "入门"
+                        }
+                      },
+                      {
+                        "yAxis": 1.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及−",
+                        "yAxis": 1.5,
+                        "itemStyle": {
+                          "color": "#34D39926"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#34D399",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及−"
+                        }
+                      },
+                      {
+                        "yAxis": 2.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及/提高−",
+                        "yAxis": 2.5,
+                        "itemStyle": {
+                          "color": "#2DD4BF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#2DD4BF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及/提高−"
+                        }
+                      },
+                      {
+                        "yAxis": 3.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "普及+/提高",
+                        "yAxis": 3.5,
+                        "itemStyle": {
+                          "color": "#3B82F626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#3B82F6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "普及+/提高"
+                        }
+                      },
+                      {
+                        "yAxis": 4.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "提高+/省选−",
+                        "yAxis": 4.5,
+                        "itemStyle": {
+                          "color": "#8B5CF626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#8B5CF6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "提高+/省选−"
+                        }
+                      },
+                      {
+                        "yAxis": 5.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "省选/NOI−",
+                        "yAxis": 5.5,
+                        "itemStyle": {
+                          "color": "#F59E0B26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F59E0B",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "省选/NOI−"
+                        }
+                      },
+                      {
+                        "yAxis": 6.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "NOI/NOI+",
+                        "yAxis": 6.5,
+                        "itemStyle": {
+                          "color": "#F8717126"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F87171",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "NOI/NOI+"
+                        }
+                      },
+                      {
+                        "yAxis": 7.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "高级",
+                        "yAxis": 7.5,
+                        "itemStyle": {
+                          "color": "#E11D4826"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#E11D48",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "高级"
+                        }
+                      },
+                      {
+                        "yAxis": 8.5
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "luogu",
+              "label": "洛谷",
+              "color": "#10B981",
+              "mode": "tier",
+              "axis": "洛谷难度",
+              "ticks": [
+                {
+                  "v": 1,
+                  "label": "入门",
+                  "color": "#9CA3AF"
+                },
+                {
+                  "v": 2,
+                  "label": "普及−",
+                  "color": "#34D399"
+                },
+                {
+                  "v": 3,
+                  "label": "普及/提高−",
+                  "color": "#2DD4BF"
+                },
+                {
+                  "v": 4,
+                  "label": "普及+/提高",
+                  "color": "#3B82F6"
+                },
+                {
+                  "v": 5,
+                  "label": "提高+/省选−",
+                  "color": "#8B5CF6"
+                },
+                {
+                  "v": 6,
+                  "label": "省选/NOI−",
+                  "color": "#F59E0B"
+                },
+                {
+                  "v": 7,
+                  "label": "NOI/NOI+",
+                  "color": "#F87171"
+                },
+                {
+                  "v": 8,
+                  "label": "高级",
+                  "color": "#E11D48"
+                }
+              ]
+            }
+          },
+          "nowcoder": {
+            "tooltip": {
+              "trigger": "axis",
+              "axisPointer": {
+                "type": "line"
+              },
+              "formatter": "{b}<br/>{a}: {c}",
+              "backgroundColor": "rgba(17,24,39,0.96)",
+              "borderColor": "rgba(255,255,255,0.10)",
+              "borderWidth": 1,
+              "textStyle": {
+                "color": "#E0E0E0",
+                "fontSize": 13,
+                "fontFamily": "Inter, sans-serif"
+              }
+            },
+            "grid": {
+              "top": 16,
+              "right": 24,
+              "bottom": 48,
+              "left": 52,
+              "containLabel": true
+            },
+            "xAxis": {
+              "type": "category",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11,
+                "interval": 2
+              },
+              "data": [
+                "2026-W17",
+                "2026-W18",
+                "2026-W19",
+                "2026-W20",
+                "2026-W21",
+                "2026-W22",
+                "2026-W23",
+                "2026-W24",
+                "2026-W25",
+                "2026-W26",
+                "2026-W27",
+                "2026-W28",
+                "2026-W29",
+                "2026-W30",
+                "2026-W31",
+                "2026-W32",
+                "2026-W33",
+                "2026-W34",
+                "2026-W35",
+                "2026-W36"
+              ]
+            },
+            "yAxis": {
+              "type": "value",
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.08)"
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "lineStyle": {
+                  "color": "rgba(255,255,255,0.03)"
+                }
+              },
+              "axisLabel": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "name": "牛客难度",
+              "nameTextStyle": {
+                "color": "#9CA3AF",
+                "fontSize": 11
+              },
+              "min": 0.5,
+              "max": 5.5
+            },
+            "series": [
+              {
+                "name": "牛客",
+                "type": "line",
+                "smooth": true,
+                "symbolSize": 5,
+                "connectNulls": false,
+                "data": [
+                  {
+                    "value": 1.0,
+                    "solved": 3
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 2.4,
+                    "solved": 7
+                  },
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  {
+                    "value": 1.2,
+                    "solved": 4
+                  },
+                  {
+                    "value": 1.4,
+                    "solved": 5
+                  },
+                  null,
+                  null,
+                  {
+                    "value": 1.2,
+                    "solved": 5
+                  },
+                  null,
+                  null,
+                  null
+                ],
+                "lineStyle": {
+                  "color": "#8B5CF6",
+                  "width": 2.5
+                },
+                "itemStyle": {
+                  "color": "#8B5CF6"
+                },
+                "areaStyle": {
+                  "opacity": 0.12,
+                  "color": "#8B5CF6"
+                },
+                "markArea": {
+                  "silent": true,
+                  "data": [
+                    [
+                      {
+                        "name": "入门",
+                        "yAxis": 0.5,
+                        "itemStyle": {
+                          "color": "#9CA3AF26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#9CA3AF",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "入门"
+                        }
+                      },
+                      {
+                        "yAxis": 1.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "简单",
+                        "yAxis": 1.5,
+                        "itemStyle": {
+                          "color": "#34D39926"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#34D399",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "简单"
+                        }
+                      },
+                      {
+                        "yAxis": 2.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "中等",
+                        "yAxis": 2.5,
+                        "itemStyle": {
+                          "color": "#3B82F626"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#3B82F6",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "中等"
+                        }
+                      },
+                      {
+                        "yAxis": 3.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "较难",
+                        "yAxis": 3.5,
+                        "itemStyle": {
+                          "color": "#F59E0B26"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F59E0B",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "较难"
+                        }
+                      },
+                      {
+                        "yAxis": 4.5
+                      }
+                    ],
+                    [
+                      {
+                        "name": "困难",
+                        "yAxis": 4.5,
+                        "itemStyle": {
+                          "color": "#F8717126"
+                        },
+                        "label": {
+                          "show": true,
+                          "position": "insideLeft",
+                          "color": "#F87171",
+                          "fontSize": 10,
+                          "fontWeight": 600,
+                          "formatter": "困难"
+                        }
+                      },
+                      {
+                        "yAxis": 5.5
+                      }
+                    ]
+                  ]
+                }
+              }
+            ],
+            "backgroundColor": "transparent",
+            "_climb": {
+              "platform": "nowcoder",
+              "label": "牛客",
+              "color": "#8B5CF6",
+              "mode": "tier",
+              "axis": "牛客难度",
+              "ticks": [
+                {
+                  "v": 1,
+                  "label": "入门",
+                  "color": "#9CA3AF"
+                },
+                {
+                  "v": 2,
+                  "label": "简单",
+                  "color": "#34D399"
+                },
+                {
+                  "v": 3,
+                  "label": "中等",
+                  "color": "#3B82F6"
+                },
+                {
+                  "v": 4,
+                  "label": "较难",
+                  "color": "#F59E0B"
+                },
+                {
+                  "v": 5,
+                  "label": "困难",
+                  "color": "#F87171"
+                }
+              ]
+            }
+          }
         }
       }
     }
@@ -28941,5 +31794,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-05 10:19"
+  "exportedAt": "2026-09-05 12:07"
 }

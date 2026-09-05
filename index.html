@@ -288,6 +288,13 @@ code,pre,.mono{font-family:'Fira Code',monospace}
 /* ===== FOOTER ===== */
 .footer{text-align:center;margin-top:3rem;margin-bottom:1.5rem;font-size:0.75rem;color:rgba(255,255,255,0.2)}
 
+/* ===== DIFFICULTY CLIMB chips ===== */
+.climb-chip{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03);
+  color:#9CA3AF;border-radius:999px;padding:5px 14px;font-size:.8125rem;
+  cursor:pointer;transition:all .15s;line-height:1.25;white-space:nowrap}
+.climb-chip:hover{color:#E0E0E0;border-color:rgba(63,157,246,.5)}
+.climb-chip.active{background:#3f9df6;border-color:#3f9df6;color:#fff;font-weight:600}
+
 /* ===== RESPONSIVE ===== */
 @media(max-width:768px){
   #app{padding:0 1rem 1rem}
@@ -387,6 +394,18 @@ code,pre,.mono{font-family:'Fira Code',monospace}
       <h3 id="weeklyTitle">每周 AC 题数</h3>
       <div class="chart-inner" id="chartWeekly" style="height:360px" role="img" aria-label="每周 AC 柱状图"></div>
     </div>
+  </div>
+
+  <!-- Charts - Row 3.5: Difficulty climb (single card, platform switch chips) -->
+  <div class="section-heading"><h2>📈 难度爬升 · 每周 AC 均难</h2><div class="line"></div></div>
+  <div class="card chart-box w-full mt-4">
+    <div class="flex-row" style="gap:.5rem;margin-bottom:.25rem;align-items:center">
+      <h3 id="climbTitle" style="margin:0;flex:1;font-size:.9375rem">难度爬升 · Codeforces</h3>
+      <button class="climb-chip active" data-plat="codeforces" type="button">Codeforces</button>
+      <button class="climb-chip" data-plat="luogu" type="button">洛谷</button>
+      <button class="climb-chip" data-plat="nowcoder" type="button">牛客</button>
+    </div>
+    <div class="chart-inner" id="chartClimb" style="height:340px" role="img" aria-label="难度爬升折线，可切换 Codeforces/洛谷/牛客平台"></div>
   </div>
 
   <!-- Charts - Row 4: Topic heatmap -->
@@ -1033,6 +1052,9 @@ function renderCharts(m, label) {
   document.getElementById('weeklyTitle').textContent = `每周 AC 题数 · ${label}`;
   if (wb) wb.setOption(ch.weeklyBars);
 
+  // Difficulty climb — single card, platform switch chips
+  renderClimb(m, label);
+
   // Topic heatmap
   const th = initChart('chartTopic');
   document.getElementById('topicTitle').textContent = `专题掌握 · ${label}`;
@@ -1042,6 +1064,89 @@ function renderCharts(m, label) {
   const tr = initChart('chartTeam');
   if (tr) tr.setOption(DATA.team.teamRadar);
 }
+
+// ===== DIFFICULTY CLIMB (single card, platform switch) =====
+// axis trigger 下 ECharts 模板 {@solved} 不展开，solved/档名/着色一律前端函数注入。
+let _climbPlat = 'codeforces';
+let _climbChart = null;
+let _climbMember = null;
+
+function _decorateClimb(opt) {
+  if (!_climbChart) return;
+  const meta = opt && opt._climb;
+  if (!meta) return;
+  if (meta.mode === 'tier') {
+    const byV = {};
+    meta.ticks.forEach(t => { byV[t.v] = t; });
+    // 档名/色带已由后端 markArea 画好，这里只补 tooltip：难度近似档名 + 题数
+    _climbChart.setOption({
+      tooltip: {
+        formatter: function (ps) {
+          if (!ps || !ps.length) return '';
+          const p = ps[0];
+          const n = (p.data && p.data.solved) || 0;
+          const v = p.value;
+          const t = byV[Math.round(v)] || byV[Math.floor(v)] || null;
+          let s = (p.axisValue || '') + '<br/>' + (p.seriesName || '') + ': ' + v;
+          if (t) s += '（' + t.label + '）';
+          if (n) s += ' · <b>' + n + ' 题</b>';
+          return s;
+        }
+      }
+    });
+  } else { // rating：数值轴，只补题数
+    _climbChart.setOption({
+      tooltip: {
+        formatter: function (ps) {
+          if (!ps || !ps.length) return '';
+          const p = ps[0];
+          const n = (p.data && p.data.solved) || 0;
+          let s = (p.axisValue || '') + '<br/>' + (p.seriesName || '') + ': ' + p.value;
+          if (n) s += ' · <b>' + n + ' 题</b>';
+          return s;
+        }
+      }
+    });
+  }
+}
+
+function loadClimb(plat) {
+  if (!_climbChart || !_climbMember) return;
+  const opt = (_climbMember.charts && _climbMember.charts.difficultyClimb &&
+               _climbMember.charts.difficultyClimb[plat]) || null;
+  if (!opt || !opt.series || !opt.series.length) {
+    _climbChart.clear();
+    _climbChart.setOption({ backgroundColor: 'transparent',
+      title: { text: '暂无该平台数据', left: 'center', top: 'middle',
+               textStyle: { color: '#9CA3AF', fontSize: 13, fontWeight: 'normal' } } });
+    return;
+  }
+  _climbChart.setOption(opt, true); // notMerge：整包换平台（轴名/刻度/线色都换干净）
+  _decorateClimb(opt);
+}
+
+function renderClimb(m, label) {
+  _climbMember = m;
+  const el = document.getElementById('chartClimb');
+  if (!el) return;
+  el.innerHTML = '';
+  _climbChart = echarts.init(el, null, { renderer: 'canvas' });
+  chartInstances['climb'] = _climbChart;
+  document.getElementById('climbTitle').textContent = '难度爬升 · ' + (label || '');
+  document.querySelectorAll('.climb-chip').forEach(b => {
+    b.classList.toggle('active', b.dataset.plat === _climbPlat);
+  });
+  loadClimb(_climbPlat);
+}
+
+// 平台 chip 点击（事件委托，避免每次 render 重复绑）
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('.climb-chip');
+  if (!b) return;
+  _climbPlat = b.dataset.plat;
+  document.querySelectorAll('.climb-chip').forEach(x => x.classList.toggle('active', x === b));
+  if (_climbChart) loadClimb(_climbPlat);
+});
 
 // ===== TEAM (submissions table) =====
 function renderTeam(m, label) {
