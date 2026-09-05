@@ -13190,12 +13190,12 @@
                         "name": "入门",
                         "yAxis": 0.5,
                         "itemStyle": {
-                          "color": "#9CA3AF26"
+                          "color": "#F8717126"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#9CA3AF",
+                          "color": "#F87171",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "入门"
@@ -13207,18 +13207,18 @@
                     ],
                     [
                       {
-                        "name": "普及−",
+                        "name": "普及-",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#34D39926"
+                          "color": "#FB923C26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#34D399",
+                          "color": "#FB923C",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及−"
+                          "formatter": "普及-"
                         }
                       },
                       {
@@ -13227,18 +13227,18 @@
                     ],
                     [
                       {
-                        "name": "普及/提高−",
+                        "name": "普及",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#2DD4BF26"
+                          "color": "#FACC1526"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#2DD4BF",
+                          "color": "#FACC15",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及/提高−"
+                          "formatter": "普及"
                         }
                       },
                       {
@@ -13247,18 +13247,18 @@
                     ],
                     [
                       {
-                        "name": "普及+/提高",
+                        "name": "普及+/提高-",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#3B82F626"
+                          "color": "#4ADE8026"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#3B82F6",
+                          "color": "#4ADE80",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及+/提高"
+                          "formatter": "普及+/提高-"
                         }
                       },
                       {
@@ -13267,18 +13267,18 @@
                     ],
                     [
                       {
-                        "name": "提高+/省选−",
+                        "name": "提高",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#8B5CF626"
+                          "color": "#22D3EE26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#8B5CF6",
+                          "color": "#22D3EE",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "提高+/省选−"
+                          "formatter": "提高"
                         }
                       },
                       {
@@ -13287,18 +13287,18 @@
                     ],
                     [
                       {
-                        "name": "省选/NOI−",
+                        "name": "提高+/省选-",
                         "yAxis": 5.5,
                         "itemStyle": {
-                          "color": "#F59E0B26"
+                          "color": "#60A5FA26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F59E0B",
+                          "color": "#60A5FA",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "省选/NOI−"
+                          "formatter": "提高+/省选-"
                         }
                       },
                       {
@@ -13307,18 +13307,18 @@
                     ],
                     [
                       {
-                        "name": "NOI/NOI+",
+                        "name": "省选/NOI-",
                         "yAxis": 6.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#C084FC26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#C084FC",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "NOI/NOI+"
+                          "formatter": "省选/NOI-"
                         }
                       },
                       {
@@ -13327,18 +13327,18 @@
                     ],
                     [
                       {
-                        "name": "高级",
+                        "name": "NOI/NOI+/CTS",
                         "yAxis": 7.5,
                         "itemStyle": {
-                          "color": "#E11D4826"
+                          "color": "#9CA3AF26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#E11D48",
+                          "color": "#9CA3AF",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "高级"
+                          "formatter": "NOI/NOI+/CTS"
                         }
                       },
                       {
@@ -13360,42 +13360,42 @@
                 {
                   "v": 1,
                   "label": "入门",
-                  "color": "#9CA3AF"
-                },
-                {
-                  "v": 2,
-                  "label": "普及−",
-                  "color": "#34D399"
-                },
-                {
-                  "v": 3,
-                  "label": "普及/提高−",
-                  "color": "#2DD4BF"
-                },
-                {
-                  "v": 4,
-                  "label": "普及+/提高",
-                  "color": "#3B82F6"
-                },
-                {
-                  "v": 5,
-                  "label": "提高+/省选−",
-                  "color": "#8B5CF6"
-                },
-                {
-                  "v": 6,
-                  "label": "省选/NOI−",
-                  "color": "#F59E0B"
-                },
-                {
-                  "v": 7,
-                  "label": "NOI/NOI+",
                   "color": "#F87171"
                 },
                 {
+                  "v": 2,
+                  "label": "普及-",
+                  "color": "#FB923C"
+                },
+                {
+                  "v": 3,
+                  "label": "普及",
+                  "color": "#FACC15"
+                },
+                {
+                  "v": 4,
+                  "label": "普及+/提高-",
+                  "color": "#4ADE80"
+                },
+                {
+                  "v": 5,
+                  "label": "提高",
+                  "color": "#22D3EE"
+                },
+                {
+                  "v": 6,
+                  "label": "提高+/省选-",
+                  "color": "#60A5FA"
+                },
+                {
+                  "v": 7,
+                  "label": "省选/NOI-",
+                  "color": "#C084FC"
+                },
+                {
                   "v": 8,
-                  "label": "高级",
-                  "color": "#E11D48"
+                  "label": "NOI/NOI+/CTS",
+                  "color": "#9CA3AF"
                 }
               ]
             }
@@ -21907,12 +21907,12 @@
                         "name": "入门",
                         "yAxis": 0.5,
                         "itemStyle": {
-                          "color": "#9CA3AF26"
+                          "color": "#F8717126"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#9CA3AF",
+                          "color": "#F87171",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "入门"
@@ -21924,18 +21924,18 @@
                     ],
                     [
                       {
-                        "name": "普及−",
+                        "name": "普及-",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#34D39926"
+                          "color": "#FB923C26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#34D399",
+                          "color": "#FB923C",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及−"
+                          "formatter": "普及-"
                         }
                       },
                       {
@@ -21944,18 +21944,18 @@
                     ],
                     [
                       {
-                        "name": "普及/提高−",
+                        "name": "普及",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#2DD4BF26"
+                          "color": "#FACC1526"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#2DD4BF",
+                          "color": "#FACC15",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及/提高−"
+                          "formatter": "普及"
                         }
                       },
                       {
@@ -21964,18 +21964,18 @@
                     ],
                     [
                       {
-                        "name": "普及+/提高",
+                        "name": "普及+/提高-",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#3B82F626"
+                          "color": "#4ADE8026"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#3B82F6",
+                          "color": "#4ADE80",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及+/提高"
+                          "formatter": "普及+/提高-"
                         }
                       },
                       {
@@ -21984,18 +21984,18 @@
                     ],
                     [
                       {
-                        "name": "提高+/省选−",
+                        "name": "提高",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#8B5CF626"
+                          "color": "#22D3EE26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#8B5CF6",
+                          "color": "#22D3EE",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "提高+/省选−"
+                          "formatter": "提高"
                         }
                       },
                       {
@@ -22004,18 +22004,18 @@
                     ],
                     [
                       {
-                        "name": "省选/NOI−",
+                        "name": "提高+/省选-",
                         "yAxis": 5.5,
                         "itemStyle": {
-                          "color": "#F59E0B26"
+                          "color": "#60A5FA26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F59E0B",
+                          "color": "#60A5FA",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "省选/NOI−"
+                          "formatter": "提高+/省选-"
                         }
                       },
                       {
@@ -22024,18 +22024,18 @@
                     ],
                     [
                       {
-                        "name": "NOI/NOI+",
+                        "name": "省选/NOI-",
                         "yAxis": 6.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#C084FC26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#C084FC",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "NOI/NOI+"
+                          "formatter": "省选/NOI-"
                         }
                       },
                       {
@@ -22044,18 +22044,18 @@
                     ],
                     [
                       {
-                        "name": "高级",
+                        "name": "NOI/NOI+/CTS",
                         "yAxis": 7.5,
                         "itemStyle": {
-                          "color": "#E11D4826"
+                          "color": "#9CA3AF26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#E11D48",
+                          "color": "#9CA3AF",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "高级"
+                          "formatter": "NOI/NOI+/CTS"
                         }
                       },
                       {
@@ -22077,42 +22077,42 @@
                 {
                   "v": 1,
                   "label": "入门",
-                  "color": "#9CA3AF"
-                },
-                {
-                  "v": 2,
-                  "label": "普及−",
-                  "color": "#34D399"
-                },
-                {
-                  "v": 3,
-                  "label": "普及/提高−",
-                  "color": "#2DD4BF"
-                },
-                {
-                  "v": 4,
-                  "label": "普及+/提高",
-                  "color": "#3B82F6"
-                },
-                {
-                  "v": 5,
-                  "label": "提高+/省选−",
-                  "color": "#8B5CF6"
-                },
-                {
-                  "v": 6,
-                  "label": "省选/NOI−",
-                  "color": "#F59E0B"
-                },
-                {
-                  "v": 7,
-                  "label": "NOI/NOI+",
                   "color": "#F87171"
                 },
                 {
+                  "v": 2,
+                  "label": "普及-",
+                  "color": "#FB923C"
+                },
+                {
+                  "v": 3,
+                  "label": "普及",
+                  "color": "#FACC15"
+                },
+                {
+                  "v": 4,
+                  "label": "普及+/提高-",
+                  "color": "#4ADE80"
+                },
+                {
+                  "v": 5,
+                  "label": "提高",
+                  "color": "#22D3EE"
+                },
+                {
+                  "v": 6,
+                  "label": "提高+/省选-",
+                  "color": "#60A5FA"
+                },
+                {
+                  "v": 7,
+                  "label": "省选/NOI-",
+                  "color": "#C084FC"
+                },
+                {
                   "v": 8,
-                  "label": "高级",
-                  "color": "#E11D48"
+                  "label": "NOI/NOI+/CTS",
+                  "color": "#9CA3AF"
                 }
               ]
             }
@@ -30318,12 +30318,12 @@
                         "name": "入门",
                         "yAxis": 0.5,
                         "itemStyle": {
-                          "color": "#9CA3AF26"
+                          "color": "#F8717126"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#9CA3AF",
+                          "color": "#F87171",
                           "fontSize": 10,
                           "fontWeight": 600,
                           "formatter": "入门"
@@ -30335,18 +30335,18 @@
                     ],
                     [
                       {
-                        "name": "普及−",
+                        "name": "普及-",
                         "yAxis": 1.5,
                         "itemStyle": {
-                          "color": "#34D39926"
+                          "color": "#FB923C26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#34D399",
+                          "color": "#FB923C",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及−"
+                          "formatter": "普及-"
                         }
                       },
                       {
@@ -30355,18 +30355,18 @@
                     ],
                     [
                       {
-                        "name": "普及/提高−",
+                        "name": "普及",
                         "yAxis": 2.5,
                         "itemStyle": {
-                          "color": "#2DD4BF26"
+                          "color": "#FACC1526"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#2DD4BF",
+                          "color": "#FACC15",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及/提高−"
+                          "formatter": "普及"
                         }
                       },
                       {
@@ -30375,18 +30375,18 @@
                     ],
                     [
                       {
-                        "name": "普及+/提高",
+                        "name": "普及+/提高-",
                         "yAxis": 3.5,
                         "itemStyle": {
-                          "color": "#3B82F626"
+                          "color": "#4ADE8026"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#3B82F6",
+                          "color": "#4ADE80",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "普及+/提高"
+                          "formatter": "普及+/提高-"
                         }
                       },
                       {
@@ -30395,18 +30395,18 @@
                     ],
                     [
                       {
-                        "name": "提高+/省选−",
+                        "name": "提高",
                         "yAxis": 4.5,
                         "itemStyle": {
-                          "color": "#8B5CF626"
+                          "color": "#22D3EE26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#8B5CF6",
+                          "color": "#22D3EE",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "提高+/省选−"
+                          "formatter": "提高"
                         }
                       },
                       {
@@ -30415,18 +30415,18 @@
                     ],
                     [
                       {
-                        "name": "省选/NOI−",
+                        "name": "提高+/省选-",
                         "yAxis": 5.5,
                         "itemStyle": {
-                          "color": "#F59E0B26"
+                          "color": "#60A5FA26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F59E0B",
+                          "color": "#60A5FA",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "省选/NOI−"
+                          "formatter": "提高+/省选-"
                         }
                       },
                       {
@@ -30435,18 +30435,18 @@
                     ],
                     [
                       {
-                        "name": "NOI/NOI+",
+                        "name": "省选/NOI-",
                         "yAxis": 6.5,
                         "itemStyle": {
-                          "color": "#F8717126"
+                          "color": "#C084FC26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#F87171",
+                          "color": "#C084FC",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "NOI/NOI+"
+                          "formatter": "省选/NOI-"
                         }
                       },
                       {
@@ -30455,18 +30455,18 @@
                     ],
                     [
                       {
-                        "name": "高级",
+                        "name": "NOI/NOI+/CTS",
                         "yAxis": 7.5,
                         "itemStyle": {
-                          "color": "#E11D4826"
+                          "color": "#9CA3AF26"
                         },
                         "label": {
                           "show": true,
                           "position": "insideLeft",
-                          "color": "#E11D48",
+                          "color": "#9CA3AF",
                           "fontSize": 10,
                           "fontWeight": 600,
-                          "formatter": "高级"
+                          "formatter": "NOI/NOI+/CTS"
                         }
                       },
                       {
@@ -30488,42 +30488,42 @@
                 {
                   "v": 1,
                   "label": "入门",
-                  "color": "#9CA3AF"
-                },
-                {
-                  "v": 2,
-                  "label": "普及−",
-                  "color": "#34D399"
-                },
-                {
-                  "v": 3,
-                  "label": "普及/提高−",
-                  "color": "#2DD4BF"
-                },
-                {
-                  "v": 4,
-                  "label": "普及+/提高",
-                  "color": "#3B82F6"
-                },
-                {
-                  "v": 5,
-                  "label": "提高+/省选−",
-                  "color": "#8B5CF6"
-                },
-                {
-                  "v": 6,
-                  "label": "省选/NOI−",
-                  "color": "#F59E0B"
-                },
-                {
-                  "v": 7,
-                  "label": "NOI/NOI+",
                   "color": "#F87171"
                 },
                 {
+                  "v": 2,
+                  "label": "普及-",
+                  "color": "#FB923C"
+                },
+                {
+                  "v": 3,
+                  "label": "普及",
+                  "color": "#FACC15"
+                },
+                {
+                  "v": 4,
+                  "label": "普及+/提高-",
+                  "color": "#4ADE80"
+                },
+                {
+                  "v": 5,
+                  "label": "提高",
+                  "color": "#22D3EE"
+                },
+                {
+                  "v": 6,
+                  "label": "提高+/省选-",
+                  "color": "#60A5FA"
+                },
+                {
+                  "v": 7,
+                  "label": "省选/NOI-",
+                  "color": "#C084FC"
+                },
+                {
                   "v": 8,
-                  "label": "高级",
-                  "color": "#E11D48"
+                  "label": "NOI/NOI+/CTS",
+                  "color": "#9CA3AF"
                 }
               ]
             }
@@ -31829,5 +31829,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-05 21:07"
+  "exportedAt": "2026-09-05 22:02"
 }
