@@ -30846,7 +30846,7 @@
         "label": "小任",
         "rating": 1234,
         "rank": "pupil",
-        "last_submit_days": 1,
+        "last_submit_days": 2,
         "nc_rating": 1233
       }
     ],
@@ -31829,5 +31829,5 @@
       "backgroundColor": "transparent"
     }
   },
-  "exportedAt": "2026-09-05 18:07"
+  "exportedAt": "2026-09-05 21:07"
 }
